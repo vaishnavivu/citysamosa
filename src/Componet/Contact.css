@@ -1,0 +1,55 @@
+
+ .contactInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+  
+  }
+
+  .contactInfo .box .icon {
+    min-width: 10px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 20px;
+
+  }
+  .contactInfo .box .icon i{
+    color:#d42121 ;
+  }
+
+  .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+
+ .contactInfo .box .text h3 {
+    font-weight: 500;
+    color:#ffffff;
+  }
+  .contact-form{
+    width: 70%;
+  }
+  .mb-4 .form-label{
+    float: left;
+  }
+  .btn-primary{
+    background-color:#d42121;
+    border: #fff 2px solid;
+  }
+  .btn-primary:hover{
+    background-color:green;
+    border: #fff 2px solid;
+  }

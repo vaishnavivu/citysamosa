@@ -1,0 +1,32 @@
+.gallery-tab .btn-warning{
+    margin-left: 12px;
+    margin-right: 12px;
+    box-shadow: 0 3px 5px rgba(130, 126, 126, 0.3);
+    background-color: #ccc;
+    border: white 1px solid;
+    border-radius: 0%;
+  
+}
+.gallery-tab .btn-warning:hover{
+    background-color:  #d42121;
+    color: white;
+}
+.active:focus{
+    background-color: #d42121;
+    color: white;
+}
+.image-container .image{
+    
+    border: 15px solid #fff;
+    overflow: hidden;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+  
+
+}
+.image-container .image img{
+
+    object-fit: cover;
+}
+.image-container .image:hover img{
+    transform: scale(1.4);
+}

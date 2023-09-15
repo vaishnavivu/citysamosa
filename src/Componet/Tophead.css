@@ -1,0 +1,86 @@
+/* #FFCC04 yello */
+/* #d42121 red */
+.firstnav{
+    width: 80%;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: #d42121;
+    border-width: thick;
+    background-color: white;
+}
+#navbarNav{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color:#d42121;
+    position: relative;
+    border-radius:2%;
+    border: white solid 1px;
+    
+}
+.navbar-Nav .nav-item {
+    padding:3px
+}
+.nav-item .navbar-brand img{
+    background-color: white;
+}
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #d42121;
+}
+#yellowline{
+    width:85%;
+    /* background-color: white; */
+  
+
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  
+
+}
+.nav-item a:hover{
+    font-weight: 600;
+    color: #FFCC04;
+}
+.nav-item a{
+    color: white;
+    font-weight: 600;
+
+} 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #d42121;
+}
+.nav-item .logo img{
+  
+    height: 50px;
+    position: absolute;
+    top: -27px;
+}
+#logo{
+    width: 100px;
+
+}
+@media screen and (max-width:973px){
+    #yellowline{
+    
+        background-color: white;
+      
+    
+    }
+    .mbhidden{
+        display: none;
+    }
+    
+}
