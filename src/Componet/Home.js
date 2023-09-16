@@ -12,7 +12,7 @@ function Home() {
        <Counter/>
     <Founder/>
     <Cards/>
-    <Swiper3D/>
+   
     
    
     </div>

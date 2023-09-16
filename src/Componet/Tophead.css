@@ -28,6 +28,9 @@
 .navbar-scroll .navbar-toggler-icon {
   color: #d42121;
 }
+.nav-link:focus{
+    color: #FFCC04;
+}
 #yellowline{
     width:85%;
     /* background-color: white; */

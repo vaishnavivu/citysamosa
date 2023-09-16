@@ -70,23 +70,23 @@ function Tophead() {
             
 
               <li className="nav-item pt-1 pb-1">
-                <Link className="nav-link pl-1 pr-1 atoe " aria-current="page" to="/home">
+                <Link className="nav-link pl-1 pr-1  " aria-current="page" to="/home">
                   Home
                 </Link>
               </li>
-              <li className="nav-item pt-1 pb-1 ">
+              <li className="nav-item pt-1 pb-1 active">
                 <Link className="nav-link pl-1 pr-1 "to="/about">
                   About us
                 </Link>
               </li>
           
-              <li className="nav-item pt-1 pb-1 ">
+              <li className="nav-item pt-1 pb-1 active">
                 <Link className="nav-link pl-1 pr-1" to="/gallery">
                   Gallery
                 </Link>
               </li>
               
-              <li className="nav-item  pt-1 pb-1 ">
+              <li className="nav-item  pt-1 pb-1 active">
                 <Link className="nav-link pl-1 pr-1" to="/enquiry">
                   Enquiry
                 </Link>
@@ -104,7 +104,7 @@ function Tophead() {
              
               <li className="nav-item pt-1 pb-1 mbhidden  ml-5 mr-4  d-sm-none d-md-none d-none
 	d-md-none d-lg-block" id="logo">
-                <Link className="navbar-brand logo ml-5" to="/">
+                <Link className="active navbar-brand logo ml-5" to="/">
                   <img src="../logo512.png" className="pl-5 pr-5" alt="logo" />
                 </Link>
               </li>
@@ -124,22 +124,22 @@ function Tophead() {
                  
                 </Link>
               </li>
-              <li className="nav-item pt-1 pb-1 ">
+              <li className="nav-item pt-1 pb-1 active">
                 <Link className="nav-link pl-1 pr-1" to="/">
                   Blog
                 </Link>
               </li>
-              <li className="nav-item pt-1 pb-1 ">
+              <li className="nav-item pt-1 pb-1 active">
                 <Link className="nav-link pl-1 pr-1" to="/contact">
                   Contact 
                 </Link>
               </li>
-              <li className="nav-item pt-1 pb-1 ">
+              <li className="nav-item pt-1 pb-1 active">
                 <Link className="nav-link pl-1 pr-1" to="/">
                   Cart
                 </Link>
               </li>
-              <li className="nav-item pt-1 pb-1 ">
+              <li className="nav-item pt-1 pb-1 active">
                 <Link className="nav-link pl-1 pr-1" to="/">
                   Checkout
                 </Link>
