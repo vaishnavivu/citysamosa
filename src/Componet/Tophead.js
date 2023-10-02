@@ -14,7 +14,10 @@ function Tophead() {
         className="navbar pt-0  d-sm-none d-md-none d-none
 	d-md-none d-lg-block pb-0"
       >
+        
+     
         <div className="container firstnav pt-2 pb-2">
+          
           <div>
             <FontAwesomeIcon icon={faPhone} beat  style={{ color: "rgb(197, 31, 31)" ,margin: "0 10px 0 0" }} />
             <span>   </span>
@@ -41,17 +44,7 @@ function Tophead() {
         {/* second navbar */}
       <nav class="navbar navbar-expand-lg   pb-0 pt-0">
         <div class="container" id="yellowline" >
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+         
 
           <div
             className=" d-sm-block d-md-block
@@ -64,8 +57,20 @@ function Tophead() {
               className="smallscreenlogo"
             />
           </div>
+          <button
+            className="navbar-toggler "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
           <div className="collapse navbar-collapse" id="navbarNav">
+          <img className='tophead_img1 mbhidden' src="../City Samosa1.png"></img> 
             <ul className="navbar-nav">
             
 
@@ -87,8 +92,8 @@ function Tophead() {
               </li>
               
               <li className="nav-item  pt-1 pb-1 active">
-                <Link className="nav-link pl-1 pr-1" to="/enquiry">
-                  Enquiry
+                <Link className="nav-link pl-1 pr-1" to="/product">
+                  Product
                 </Link>
               </li>
               <li className="nav-item mbhidden  pt-1 pb-1 ">
@@ -145,9 +150,11 @@ function Tophead() {
                 </Link>
               </li>
             </ul>
+            <img className='tophead_img2 mbhidden' src="../City Samosa1.png"></img>
           </div>
         </div>
       </nav>
+     
       </div>
       
 

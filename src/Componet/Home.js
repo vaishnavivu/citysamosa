@@ -3,6 +3,8 @@ import Founder from './Founder';
 import Cards from './Cards';
 import Counter from './Counter';
 import ControlledCarousel from './ControlledCarousel';
+import Slider from './Slider'
+import Imageoverlay from './Imageoverlay';
 function Home() {
   return (
     <div>
@@ -10,8 +12,8 @@ function Home() {
        <Counter/>
     <Founder/>
     <Cards/>
-   
-    
+    <Slider/>   
+    <Imageoverlay/>
    
     </div>
   )

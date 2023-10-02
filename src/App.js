@@ -6,9 +6,8 @@ import Home from "./Componet/Home";
 import Tophead from "./Componet/Tophead";
 import Contact from "./Componet/Contact";
 import Footer1 from "./Componet/Footer1";
-import Enquiry from "./Componet/Enquiry"
-// import { GlobalStyle } from "./GlobalStyle";
-// import { ThemeProvider } from "styled-components";
+import Imageoverlay from "./Componet/Imageoverlay";
+
 const App = () => {
   return (
     <>
@@ -23,7 +22,7 @@ const App = () => {
             <Route exact path="/about" element={<About />} />
             <Route exact path="/gallery" element={<Gallery />} />
             <Route exact path="/contact" element={<Contact />} />
-            <Route exact path="/enquiry" element={<Enquiry />} />
+            <Route exact path="/product" element={<Imageoverlay />} />
             {/* <Route path="*" element={<ErrorPage/>} /> */}
           </Routes>
        <Footer1/>
