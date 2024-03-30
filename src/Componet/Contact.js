@@ -5,16 +5,20 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-      <h2 style={{ textAlign: "center" }} className="pt-4 pb-4">
+    <div className="Contact_top">
+       <h2 className="pt-4 mt-5 pb-4 TopHeading1">
         WANT TO GET IN TOUCH?
       </h2>
-      <p style={{ textAlign: "center" }}>
+     
+      <p>
         We value your feedback, and we’re available to assist you with any
         queries or concerns you might have.
         <br /> Whether you want to join our team or partner with us, we are
         happy to have a chat!
       </p>
 
+    </div>
+   
 
       <div className="container-fluid mt-0" style={{ background: "#d42121", textAlign:"center"}}>
         <div className="row">
@@ -75,7 +79,7 @@ function Contact() {
       </div>  
 
  {/* form */}
-      <div className="container pt-5 mt-5 text-center col-6 mx-auto ">
+      <div className="container pt-5 mt-5 text-center col-12 col-md-6 mx-auto ">
           <form action="" method="POST">
             <div class="mb-4">
             <label for="exampleFormControlInput1" class="form-label">Your Name</label>
@@ -102,11 +106,23 @@ function Contact() {
               />
             </div>
             <div class="mb-4">
+            <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
+              <input
+                type="number"
+                name="number"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Contact Number"
+                required
+                autoComplete="off"
+              />
+            </div>
+            <div class="mb-4">
             <label for="exampleFormControlInput1" class="form-label">Message</label>
               <textarea
                 class="form-control"
                 id="exampleFormControlTextarea1"
-                rows="3"
+                rows="8"
                 name="Message"
                 placeholder="Enter Your Message"
                 required

@@ -9,70 +9,70 @@ const ProductDb =[
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
     {
         id:1,
         image :"../City Samosa1.png",
-        title: 'CHANDRASHEKHAR WAGDARE',
+        title: 'City Samosa',
         text :'FOUNDER OF CITY SAMOSA',
          
     },
