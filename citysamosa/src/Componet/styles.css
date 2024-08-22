@@ -1,0 +1,78 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+  background: #eee;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.TopHeading{
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase; 
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  width: 160px;
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+  padding-bottom: 13px;
+}
+.TopHeading:before {
+  background-color: #c50000;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 75px;
+  margin-bottom: 5px;
+}
+.TopHeading:after {
+  background-color: #c50000;
+  content: "";
+  display: block;
+  position: relative;
+  right: -86px;
+  bottom: 0;
+  height: 3px;
+  width: 75px;
+  margin-bottom: 0.25em;
+}
+
+.swiper {
+  width: 95%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  width: 39% !important;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.1) !important;
+}
+@media screen and (max-width: 973px) {
+  .swiper-slide {
+    width: 64% !important;
+  }
+  .TopHeading1{
+    font-size: 22px;
+   
+  
+  }
+
+}

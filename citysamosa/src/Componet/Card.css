@@ -1,0 +1,8 @@
+.card-img, .card-img-bottom, .card-img-top {
+    width: 56%;
+    align-items: center;
+}
+.card{
+    box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.2)!important;
+
+}
