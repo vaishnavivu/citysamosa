@@ -122,7 +122,7 @@ border: none;
 @media screen and (max-width:973px){
     #yellowline{
     
-        background-color: white;
+        background-color: #FFCC04;
       
     
     }
@@ -138,4 +138,21 @@ border: none;
         display: none;
     }
     
+    
+}
+@media screen and (max-width:1440px){
+    .tophead_img1{
+        height: 86px;
+        position: absolute;
+        top: -45px;
+        left: -5px;
+    
+    }
+    .tophead_img2{
+        height: 86px;
+        position: absolute;
+        top: -45px;
+        right: -5px;
+    
+    }
 }

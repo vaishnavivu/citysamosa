@@ -57,7 +57,9 @@ function Contact() {
                 <div className="text">
                   <h3>Address</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Shop No 2,New Monica CHS, OPP Jai Shankar Wine Shop. Near Castle Mill Naka, Uthalasar, Thane, West 400601.
+
+
                   </p>
                 </div>
               </div>
