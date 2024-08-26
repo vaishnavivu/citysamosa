@@ -5,3 +5,25 @@
    color: white;
    font-size: 1.5rem;
 }
+.social-icon {
+    font-size: 2rem;
+}
+.f-logo{
+    height: 60px;
+  }
+  h6{
+    color: white;
+    margin-top: 15px;
+    line-height: 26px;
+    text-align: left;
+  }
+  .Add{
+    line-height: 26px;
+    text-align: left;
+  }
+  .footer-h2 h2{
+    color: #FFCC04;
+  }
+  .Q-link{
+    line-height: 30px;
+  }

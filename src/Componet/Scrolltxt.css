@@ -1,0 +1,43 @@
+.scroll_hidden {
+  overflow: hidden;
+  position: absolute;
+  margin-top: -42px;
+}
+.scroll {
+  white-space: nowrap;
+  margin: 0 2em;
+}
+.Map {
+  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
+  position: relative;
+}
+
+.Map img {
+  width: 50%;
+  position: relative;
+}
+.scroll div {
+  display: flex;
+  gap: 4em;
+}
+
+.txtmap {
+  color: white;
+  font-weight: bold;
+  line-height: 10px;
+  padding: 6px;
+  word-spacing: 4rem;
+}
+
+.RightToLeft {
+  animation: RightToLeft 20s infinite linear;
+}
+
+@keyframes RightToLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}

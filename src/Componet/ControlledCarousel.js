@@ -10,7 +10,7 @@ var heroData = [
   },
   {
     id: 2,
-    image: require('../assets/images/AKURDI-01.png'),
+    image: require('../assets/images/abc-02.png'),
     // title: 'Start Your Future Financial Plan',
     // description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
     // link: 'https://www.facebook.com'

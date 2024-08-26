@@ -2,42 +2,44 @@ import React, { useState } from "react";
 import "./Founder.css";
 import Menu from "./menu";
 
-
 const Founder = () => {
-  const [items, setItems] = useState(Menu);
+  const [items] = useState(Menu);
 
-
-    return (
+  return (
     <>
-      <div class="container  twosec  mt-5">
-
+      <div className="container  twosec  mt-5">
         {items.map((elem) => {
-          const {  image, name, founder, discription } = elem;
-          
+          const { image, name, founder, discription } = elem;
+
           return (
-            <div class="row ">
-              <div class="col-6 col-md-6 col-12  reveal imz">
-                <img data-aos="fade-up" src={image} className="pl-5 " alt="" />
+            <div className="row ">
+              <div className="col-6 col-md-6 col-12  reveal imz">
+                <img
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  src={image}
+                  className="pl-5 "
+                  alt=""
+                />
               </div>
 
-              <div  data-aos="fade-down" class="col-6 col-md-6 col-12 align-items-center text">
-            
+              <div
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                className="col-6 col-md-6 col-12 align-items-center text"
+              >
                 <h1 className="pt">{name}</h1>
-                <h5 >{founder}</h5>
+                <h5>{founder}</h5>
                 <hr className="line"></hr>
-                <h6 className="pb-3">
-                  {discription}
-                </h6>
+                <h6 className="pb-3">{discription}</h6>
               </div>
-
-              
             </div>
           );
         })}
       </div>
     </>
   );
-
-  
 };
 export default Founder;

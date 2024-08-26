@@ -7,26 +7,31 @@ import Tophead from "./Componet/Tophead";
 import Contact from "./Componet/Contact";
 import Footer1 from "./Componet/Footer1";
 import Imageoverlay from "./Componet/Imageoverlay";
+import Arrowup from "./Componet/Arrowup";
+import ScrollToTop from "./Componet/ScrollToTop";
+
 
 const App = () => {
   return (
     <>
+      <Main>
+        <ScrollToTop></ScrollToTop>
+        <Tophead />
 
-        <Main >
-        
-          <Tophead />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/gallery" element={<Gallery />} />
+          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/product" element={<Imageoverlay />} />
 
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/home" element={<Home />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/gallery" element={<Gallery />} />
-            <Route exact path="/contact" element={<Contact />} />
-            <Route exact path="/product" element={<Imageoverlay />} />
-            {/* <Route path="*" element={<ErrorPage/>} /> */}
-          </Routes>
-       <Footer1/>
-        </Main>
+          {/* <Route path="*" element={<ErrorPage/>} /> */}
+        </Routes>     
+        <Footer1 />
+        <Arrowup />
+       
+      </Main>
     </>
   );
 };

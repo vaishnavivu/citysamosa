@@ -14,8 +14,10 @@ body {
 }
 
 .TopHeading{
-  font-size: 26px;
-  font-weight: 700;
+  font-size: clamp(1.5rem, 4vw, 3rem); /* Responsive font size */
+  font-weight: 700;                   /* Optional: Make the text bold */
+  text-align: center;                 /* Center the text */
+  margin: 20px 0;
   text-transform: uppercase; 
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   width: 160px;
@@ -58,6 +60,19 @@ body {
   height: 100%;
   position: relative;
   transition-property: transform;
+}
+.wrapperr{
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+
+}
+.wrapperr iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide img {

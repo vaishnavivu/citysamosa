@@ -1,22 +1,21 @@
-import React from 'react'
-import Founder from './Founder';
-import Cards from './Cards';
-import Counter from './Counter';
-import ControlledCarousel from './ControlledCarousel';
-import Slider from './Slider'
-import Imageoverlay from './Imageoverlay';
+import React from "react";
+import ControlledCarousel from "./ControlledCarousel";
+import Slider from "./Slider";
+import Imageoverlay from "./Imageoverlay";
+import Scrolltxt from "./Scrolltxt";
+import Instafeed from "./Instafeed";
 function Home() {
   return (
     <div>
-      <ControlledCarousel/>
-       <Counter/>
-    <Founder/>
-    <Cards/>
-    <Slider/>   
-    <Imageoverlay/>
-   
+      <ControlledCarousel />
+      <Scrolltxt/>
+      <Slider /> 
+      <Imageoverlay />     
+      <Instafeed/>
+      
+      
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
