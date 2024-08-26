@@ -26,7 +26,7 @@ var heroData = [
 
 function ControlledCarousel() {
   return (
-    <section id="home" className="hero-block mb-6">
+    <section id="home" className="hero-block mb-5 mb-sm-6">
        <Carousel>
           {
             heroData.map(hero => {

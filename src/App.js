@@ -1,5 +1,4 @@
 import React  from "react";
-import { useEffect, useState } from "react";
 import { BrowserRouter as Main, Routes, Route } from "react-router-dom";
 import About from "./Componet/About";
 import Gallery from "./Componet/Gallery";
@@ -10,25 +9,11 @@ import Footer1 from "./Componet/Footer1";
 import Imageoverlay from "./Componet/Imageoverlay";
 import Arrowup from "./Componet/Arrowup";
 import ScrollToTop from "./Componet/ScrollToTop";
-import Loader from "./Componet/Loader";
+
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
 
-  // Let create async method to fetch fake data
-  useEffect(() => {
-    const fakeDataFetch = () => {
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 4000);
-    };
-
-    fakeDataFetch();
-  }, []);
-
-  return isLoading ?(
-    <Loader />
-  ) :(
+  return (
       <Main>
        
         <ScrollToTop></ScrollToTop>
