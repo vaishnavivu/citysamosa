@@ -6,44 +6,25 @@ body {
   position: relative;
   height: 100%;
   background: #eee;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
   padding: 0;
 }
 
-.TopHeading{
-  font-size: clamp(1.5rem, 4vw, 3rem); /* Responsive font size */
-  font-weight: 700;                   /* Optional: Make the text bold */
-  text-align: center;                 /* Center the text */
+.TopHeading {
+  font-size: clamp(1.5rem, 2vw, 1rem); /* Responsive font size */
+  font-weight: 600; /* Optional: Make the text bold */
+  text-align: center; /* Center the text */
   margin: 20px 0;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  width: 160px;
+  width: 100%;
   text-align: center;
   margin: auto;
   white-space: nowrap;
   padding-bottom: 13px;
-}
-.TopHeading:before {
-  background-color: #c50000;
-  content: "";
-  display: block;
-  height: 3px;
-  width: 75px;
-  margin-bottom: 5px;
-}
-.TopHeading:after {
-  background-color: #c50000;
-  content: "";
-  display: block;
-  position: relative;
-  right: -86px;
-  bottom: 0;
-  height: 3px;
-  width: 75px;
-  margin-bottom: 0.25em;
 }
 
 .swiper {
@@ -61,13 +42,12 @@ body {
   position: relative;
   transition-property: transform;
 }
-.wrapperr{
+.wrapperr {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
-
 }
-.wrapperr iframe{
+.wrapperr iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -84,10 +64,73 @@ body {
   .swiper-slide {
     width: 64% !important;
   }
-  .TopHeading1{
+  .TopHeading1 {
     font-size: 22px;
-   
-  
   }
-
+  .TopHeading {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow:hidden;
+  }
+}
+.textanim {
+  display: flex;
+ 
+  justify-content: center;
+  align-item: center;
+}
+.textanim img{
+  width:10%
+} 
+.textanim img{
+  animation: RightToLeft 2s infinite linear;
+}
+@keyframes RightToLeft {
+  from {
+    transform: translateX(-60%);
+  }
+  to {
+    transform: translateX(20%);
+  }
+}
+.textanim h2 {
+  position: relative;
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 84px;
+  text-align:center;
+  color: #d42121;
+  text-transform: uppercase;
+}
+.textanim h2::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #FFCC04;
+  -webkit-text-stroke: 0vw #FFCC04;
+  border-right: 2px solid #FFCC04;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+@media screen and (max-width:973px){
+  .textanim h2 {
+      position: relative;
+      font-size: 5vw;
+      font-weight: 700;
+      line-height: 34px;
+      text-align:center;
+      color: #d42121;
+      text-transform: uppercase;
+    }}
+@keyframes animate{
+  0%,10%,100%
+  {
+    width:0;
+  }
+  70%,90%{
+    width:100%;
+  }
 }

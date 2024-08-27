@@ -126,6 +126,15 @@ border: none;
       
     
     }
+    .textanim h2 {
+        position: relative;
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 34px;
+        text-align:center;
+        color: #d42121;
+        text-transform: uppercase;
+      }
     #home{
         position: relative;
         top: 41px;

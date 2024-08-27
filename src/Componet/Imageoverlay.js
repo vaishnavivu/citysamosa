@@ -6,7 +6,9 @@ function Imageoverlay() {
 
   return (
     <>
-     <h1 className="mt-4 text-center TopHeading ">Product</h1>
+      <div className="textanim">
+        <h2 data-text="Product...">product...</h2>
+      </div>
       <div className="mainproduct container mx-auto">
         {items.map((elem) => {
           const { image, title, text } = elem;

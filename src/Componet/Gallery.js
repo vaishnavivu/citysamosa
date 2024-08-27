@@ -14,7 +14,9 @@ const Gallery = () => {
   }
   return (
     <>
-      <h1 className="mt-5  mb-3 text-center TopHeading ">Gallery</h1>
+          <div className="textanim">
+        <h2 data-text="gallery...">gallery...</h2>
+      </div>
      
       <div className="gallery-tabs container">
         <div className="gallery-tab d-flex justify-content-center">

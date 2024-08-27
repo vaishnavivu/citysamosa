@@ -3,8 +3,9 @@ import React from "react";
 const Instafeed = () => {
   return (
     <div>
-      <h1 className="mt-5  text-center TopHeading">Instagram</h1>
-
+      <div className="textanim mt-5" >
+        <h2 data-text="Instagram...">Instagram...</h2>
+      </div>
       <iframe
         src="https://widget.taggbox.com/161525"
         className="w-100 instaframe "

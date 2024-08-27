@@ -41,3 +41,10 @@
     transform: translateX(100%);
   }
 }
+@media screen and (max-width: 973px) {
+  .logoanimation {
+    width: 22%;
+    position: relative;
+    left: 50px;
+  }
+}
