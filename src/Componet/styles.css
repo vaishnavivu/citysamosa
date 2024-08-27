@@ -80,19 +80,11 @@ body {
   align-item: center;
 }
 .textanim img{
-  width:10%
+  width: 9%;
+  position: relative;
+  top: -30px;
 } 
-.textanim img{
-  animation: RightToLeft 2s infinite linear;
-}
-@keyframes RightToLeft {
-  from {
-    transform: translateX(-60%);
-  }
-  to {
-    transform: translateX(20%);
-  }
-}
+
 .textanim h2 {
   position: relative;
   font-size: 3vw;
@@ -111,7 +103,6 @@ body {
   height: 100%;
   color: #FFCC04;
   -webkit-text-stroke: 0vw #FFCC04;
-  border-right: 2px solid #FFCC04;
   overflow: hidden;
   animation: animate 6s linear infinite;
 }
@@ -124,7 +115,14 @@ body {
       text-align:center;
       color: #d42121;
       text-transform: uppercase;
-    }}
+    }
+    .textanim img {
+      width: 12%;
+      position: relative;
+      top: -16px;
+  }
+  }
+
 @keyframes animate{
   0%,10%,100%
   {
@@ -134,3 +132,5 @@ body {
     width:100%;
   }
 }
+
+

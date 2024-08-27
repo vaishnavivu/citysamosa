@@ -8,12 +8,13 @@
   margin: 0 2em;
 }
 .Map {
-  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
+  background-image: url("CITY WEBSITE EDITS-01.png");
+  width:100%;
   position: relative;
 }
 
 .Map img {
-  width: 50%;
+  width: 40%;
   position: relative;
 }
 .scroll div {
@@ -46,5 +47,9 @@
     width: 22%;
     position: relative;
     left: 50px;
+  }
+  .Map img {
+    width: 52%;
+    position: relative;
   }
 }

@@ -7,6 +7,7 @@ import Instafeed from "./Instafeed";
 function Home() {
   return (
     <div>
+     
       <ControlledCarousel />
       <Scrolltxt/>
       <Slider /> 
