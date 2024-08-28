@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Tophead.css";
 import { Link } from "react-router-dom";
 
 function Tophead() {
+  // State to track the collapse of the navbar
+  const [navbarCollapsed, setNavbarCollapsed] = useState(false);
+
   useEffect(() => {
-    // Load the Google Translate script
     const addGoogleTranslateScript = () => {
       const script = document.createElement("script");
       script.type = "text/javascript";
@@ -14,20 +16,15 @@ function Tophead() {
       document.body.appendChild(script);
     };
 
-    // Initialize the Google Translate Element
     window.googleTranslateElementInit = () => {
       new window.google.translate.TranslateElement(
         { pageLanguage: "en" },
         "google_translate_element"
       );
 
-      // Extract the select element
       const comboBox = document.querySelector(".goog-te-combo");
       if (comboBox) {
-        // Remove all other elements from the google_translate_element
-        const parentElement = document.getElementById(
-          "google_translate_element"
-        );
+        const parentElement = document.getElementById("google_translate_element");
         parentElement.innerHTML = ""; // Clear all content
         parentElement.appendChild(comboBox); // Append only the select element
       }
@@ -36,7 +33,6 @@ function Tophead() {
     addGoogleTranslateScript();
 
     return () => {
-      // Cleanup the script when the component unmounts
       const googleTranslateScript = document.querySelector(
         'script[src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"]'
       );
@@ -46,12 +42,23 @@ function Tophead() {
     };
   }, []);
 
+  // Function to handle link clicks and collapse the navbar
+  const handleNavLinkClick = () => {
+    setNavbarCollapsed(false); // Set collapse state to false to hide the navbar
+    const navbarCollapse = document.getElementById("navbarNav");
+    if (navbarCollapse) {
+      new window.bootstrap.Collapse(navbarCollapse, {
+        toggle: true,
+      });
+    }
+  };
+
   return (
     <>
       <div className="sticky-top bg-body-transperant mt-0">
         <nav
           className="navbar pt-0  d-sm-none d-md-none d-none
-	d-md-none d-lg-block pb-0"
+          d-md-none d-lg-block pb-0"
         >
           <div
             className="container firstnav pt-2 pb-2"
@@ -59,12 +66,12 @@ function Tophead() {
           ></div>
         </nav>
 
-        {/* second navbar */}
-        <nav className="navbar navbar-expand-lg   pb-0 pt-0">
+        {/* Second navbar */}
+        <nav className="navbar navbar-expand-lg pb-0 pt-0">
           <div className="container" id="yellowline">
             <div
-              className=" d-sm-block d-md-block
-	d-md-block d-lg-none"
+              className="d-sm-block d-md-block
+              d-md-block d-lg-none"
             >
               <img
                 src="../logo512.png"
@@ -74,13 +81,14 @@ function Tophead() {
               />
             </div>
             <button
-              className="navbar-toggler "
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
               aria-controls="navbarNav"
-              aria-expanded="false"
+              aria-expanded={navbarCollapsed}
               aria-label="Toggle navigation"
+              onClick={() => setNavbarCollapsed(!navbarCollapsed)}
             >
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -91,66 +99,92 @@ function Tophead() {
                 alt=""
                 src="../City Samosa1.png"
               ></img>
-              
+
               <ul className="navbar-nav">
                 <li className="nav-item pt-1 pb-1">
                   <Link
-                    className="nav-link pl-1 pr-1  "
+                    className="nav-link pl-1 pr-1 js-scroll-trigger"
                     aria-current="page"
                     to="/home"
+                    onClick={handleNavLinkClick}
                   >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item pt-1 pb-1 active">
-                  <Link className="nav-link pl-1 pr-1 " to="/about">
+                  <Link
+                    className="nav-link pl-1 pr-1"
+                    to="/about"
+                    onClick={handleNavLinkClick}
+                  >
                     About us
                   </Link>
                 </li>
 
                 <li className="nav-item pt-1 pb-1 active">
-                  <Link className="nav-link pl-1 pr-1" to="/gallery">
+                  <Link
+                    className="nav-link pl-1 pr-1"
+                    to="/gallery"
+                    onClick={handleNavLinkClick}
+                  >
                     Gallery
                   </Link>
                 </li>
 
-                <li className="nav-item  pt-1 pb-1 active">
-                  <Link className="nav-link pl-1 pr-1" to="/product">
+                <li className="nav-item pt-1 pb-1 active">
+                  <Link
+                    className="nav-link pl-1 pr-1"
+                    to="/product"
+                    onClick={handleNavLinkClick}
+                  >
                     Product
                   </Link>
                 </li>
 
                 <li
-                  className="nav-item pt-1 pb-1 mbhidden  ml-5 mr-4  d-sm-none d-md-none d-none
-	d-md-none d-lg-block"
+                  className="nav-item pt-1 pb-1 mbhidden ml-5 mr-4 d-sm-none d-md-none d-none
+                  d-md-none d-lg-block"
                   id="logo"
                 >
-                  <Link className="active navbar-brand logo ml-5" to="/">
+                  <Link
+                    className="active navbar-brand logo ml-5"
+                    to="/"
+                    onClick={handleNavLinkClick}
+                  >
                     <img src="../whlogo.png" className="pl-5 pr-5" alt="" />
                   </Link>
                 </li>
-                <li className="nav-item mbhidden pt-1 pb-1  ">
-                  <Link className="nav-link pl-1 pr-1" to="/"></Link>
-                </li>
-                <li className="nav-item mbhidden pt-1 pb-1  ">
-                  <Link className="nav-link pl-1 pr-1" to="/"></Link>
+                <li className="nav-item pt-1 pb-1 active">
+                  <Link
+                    className="nav-link mbhidden pl-1 pr-1"
+                    to=""
+                    onClick={handleNavLinkClick}
+                  >
+                    
+                  </Link>
                 </li>
 
                 <li className="nav-item pt-1 pb-1 active">
-                  <Link className="nav-link pl-1 pr-1" to="/contact">
+                  <Link
+                    className="nav-link pl-2 pr-1"
+                    to="/contact"
+                    onClick={handleNavLinkClick}
+                  >
                     Contact
                   </Link>
                 </li>
 
                 <li className="nav-item pt-1 pb-1 active">
-                  <Link className="nav-link pl-1 pr-1" to="/home">
+                  <Link
+                    className="nav-link pl-1 pr-1"
+                    to="/home"
+                  >
                     <div>
                       <div id="google_translate_element"></div>
                     </div>
                   </Link>
                 </li>
               </ul>
-
 
               <img
                 className="tophead_img2 mbhidden"
