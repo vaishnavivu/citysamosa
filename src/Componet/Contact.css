@@ -26,6 +26,9 @@
   .contactInfo .box .icon i{
     color:#d42121 ;
   }
+  .pt-5 {
+    padding-top: 5rem !important;
+}
 
   .contactInfo .box .text {
     display: flex;
@@ -57,7 +60,7 @@
   
 /* for contact heading */
 .TopHeading1{
-  font-size: 35px;
+  font-size: 3vw;
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -77,4 +80,7 @@ font-weight: 500;
 color: #666;
 line-height: 1.7em;
 -webkit-font-smoothing: antialiased
+}
+.contactbg{
+  background-image: url("CITY WEBSITE EDITS-01.png");
 }

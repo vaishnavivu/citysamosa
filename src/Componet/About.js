@@ -1,15 +1,14 @@
 import React from 'react'
 import Founder from './Founder'
-import Cards from './Cards'
 import Scrolltxt from './Scrolltxt'
 
 const About = () => {
   return (
     <div >
-      <h1 className=' TopHeading text-center mt-5'>
-        About Us</h1>
+       <div className="textanim mb-5" id="textanim1">
+        <h2 data-text="About" className="mb-5">about</h2>
+      </div>
         <Founder></Founder>
-        <Cards/>
         <Scrolltxt/>
        </div>
   )

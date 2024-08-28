@@ -1,7 +1,6 @@
 import React from "react";
 import ControlledCarousel from "./ControlledCarousel";
 import Slider from "./Slider";
-import Imageoverlay from "./Imageoverlay";
 import Scrolltxt from "./Scrolltxt";
 import Instafeed from "./Instafeed";
 function Home() {
@@ -10,8 +9,7 @@ function Home() {
      
       <ControlledCarousel />
       <Scrolltxt/>
-      <Slider /> 
-      <Imageoverlay />     
+      <Slider />     
       <Instafeed/>
       
       

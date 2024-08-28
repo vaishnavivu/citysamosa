@@ -29,7 +29,7 @@ function Contact() {
   return (
     <>
       <div className="Contact_top">
-        <h2 className="pt-4 mt-5 pb-4 TopHeading1">WANT TO GET IN TOUCH?</h2>
+        <h2 className="pt-4 pt-5 pb-4 TopHeading1">WANT TO GET IN TOUCH?</h2>
 
         <p>
           We value your feedback, and we’re available to assist you with any
@@ -105,11 +105,17 @@ function Contact() {
       </div>
 
       {/* form */}
-      <div className="container pt-5 mt-5 text-center col-12 col-md-6 mx-auto ">
+      <div className="container-fluid  contactbg">
+        <div className="container  text-center pt-5 col-12 col-md-6 mx-auto aos-init aos-animate"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="5000"
+        loading="lazy"
+        alt="">
         <form onSubmit={onSubmit} action="" method="POST">
           <div className="mb-4">
             <label for="exampleFormControlInput1" className="form-label">
-              Your Name
+            
             </label>
             <input
               type="text"
@@ -123,7 +129,7 @@ function Contact() {
           </div>
           <div className="mb-4">
             <label for="exampleFormControlInput1" className="form-label">
-              Email address
+              
             </label>
             <input
               type="email"
@@ -137,7 +143,7 @@ function Contact() {
           </div>
           <div className="mb-4">
             <label for="exampleFormControlInput1" className="form-label">
-              Contact Number
+             
             </label>
             <input
               type="number"
@@ -151,7 +157,7 @@ function Contact() {
           </div>
           <div className="mb-4">
             <label for="exampleFormControlInput1" className="form-label">
-              Message
+             
             </label>
             <textarea
               className="form-control"
@@ -169,6 +175,8 @@ function Contact() {
         </form>
         <span>{result}</span>
       </div>
+      </div>
+      
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Instafeed = () => {
   return (
-    <div>
+    <div data-aos="zoom-in-down" data-aos-duration="3000">
       <div className="textanim mt-5" >
         <h2 data-text="Instagram...">Instagram...</h2>
       </div>

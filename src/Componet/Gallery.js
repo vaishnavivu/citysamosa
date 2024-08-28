@@ -14,11 +14,11 @@ const Gallery = () => {
   }
   return (
     <>
-          <div className="textanim">
-        <h2 data-text="gallery...">gallery...</h2>
+          <div className="textanim mb-5" id="textanim1">
+        <h2 data-text="gallery..." className="mb-5">gallery...</h2>
       </div>
      
-      <div className="gallery-tabs container">
+      <div className="gallery-tabs container mt-5">
         <div className="gallery-tab d-flex justify-content-center">
           <button className="btn btn-warning active " onClick={() => setItems(GalleryDb)}>All</button>
           <button className="btn btn-warning active " onClick={() => filterItem('Outlet')}>Outlet</button>

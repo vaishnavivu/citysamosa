@@ -1,31 +1,42 @@
-import React, { useState } from "react";
+import React,{useState} from "react";
 import "./imageoverlay.css";
-import ProductDb from "./ProductDb";
+import Productdb from "./Produtdb"
 function Imageoverlay() {
-  const [items] = useState(ProductDb);
-
+  const [items] = useState(Productdb);
   return (
+    
     <>
-      <div className="textanim">
+      <div className="textanim" id="textanim1">
         <h2 data-text="Product...">product...</h2>
       </div>
-      <div className="mainproduct container mx-auto">
-        {items.map((elem) => {
-          const { image, title, text } = elem;
-          return (
-            <>
-              <div className="main_container  " data-aos="flip-up"  data-aos-delay="50"
-                  data-aos-duration="1000">
-                <img src={image} alt='' className="image"></img>
-                <div className="overlay">
-                  <h1 className="rotateh1">{title}</h1>
-                  <h2 className="rotateh2">{text}</h2>
-                </div>
-              </div>
-            </>
-          );
-        })}
-      </div>
+
+      <section className="cards mt-5">
+        {
+          items.map((elem)=>{
+            const { image } = elem;
+            return(
+              <div className="card js-tilt" data-tilt>
+
+          <div className="banner">
+            <h2>
+              Converse <br/>
+              All star
+            </h2>
+          </div>
+          <img src={image} alt="samosa" className="pop" />
+          <div className="content mt-5 ml-0">
+            <div className="details">
+              <h5>product details</h5>
+              <small>color:Cherry red</small>      
+            </div>
+          
+          </div>
+        </div>
+            )
+          })
+        }
+        
+      </section>
     </>
   );
 }
