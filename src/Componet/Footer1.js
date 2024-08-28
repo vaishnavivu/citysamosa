@@ -4,7 +4,7 @@ import "./Footer1.css";
 function Footer() {
   return (
     <div
-      className="container-fluid mt-5 pt-5 navbar-fixed-bottom "
+      className="container-fluid  pt-5 navbar-fixed-bottom "
       style={{ backgroundColor: "#d42121" }}
     >
       <div className="row">

@@ -3,6 +3,9 @@ body{
     padding: 0;
     text-align:left;
 }
+.productbg{
+    background-image: url("CITY WEBSITE EDITS-01.png");
+}
 .banner h2{
     color:white;
     margin-left: 22px;
@@ -16,6 +19,21 @@ body{
     max-width:1100px;
     margin:0 auto;
     min-height:100vh;
+}
+@media screen and (max-width: 973px) {
+    .card {
+        overflow: hidden;
+      }
+      .cards{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        padding:1em;
+        max-width:1100px;
+        margin:0 auto;
+        min-height:100vh;
+    }
 }
 .cards *{
     box-sizing:border-box;

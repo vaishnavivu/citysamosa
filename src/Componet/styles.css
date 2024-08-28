@@ -6,7 +6,7 @@ body {
   position: relative;
   height: 100%;
   background: #eee;
-  font-family:"Montserrat", "Poppins", sans-serif;
+  font-family: "Montserrat", "Poppins", sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
@@ -70,27 +70,27 @@ body {
   .TopHeading {
     word-wrap: break-word;
     word-break: break-all;
-    overflow:hidden;
+    overflow: hidden;
   }
 }
 .textanim {
   display: flex;
- 
+
   justify-content: center;
   align-item: center;
 }
-.textanim img{
+.textanim img {
   width: 9%;
   position: relative;
   top: -30px;
-} 
+}
 
 .textanim h2 {
   position: relative;
   font-size: 3vw;
   font-weight: 700;
   line-height: 84px;
-  text-align:center;
+  text-align: center;
   color: #d42121;
   text-transform: uppercase;
 }
@@ -101,49 +101,49 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  color: #FFCC04;
-  -webkit-text-stroke: 0vw #FFCC04;
+  color: #ffcc04;
+  -webkit-text-stroke: 0vw #ffcc04;
   overflow: hidden;
   animation: animate 6s linear infinite;
 }
-#textanim1 h2{
+#textanim1 h2 {
   position: relative;
   top: 49px;
 }
-@media screen and (max-width:973px){
+@media screen and (max-width: 973px) {
   .textanim h2 {
-      position: relative;
-      font-size: 5vw;
-      font-weight: 700;
-      line-height: 34px;
-      text-align:center;
-      color: #d42121;
-      text-transform: uppercase;
-    }
-    .textanim img {
-      width: 12%;
-      position: relative;
-      top: -16px;
+    position: relative;
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    color: #d42121;
+    text-transform: uppercase;
+  }
+  .textanim img {
+    width: 12%;
+    position: relative;
+    top: -16px;
   }
   #textanim1 h2 {
     position: relative;
     top: 68px;
-    font-size: 7vw;
-}
-.card{
-  overflow:hidden;
-}
+    font-size: 4vw;
   }
-
-@keyframes animate{
-  0%,10%,100%
-  {
-    width:0;
-  }
-  70%,90%{
-    width:100%;
-  }
+  
 }
 
-
-
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+.contactbg {
+  background-image: url("CITY WEBSITE EDITS-01.png");
+}

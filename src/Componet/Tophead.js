@@ -24,7 +24,9 @@ function Tophead() {
 
       const comboBox = document.querySelector(".goog-te-combo");
       if (comboBox) {
-        const parentElement = document.getElementById("google_translate_element");
+        const parentElement = document.getElementById(
+          "google_translate_element"
+        );
         parentElement.innerHTML = ""; // Clear all content
         parentElement.appendChild(comboBox); // Append only the select element
       }
@@ -159,9 +161,7 @@ function Tophead() {
                     className="nav-link mbhidden pl-1 pr-1"
                     to=""
                     onClick={handleNavLinkClick}
-                  >
-                    
-                  </Link>
+                  ></Link>
                 </li>
 
                 <li className="nav-item pt-1 pb-1 active">
@@ -175,14 +175,9 @@ function Tophead() {
                 </li>
 
                 <li className="nav-item pt-1 pb-1 active">
-                  <Link
-                    className="nav-link pl-1 pr-1"
-                    to="/home"
-                  >
-                    <div>
-                      <div id="google_translate_element"></div>
-                    </div>
-                  </Link>
+                  <div>
+                    <div id="google_translate_element"></div>
+                  </div>
                 </li>
               </ul>
 

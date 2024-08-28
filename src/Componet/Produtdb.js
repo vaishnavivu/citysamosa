@@ -22,6 +22,30 @@ const Productdb =[
         id:4,
         image :"../ulta vada 2.png",
         
+    },{
+        id:4,
+        image :"../ulta vada 2.png",
+        
+    },{
+        id:4,
+        image :"../ulta vada 2.png",
+        
+    },{
+        id:4,
+        image :"../ulta vada 2.png",
+        
+    },{
+        id:4,
+        image :"../ulta vada 2.png",
+        
+    },{
+        id:4,
+        image :"../ulta vada 2.png",
+        
+    },{
+        id:4,
+        image :"../ulta vada 2.png",
+        
     },
     
    
