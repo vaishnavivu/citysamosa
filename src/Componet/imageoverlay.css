@@ -23,6 +23,7 @@ body {
 @media screen and (max-width: 973px) {
   .card {
     overflow: hidden;
+    height:40vh !important;
   }
   .cards {
     display: flex;
@@ -35,11 +36,11 @@ body {
     min-height: 100vh;
   }
   .card:nth-child(odd) {
-    left: -44px;
+    left: -32px;
   }
   .card:nth-child(even) {
     position: relative;
-    left: 57px;
+    left: 25px;
   }
 }
 .cards * {
@@ -47,7 +48,7 @@ body {
 }
 .card {
   width: 17em;
-  height: 44vh;
+  height: 38vh;
   background: #fff;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
