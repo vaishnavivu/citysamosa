@@ -10,7 +10,12 @@ function Imageoverlay() {
           {items.map((elem) => {
             const { image } = elem;
             return (
-              <div className="card js-tilt" data-tilt>
+              <div
+                className="card js-tilt "
+                data-tilt
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="banner">
                   <h2>
                     Converse <br />
