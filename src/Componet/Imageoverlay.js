@@ -5,8 +5,8 @@ function Imageoverlay() {
   const [items] = useState(Productdb);
   return (
     <>
-      <div className="productbg">
-        <section className="cards pt-5">
+      <div className="productbg overflow-hidden">
+        <section className="cards tilt-box-wrap pt-5" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
           {items.map((elem) => {
             const { image } = elem;
             return (
