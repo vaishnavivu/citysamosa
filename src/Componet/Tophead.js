@@ -70,7 +70,7 @@ function Tophead() {
 
         {/* Second navbar */}
         <nav className="navbar navbar-expand-lg pb-0 pt-0">
-          <div className="container" id="yellowline">
+          <div className="container border-none p-0" id="yellowline">
             <div
               className="d-sm-block d-md-block
               d-md-block d-lg-none"

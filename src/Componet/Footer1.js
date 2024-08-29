@@ -48,7 +48,7 @@ function Footer() {
                 Get in touch
               </h2>
               <div className="text-white Add">
-                Shop No 2,New Monica CHS, OPP Jai Shankar Wine Shop. Near Castle
+                Shop No 2, New Monica CHS, OPP Jai Shankar Wine Shop. Near Castle
                 Mill Naka, Uthalasar, Thane, West 400601.
               </div>
 

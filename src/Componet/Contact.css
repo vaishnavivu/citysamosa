@@ -1,6 +1,7 @@
 .contactInfo {
   display: flex;
   flex-direction: column;
+  padding: 39px 0;
 }
 
 .contactInfo .box {
@@ -11,16 +12,15 @@
 .contactInfo .box .icon {
   min-width: 10px;
   height: 30px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10%;
+ 
   font-size: 30px;
   padding: 20px;
 }
 .contactInfo .box .icon i {
-  color: #d42121;
+  color: #FFCC04;
 }
 .pt-5 {
   padding-top: 5rem !important;
@@ -61,6 +61,7 @@
   text-transform: uppercase;
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   width: 100%;
+  text-shadow: 0.08em 0.08em 0em rgb(66 66 66 / 20%);
   text-align: center;
   white-space: nowrap;
   line-height: 1.1em;
@@ -76,7 +77,9 @@
   -webkit-font-smoothing: antialiased;
 }
 .contactbg h2 {
+  
   color: #ffffff;
   line-height: 1.7em;
   font-weight: 600;
+  text-shadow: 0.08em 0.08em 0em rgba(0, 0, 0, 0.4);
 }
