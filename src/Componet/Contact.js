@@ -28,8 +28,9 @@ function Contact() {
   };
   return (
     <>
-      <div className="Contact_top">
-        <h2 className="pt-4 pt-5 pb-4 TopHeading1">WANT TO GET IN TOUCH?</h2>
+    {/* TopHeading1 */}
+      <div className="Contact_top container overflow-hidden">
+        <h2 className="pt-5 pb-4 TopHeading1">WANT TO GET IN TOUCH?</h2>
 
         <p>
           We value your feedback, and we’re available to assist you with any
@@ -39,19 +40,17 @@ function Contact() {
         </p>
       </div>
 
+      
+      {/* maplocation */}
       <div
         className="container-fluid mt-0"
         style={{ background: "#d42121", textAlign: "center" }}
       >
         <div className="row">
           <div className=" order-1 col-md-5">
-            <h1 className="pt-3" style={{ color: "#FFCC04" }}>
-              GET IN TOUCH
-            </h1>
-
             <div className="contactInfo ">
               <div className="box">
-                <div className="icon col-1 mx-auto">
+                <div className="icon col-1 mx-auto mb-3 ">
                   <i className="fa-brands fa-whatsapp"></i>
                 </div>
                 <div className="text">
@@ -64,7 +63,7 @@ function Contact() {
                 </div>
               </div>
               <div className="box">
-                <div className="icon col-1 mx-auto">
+                <div className="icon col-1 mx-auto mb-3">
                   <i className="fa fa-envelope aria-hidden='true'"></i>
                 </div>
                 <div className="text">
@@ -75,7 +74,7 @@ function Contact() {
                 </div>
               </div>
               <div className="box">
-                <div className="icon col-1 mx-auto">
+                <div className="icon col-1 mx-auto mb-3">
                   <i className="fa-brands fa-instagram"></i>
                 </div>
                 <div className="text">
@@ -103,7 +102,6 @@ function Contact() {
           </div>
         </div>
       </div>
-
       {/* form */}
       <div className="container-fluid  contactbg">
         <div className="container  text-center pt-5 col-12 col-md-6 mx-auto aos-init aos-animate"
@@ -176,6 +174,8 @@ function Contact() {
         <span>{result}</span>
       </div>
       </div>
+
+      
       
     </>
   );

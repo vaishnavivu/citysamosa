@@ -130,6 +130,13 @@ body {
     top: 68px;
     font-size: 4vw;
   }
+  .image-container .image {
+    border: 9px solid #fff
+  }
+  .gallery-tab .btn-warning{
+    width:100%;
+    padding:10px;
+  }
   
 }
 

@@ -31,6 +31,7 @@ const Scrolltxt = () => {
           alt=""
         ></img>
       </div>
+      
       <div class="container-fluid scroll_hidden">
         <div class="scroll">
           <div class="RightToLeft">
