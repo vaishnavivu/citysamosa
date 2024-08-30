@@ -29,7 +29,7 @@ function Contact() {
   return (
     <>
       {/* TopHeading1 */}
-      <div className="Contact_top container overflow-hidden">
+      <div className="Contact_top container overflow-hidden ">
         <h2 className="pt-5 TopHeading1 text-wrap">
           Get in Touch with City Samosa!
         </h2>
@@ -94,6 +94,7 @@ function Contact() {
 
       {/* form */}
       <div className="container-fluid  contactbg">
+        <img src="../wc samosa-01.png"className="formimg" alt=""></img>
         <div
           className="container  text-center pt-5 col-12 col-md-6 mx-auto aos-init aos-animate"
           data-aos="zoom-in"
@@ -164,8 +165,12 @@ function Contact() {
               Submit
             </button>
           </form>
+          
           <span>{result}</span>
+          
         </div>
+        <img src="../wc samosa-01.png"className=" formimg2" alt=""></img>
+       
       </div>
     </>
   );
