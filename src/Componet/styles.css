@@ -12,7 +12,28 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.mainheading{
+      color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: -0.5px;
+}
+.subheding{
+  text-align: justify;
+    color: #FFFFFE;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
 .TopHeading {
   font-size: clamp(1.5rem, 2vw, 1rem); /* Responsive font size */
   font-weight: 600; /* Optional: Make the text bold */
@@ -60,19 +81,6 @@ body {
   width: 100%;
   box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.1) !important;
 }
-@media screen and (max-width: 973px) {
-  .swiper-slide {
-    width: 64% !important;
-  }
-  .TopHeading1 {
-    font-size: 22px;
-  }
-  .TopHeading {
-    word-wrap: break-word;
-    word-break: break-all;
-    overflow: hidden;
-  }
-}
 .textanim {
   display: flex;
 
@@ -111,6 +119,17 @@ body {
   top: 49px;
 }
 @media screen and (max-width: 973px) {
+  .swiper-slide {
+    width: 64% !important;
+  }
+  .TopHeading1 {
+    font-size: 22px;
+  }
+  .TopHeading {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+  }
   .textanim h2 {
     position: relative;
     font-size: 4vw;
@@ -119,6 +138,7 @@ body {
     text-align: center;
     color: #d42121;
     text-transform: uppercase;
+    text-wrap:nowrap
   }
   .textanim img {
     width: 12%;
@@ -137,20 +157,28 @@ body {
     width:100%;
     padding:10px;
   }
-  
+  .mainheading{
+    font-size: 30px;
+}
+
+ 
 }
 
 @keyframes animate {
-  0%,
-  10%,
-  100% {
+  0% {
     width: 0;
   }
-  70%,
-  90% {
+  100% {
     width: 100%;
   }
 }
 .contactbg {
   background-image: url("CITY WEBSITE EDITS-01.png");
 }
+
+.cBVEOn {
+  position: relative;
+  right: 0px;
+  width: 287px;
+  height: 346px;
+  }
