@@ -5,12 +5,22 @@ html,
 body {
   position: relative;
   height: 100%;
+  width: 100%;
   background: #eee;
   font-family: "Montserrat", "Poppins", sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
   padding: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 :root {
   --main-color: #d42121;
@@ -33,7 +43,6 @@ body {
 }
 .mainheading {
   color: #ffffff;
-  font-family: "Montserrat", Sans-serif;
   font-size: 48px;
   font-weight: bold;
   text-transform: none;
@@ -44,7 +53,6 @@ body {
 .subheding {
   text-align: justify;
   color: #fffffe;
-  font-family: "Montserrat", Sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: none;
@@ -54,12 +62,11 @@ body {
   letter-spacing: 0px;
 }
 .TopHeading {
-  font-size: clamp(1.5rem, 2vw, 1rem); /* Responsive font size */
-  font-weight: 600; /* Optional: Make the text bold */
-  text-align: center; /* Center the text */
+  font-size: clamp(1.5rem, 2vw, 1rem); 
+  font-weight: 600; 
+  text-align: center; 
   margin: 20px 0;
   text-transform: uppercase;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   width: 100%;
   text-align: center;
   margin: auto;
@@ -176,6 +183,7 @@ body {
     font-size: 30px;
   }
 }
+
 @keyframes animate {
   0% {
     width: 0;
@@ -360,34 +368,6 @@ body {
   top: 38px;
   z-index: -1;
   left: -15px;
-}
-
-.htmlarrow {
-  border: 5px solid var(--htm-color);
-}
-
-.javascriptarrow {
-  border: 5px solid var(--javascript-color);
-}
-
-.reactjsarrow {
-  border: 5px solid var(--reactjs-color);
-}
-
-.nodejsarrow {
-  border: 5px solid var(--nodejs-color);
-}
-
-.expressjsarrow {
-  border: 5px solid var(--expressjs-color);
-}
-
-.mongodbarrow {
-  border: 5px solid var(--mongodb-color);
-}
-
-.phparrow {
-  border: 5px solid var(--php-color);
 }
 
 /* Responsive Timeline */

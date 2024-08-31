@@ -9,6 +9,7 @@ import Footer1 from "./Componet/Footer1";
 import Imageoverlay from "./Componet/Imageoverlay";
 import Arrowup from "./Componet/Arrowup";
 import ScrollToTop from "./Componet/ScrollToTop";
+import Whatsapp from "./Componet/Whatsapp";
 
 
 const App = () => {
@@ -31,6 +32,9 @@ const App = () => {
         </Routes>     
         <Footer1 />
         <Arrowup />
+        <Whatsapp/>
+        
+
        
       </Main>
     

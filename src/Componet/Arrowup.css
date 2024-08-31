@@ -3,7 +3,7 @@ html{
 }
 .topbtn{
     position: absolute;
-    right: 12px;
+    right: 28px;
     margin-top: -5rem;
     padding: 1rem;
     border: none;
@@ -22,3 +22,81 @@ a {
     color: rgb(255 255 255);
     text-decoration: underline;
 }
+/* WhatsAppChat.css */
+.whatsapp-chat-container {
+    position: fixed;
+    bottom: 81px;
+    right: 21px;
+    z-index: 1000;
+  }
+  
+  .whatsapp-icon {
+    background-color: #25d366;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chat-box {
+    position: absolute;
+    bottom: 70px; /* Adjust based on your preference */
+    right: 0;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .chat-box textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .send-button {
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 973px){
+    .whatsapp-icon {
+      background-color: #25d366;
+      border: none;
+      border-radius: 50%;
+      padding: 7px;
+      cursor: pointer;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .whatsapp-chat-container {
+    position: fixed;
+    bottom: 81px;
+    right: 6px;
+    z-index: 1000;
+}
+  .topbtn {
+    position: absolute;
+    right: 7px;
+    margin-top: -5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFCC04;
+    cursor: pointer;
+    z-index: 9999;
+    opacity: 0.9;
+}
+  }

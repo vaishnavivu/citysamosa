@@ -24,9 +24,7 @@ const Timeline = () => {
 
                         <p>
                             MR Coder has 1 years of experience at [Company Name], specializing in HTML.
-                            They developed responsive, accessible web pages, optimized performance, and
-                            ensured cross-browser compatibility for enhanced user experiences.
-                        </p>
+                            </p>
 
                         <span className='left-container-arrow htmlarrow'></span>
 
@@ -49,9 +47,7 @@ const Timeline = () => {
 
                         <p>
                             MR Coder has 1 year of experience at [Company Name], focusing on JavaScript.
-                            They developed interactive web applications, optimized code for performance,
-                            and implemented dynamic features to enhance user engagement.
-                        </p>
+                            </p>
 
                         <span className='right-container-arrow javascriptarrow'></span>
 
@@ -75,9 +71,7 @@ const Timeline = () => {
                         <p>
 
                             MR Coder has 1 year of experience at [Company Name] in React.js,
-                            building scalable single-page applications, creating reusable components,
-                            and managing state for improved performance and user experience.
-
+                           
                         </p>
 
                         <span className='left-container-arrow reactjsarrow'></span>
@@ -102,10 +96,7 @@ const Timeline = () => {
                         <p>
 
                             MR Coder has 1 year of experience at [Company Name] in Node.js,
-                            developing server-side applications, creating RESTful APIs, and
-                            optimizing backend performance for efficient data handling and
-                            seamless integration.
-
+                         
                         </p>
 
                         <span className='right-container-arrow nodejsarrow'></span>
@@ -129,9 +120,7 @@ const Timeline = () => {
 
                         <p>
                             MR Coder has 1 year of experience at [Company Name], focusing on Express.js.
-                            They built and maintained RESTful APIs, handled server-side routing, and ensured
-                            efficient application performance and scalability.
-                        </p>
+                             </p>
 
                         <span className='left-container-arrow expressjsarrow'></span>
 
@@ -154,9 +143,7 @@ const Timeline = () => {
 
                         <p>
                             MR Coder has 1 year of experience at [Company Name], working with MongoDB.
-                            They managed databases, designed schemas, and optimized queries to ensure
-                            efficient data storage and retrieval for applications.
-                        </p>
+                           </p>
 
                         <span className='right-container-arrow mongodbarrow'></span>
 
@@ -179,9 +166,7 @@ const Timeline = () => {
 
                         <p>
                             MR Coder has 1 year of experience at [Company Name], specializing in PHP.
-                            They developed server-side scripts, built dynamic web applications, and
-                            integrated databases to enhance functionality and user interaction.
-                        </p>
+                           </p>
 
                         <span className='left-container-arrow phparrow'></span>
 
