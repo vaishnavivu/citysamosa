@@ -8,7 +8,7 @@ function Imageoverlay() {
       <div className="productbg overflow-hidden">
         <section className="cards tilt-box-wrap pt-5" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
           {items.map((elem) => {
-            const { image } = elem;
+            const { image,heading } = elem;
             return (
               <div
                 className="card js-tilt "
@@ -18,8 +18,7 @@ function Imageoverlay() {
               >
                 <div className="banner">
                   <h2>
-                    Converse <br />
-                    All star
+                    {heading}
                   </h2>
                 </div>
                 <img src={image} alt="samosa" className="pop" />
