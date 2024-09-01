@@ -14,9 +14,7 @@ function Footer() {
             <div className="col-12 col-sm-3 m-sm-0">
               <img src="./whlogo.png" alt="" className="f-logo"></img>
               <h6>
-                Chai Sutta Bar Is A Rapidly Growing Tea-Chain, Founded In 2016
-                By Two Young & Passionate Entrepreneurs – Anubhav Dubey And
-                Anand Nayak.
+              City Samosa is a food company offering freshly made, innovative Indian samosas with diverse fillings, delivering authentic flavors right to your doorstep.
               </h6>
             </div>
             {/* Quick link */}

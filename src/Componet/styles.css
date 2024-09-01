@@ -14,7 +14,7 @@ body {
   padding: 0;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
 :root {
   --main-color: #d42121;
 
-  --main2-color : #FFCC04;
+  --main2-color: #ffcc04;
 
   --htm-color: #f06529;
 
@@ -42,10 +42,25 @@ body::-webkit-scrollbar {
   --php-color: #484c89;
 }
 .mainheading {
-  color: #ffffff;
-  font-size: 48px;
-  font-weight: bold;
+  color: #d42121;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
   text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: -0.5px;
+}
+.centerheading h3{  
+  color: #d42121;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
   text-decoration: none;
   line-height: 1.2em;
   letter-spacing: -0.5px;
@@ -62,9 +77,9 @@ body::-webkit-scrollbar {
   letter-spacing: 0px;
 }
 .TopHeading {
-  font-size: clamp(1.5rem, 2vw, 1rem); 
-  font-weight: 600; 
-  text-align: center; 
+  font-size: clamp(1.5rem, 2vw, 1rem);
+  font-weight: 600;
+  text-align: center;
   margin: 20px 0;
   text-transform: uppercase;
   width: 100%;
@@ -115,27 +130,7 @@ body::-webkit-scrollbar {
   position: relative;
   top: -30px;
 }
-.textanim h2 {
-  position: relative;
-  font-size: 3vw;
-  font-weight: 700;
-  line-height: 84px;
-  text-align: center;
-  color: #d42121;
-  text-transform: uppercase;
-}
-.textanim h2::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  color: #ffcc04;
-  -webkit-text-stroke: 0vw #ffcc04;
-  overflow: hidden;
-  animation: animate 6s linear infinite;
-}
+
 #textanim1 h2 {
   position: relative;
   top: 49px;
@@ -151,16 +146,6 @@ body::-webkit-scrollbar {
     word-wrap: break-word;
     word-break: break-all;
     overflow: hidden;
-  }
-  .textanim h2 {
-    position: relative;
-    font-size: 4vw;
-    font-weight: 700;
-    line-height: 34px;
-    text-align: center;
-    color: #d42121;
-    text-transform: uppercase;
-    text-wrap: nowrap;
   }
   .textanim img {
     width: 12%;
@@ -181,6 +166,9 @@ body::-webkit-scrollbar {
   }
   .mainheading {
     font-size: 30px;
+  }
+  .centerheading h3{
+    font-size: 22px;
   }
 }
 
@@ -229,7 +217,8 @@ body::-webkit-scrollbar {
   position: relative;
   border-radius: 6px;
   font-size: 15px;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 .htmltext {
   color: var(--htm-color);

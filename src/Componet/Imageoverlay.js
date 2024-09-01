@@ -6,7 +6,10 @@ function Imageoverlay() {
   return (
     <>
       <div className="productbg overflow-hidden">
-        <section className="cards tilt-box-wrap pt-5" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+      <div className="pt-5 centerheading" >
+        <h3>Our Product</h3>
+      </div>
+        <section className="cards tilt-box-wrap " data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
           {items.map((elem) => {
             const { image,heading } = elem;
             return (
@@ -16,6 +19,7 @@ function Imageoverlay() {
                 data-aos="fade-up"
                 data-aos-duration="3000"
               >
+               
                 <div className="banner">
                   <h2>
                     {heading}

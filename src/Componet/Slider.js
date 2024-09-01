@@ -14,8 +14,8 @@ import { EffectCoverflow, Pagination } from "swiper";
 export default function Slider() {
   return (
     <>
-        <div className="textanim">
-        <h2 data-text="You_Tube...">You_Tube...</h2>
+    <div className="mt-5 pb-3 centerheading" >
+        <h3>You Tube</h3>
       </div>
       <Swiper
         effect={"coverflow"}

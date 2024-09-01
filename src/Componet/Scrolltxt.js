@@ -3,6 +3,7 @@ import React from "react";
 
 const Scrolltxt = () => {
   return (
+    
     <div className="mt-5 mb-5 overflow-hidden aos-init aos-animate"
     data-aos="fade-right"
     data-aos-easing="ease-out-cubic"
@@ -10,15 +11,8 @@ const Scrolltxt = () => {
     src="../CITY WEBSITE EDITS-02.png"
     loading="lazy"
     alt="">
-      <div
-        className="textanim mt-4 mb-0 pb-0 aos-init aos-animate"
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="5000"
-        loading="lazy"
-        alt=""
-      >
-        <h2 data-text="Presence...">Presence...</h2>
+      <div className="mt-sm-5 mt-3 pb-3 centerheading" >
+        <h3>Our Presence</h3>
       </div>
       <div className="text-center Map mt-0">
         <img

@@ -30,9 +30,9 @@ function Contact() {
     <>
       {/* TopHeading1 */}
       <div className="Contact_top container overflow-hidden ">
-        <h2 className="pt-5 TopHeading1 text-wrap">
-          Get in Touch with City Samosa!
-        </h2>
+      <div className=" pt-5 centerheading" >
+        <h3>  Get in Touch with City Samosa!</h3>
+      </div>
         <p>
           We'd love to hear from you! Your feedback is important to us, and
           we're here to assist with any questions or concerns you may have.
