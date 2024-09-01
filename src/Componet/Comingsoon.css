@@ -1,0 +1,32 @@
+.comingbg{
+    
+    background-color:#d42121;
+}
+.comingsoon{
+    overflow:hidden;
+}
+.comingsoon img{
+    height:auto;
+    max-width:100%;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #af4b2f;
+    border-radius: 10px 10px 10px 10px;
+}
+.Comingheading h3{
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: -0.5px;
+}
+@media screen and (max-width: 973px){
+    .Comingheading h3{
+        font-size: 22px;
+    }
+}
