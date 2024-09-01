@@ -8,13 +8,13 @@ import "swiper/swiper-bundle.min.css";
 
 import "./styles.css";
 
-// import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+// Import required modules
+import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 
 export default function Slider() {
   return (
     <>
-    <div className="mt-5 pb-3 centerheading" >
+      <div className="mt-5 pb-3 centerheading">
         <h3>You Tube</h3>
       </div>
       <Swiper
@@ -30,8 +30,12 @@ export default function Slider() {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper  mb-5 "
+        autoplay={{
+          delay: 6000,  
+          disableOnInteraction: false,  
+        }}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
+        className="mySwiper mb-5"
         data-aos="zoom-in-down"
         data-aos-delay="50"
         data-aos-duration="1000"
@@ -41,11 +45,11 @@ export default function Slider() {
             <iframe
               src="https://www.youtube.com/embed/0hI6WmcYYhU?si=l4rGfKAuy_fvJGnb"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>{" "}
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -53,38 +57,37 @@ export default function Slider() {
             <iframe
               src="https://www.youtube.com/embed/leYbGKs5DgM?si=VN_Dw7GuqpR3b4JM"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>{" "}
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
-        </SwiperSlide> <SwiperSlide>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className="wrapperr">
             <iframe
-              src= "https://www.youtube.com/embed/PIPLq3fItLs?si=FvmjTQzAzbvw1CY_"
+              src="https://www.youtube.com/embed/PIPLq3fItLs?si=FvmjTQzAzbvw1CY_"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>{" "}
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
-        </SwiperSlide> <SwiperSlide>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className="wrapperr">
             <iframe
               src="https://www.youtube.com/embed/Zm78ToZ29_w?si=X0DU9HrCvqrgVFmu"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>{" "}
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </SwiperSlide>
-
-
-
       </Swiper>
     </>
   );

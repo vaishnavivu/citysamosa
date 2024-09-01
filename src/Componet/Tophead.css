@@ -9,12 +9,7 @@
 .navbar-toggler {
   border: none;
 }
-.red {
-  color: #d42121;
-}
-.yellow {
-  color: #ffcc04;
-}
+
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
