@@ -168,7 +168,7 @@ body::-webkit-scrollbar {
     font-size: 30px;
   }
   .centerheading h3{
-    font-size: 22px;
+    font-size: 28px;
   }
 }
 
@@ -400,4 +400,11 @@ body::-webkit-scrollbar {
   .right-container-arrow {
     left: -15px;
   }
+}
+
+
+/* Instafeed */
+.instaframe{
+  height: auto;
+    max-width: 100%;
 }

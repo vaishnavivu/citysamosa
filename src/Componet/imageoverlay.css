@@ -5,6 +5,7 @@ body {
 }
 .productbg {
   background-image: url("CITY WEBSITE EDITS-01.png");
+  text-shadow: 0.08em 0.08em 0em rgba(0, 0, 0, 0.4);
 }
 .banner h2 {
   color: white;

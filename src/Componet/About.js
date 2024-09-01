@@ -1,14 +1,14 @@
 import React from 'react'
-import Scrolltxt from './Scrolltxt'
 import AnimatedGallery from './AnimatedGallery'
 import Timeline from './Timeline'
+import Usp from './Usp'
 
 const About = () => {
   return (
     <div >
       <AnimatedGallery/>
       <Timeline/>
-        <Scrolltxt/>
+      <Usp/>
        </div>
   )
 }

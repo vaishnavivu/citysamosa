@@ -7,7 +7,7 @@ function Imageoverlay() {
     <>
       <div className="productbg overflow-hidden">
       <div className="pt-5 centerheading" >
-        <h3>Our Product</h3>
+        <h3 className="text-white ">Our Product</h3>
       </div>
         <section className="cards tilt-box-wrap " data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
           {items.map((elem) => {
