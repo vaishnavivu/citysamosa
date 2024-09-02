@@ -71,7 +71,9 @@ export default function AnimatedGallery() {
       <GalleryContainer
         bgColor={images[currentIndex].color}
         className="pt-5 pb-5 mt-0 row"
-      >
+      ><h2 className="text-center mb-4 mainheading">
+      Our Founder Team
+    </h2>
         <ImageWrapper className="col-sm-6">
           {images.map((image, index) => (
             <img
@@ -87,9 +89,9 @@ export default function AnimatedGallery() {
 
         <div className="col-sm-5 mt-5">
           <h2 className="text-center mb-4 mainheading">
-            Our Founder Team
+            Chandrashkhar sir
           </h2>
-          <p className="subheading">
+          <p className="subheading justify">
           {images[currentIndex].text}
           </p>
           

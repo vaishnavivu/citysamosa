@@ -1,16 +1,16 @@
 .comingbg{
-    
-    background-color:#d42121;
+    background-image: url("CITY WEBSITE EDITS-01.png");
 }
 .comingsoon{
     overflow:hidden;
+    
 }
 .comingsoon img{
     height:auto;
-    max-width:100%;
-    border-style: solid;
+    max-width: 80%;
+   border-style: solid;
     border-width: 2px 2px 2px 2px;
-    border-color: #af4b2f;
+    border-color: #fff;
     border-radius: 10px 10px 10px 10px;
 }
 .Comingheading h3{
@@ -28,5 +28,10 @@
 @media screen and (max-width: 973px){
     .Comingheading h3{
         font-size: 22px;
+    }
+    .comingsoon img{
+        max-width:100%;
+        border-radius: 5px 5px 5px 5px;
+       
     }
 }

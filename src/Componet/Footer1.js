@@ -4,17 +4,29 @@ import "./Footer1.css";
 function Footer() {
   return (
     <>
-      <div className="text-center footer-h3 mt-4">
+      <div
+        className="text-center footer-h3 overflow-hidden "
+        data-aos="zoom-in"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
         <h5>Want To Franchise With Us?</h5>
         <h3>Request A Free Franchise Consultation</h3>
-        <button>
-          <Link className="nav-link pl-1 pr-1" to="/about">
-            Apply Now
-          </Link>
-        </button>
+        <div className="pb-4 pb-sm-5">
+          <button>
+            <Link className="nav-link pl-1 pr-1" to="/about">
+              Apply Now
+            </Link>
+          </button>
+        </div>
+
+        <div className="carrun ">
+          <img src="../City Samosa Vector Art-08.png" alt=""></img>
+        </div>
       </div>
+
       <div
-        className="container-fluid mt-3 pt-5 navbar-fixed-bottom "
+        className="container-fluid pt-5 navbar-fixed-bottom "
         style={{ backgroundColor: "#d42121" }}
       >
         <div className="row">

@@ -33,7 +33,7 @@ function Contact() {
       <div className=" pt-5 centerheading" >
         <h3>  Get in Touch with City Samosa!</h3>
       </div>
-        <p>
+        <p className="justify">
           We'd love to hear from you! Your feedback is important to us, and
           we're here to assist with any questions or concerns you may have.
           Whether you're interested in joining our team or exploring partnership
@@ -55,7 +55,7 @@ function Contact() {
                 </div>
                 <div className="text">
                   <h4>Address</h4>
-                  <p>
+                  <p className="justify">
                     Shop No 2,New Monica CHS, OPP Jai Shankar Wine Shop. Near
                     Castle Mill Naka, Uthalasar, Thane, West 400601.
                   </p>
@@ -93,10 +93,12 @@ function Contact() {
       </div>
 
       {/* form */}
-      <div className="container-fluid  contactbg">
-        <img src="../wc samosa-01.png"className="formimg" alt=""></img>
+      <img src="../City Samosa Vector Art-06.png"className="formimage" alt=""></img>
+       
+      <div className="container-fluid mb-5 mb-sm-5  contactbg">
+      
         <div
-          className="container  text-center pt-5 col-12 col-md-6 mx-auto aos-init aos-animate"
+          className="container zindex  text-center pt-5 col-12 col-md-6 mx-auto aos-init aos-animate"
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="5000"
@@ -169,8 +171,6 @@ function Contact() {
           <span>{result}</span>
           
         </div>
-        <img src="../wc samosa-01.png"className=" formimg2" alt=""></img>
-       
       </div>
     </>
   );

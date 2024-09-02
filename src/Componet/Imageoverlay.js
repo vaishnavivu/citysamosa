@@ -9,7 +9,7 @@ function Imageoverlay() {
       <div className="pt-5 centerheading" >
         <h3 className="text-white ">Our Product</h3>
       </div>
-        <section className="cards tilt-box-wrap " data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+        <section className="cards tilt-box-wrap " >
           {items.map((elem) => {
             const { image,heading } = elem;
             return (

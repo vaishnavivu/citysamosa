@@ -37,9 +37,6 @@ export default function Slider() {
           }}
           modules={[EffectCoverflow, Pagination, Autoplay]}
           className="mySwiper "
-          data-aos="zoom-in-down"
-          data-aos-delay="50"
-          data-aos-duration="1000"
         >
           <SwiperSlide>
             <div className="wrapperr">
