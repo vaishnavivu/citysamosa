@@ -1,6 +1,10 @@
 .usp{
   overflow:hidden;
-}.uspimg img {
+}
+.uspbg{
+  background-image: url("CITY WEBSITE EDITS-01.png"); 
+}
+.uspimg img {
   max-width: 100px;
   height: auto;
   vertical-align: middle;

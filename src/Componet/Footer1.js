@@ -4,6 +4,7 @@ import "./Footer1.css";
 function Footer() {
   return (
     <>
+    <div className="mt-5 mb-5">
       <div
         className="text-center footer-h3 overflow-hidden "
         data-aos="zoom-in"
@@ -74,25 +75,6 @@ function Footer() {
                   Shop No 2, New Monica CHS, OPP Jai Shankar Wine Shop. Near
                   Castle Mill Naka, Uthalasar, Thane, West 400601.
                 </div>
-
-                {/* <div className="row mb-2 justify-content-center">
-                <div className="col-2 p-0">
-                  <i className="fa-brands icon fa-whatsapp p-0 "></i>
-                </div>
-                <div className="col-4 p-0 text-white ">7304454574</div>
-              </div> */}
-                {/* <div className="row mb-2 justify-content-center">
-                <div className="col-2 p-0">
-                  <i className="fa fa-envelope aria-hidden='true'"></i>
-                </div>
-                <div className="col-4 p-0 text-white ">7304454574</div>
-              </div> */}
-                {/* <div className="row mb-2 justify-content-center">
-                <div className="col-2 p-0 ">
-                  <i className="fa-brands icon fa-instagram"></i>
-                </div>
-                <div className="col-4 p-0 text-white ">7304454574</div>
-              </div> */}
               </div>
 
               {/* Social media  */}
@@ -118,6 +100,8 @@ function Footer() {
           </div>
         </div>
       </div>
+    </div>
+      
     </>
   );
 }

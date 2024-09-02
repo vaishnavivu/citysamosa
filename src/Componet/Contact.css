@@ -99,34 +99,11 @@
     transform: translate(-1000px,400px);
   }
 }
-/* .cominsoonairoplane{
-  width: 20%;
-  position: absolute;
-  top: 1980px;
-  right: 660px;
-  animation-name: cominsoonairoplane;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  transition: all 0.3s;
-  animation-play-state: paused;  
-}
-.cominsoonairoplane:hover{
-  animation-play-state: running; 
-}
-@keyframes cominsoonairoplane {
-  0% {
-    transform: translate(660px,-400px);
-  }
-  100% {
-    transform: translate(-800px,400px);
-  }
-} */
 .carrun img{
   width: 20%;
   position: absolute;
   left:0px;
-  bottom:-9px;  
+  bottom:-18px;  
   animation-name: carrun;
   animation-delay: 0s;
   animation-duration: 24s;
@@ -139,21 +116,28 @@
     transform: translateX(-100px);
   }
   100% {
-    transform: translateX(1400px);
+    transform: translateX(1480px);
   }
 }
 @media screen and (max-width:760px) {  
-  /* .cominsoonairoplane {
-            width: 40%;
-        top: 917px;
-        right: 7px;
-} */
 .carrun img{
   width: 40%;
   left:0px;
-  bottom:-4px;  
-  animation-duration: 10s;
+  bottom:-9px;  
+  animation-delay: 0s;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: left 0.3s, bottom 0.3s;
 
+}
+@keyframes carrun{
+  0% {
+    transform: translateX(-70px);
+  }
+  100% {
+    transform: translateX(410px);
+  }
 }
 .formimage {
   width: 60%;
