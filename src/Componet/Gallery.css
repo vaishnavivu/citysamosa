@@ -1,11 +1,12 @@
 .gallery-tab .btn-warning{
     width:20%;
     padding:15px;
+    color:#fff;
     font-size:1.2rem;
     margin-left: 12px;
     margin-right: 12px;
     box-shadow: 0 3px 5px rgba(130, 126, 126, 0.3);
-    background-color: #FFCC04;
+    background-color: #EEA820;
     border: white 1px solid;
     border-radius: 0%;
   

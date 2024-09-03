@@ -14,8 +14,8 @@ function Footer() {
         <h5>Want To Franchise With Us?</h5>
         <h3>Request A Free Franchise Consultation</h3>
         <div className="pb-4 pb-sm-5">
-          <button>
-            <Link className="nav-link pl-1 pr-1" to="/about">
+          <button type="button" class="btn">
+            <Link className="btn_text pl-1 pr-1" to="/about">
               Apply Now
             </Link>
           </button>

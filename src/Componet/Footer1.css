@@ -58,16 +58,22 @@
     letter-spacing: -0.5px;
   }
   .footer-h3 button{
-    background-color: #d42121;
-    border: 2px solid #d42121;
+    background-color:#EEA820 ;
+    border: 2px solid #EEA820;
     border-radius: 42px 42px 42px 42px;
     padding: 15px 35px;
-    color: #fff;    
+    color: #d42121;    
+  }
+  .btn_text{
+    text-decoration:none;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
   }
   .footer-h3 button:hover{
-    background-color:  #FFCC04;
-    border: 2px solid #FFCC04;
-    color: #d42121;
+    background-color:#d42121;
+    border: 2px solid #d42121;
+    color:  #fff ;
     transition: 1.0s;
   }
   .Q-link{
@@ -77,6 +83,9 @@
     .footer-h3 button{
       padding: 10px 20px;
     } 
+    .btn_text{
+      font-size: 15px;
+    }
     .footer-h3 h3{
       font-size: 22px;
       font-weight: 600;

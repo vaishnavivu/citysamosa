@@ -20,19 +20,19 @@ const Gallery = () => {
         <div className="gallery-tabs container mt-5">
           <div className="gallery-tab d-flex justify-content-center">
             <button
-              className="btn btn-warning active "
+              className="btn btn-warning active btn_text"
               onClick={() => setItems(GalleryDb)}
             >
               All
             </button>
             <button
-              className="btn btn-warning active "
+              className="btn btn-warning active btn_text"
               onClick={() => filterItem("Outlet")}
             >
               Outlet
             </button>
             <button
-              className="btn btn-warning active "
+              className="btn btn-warning active btn_text"
               onClick={() => filterItem("Event")}
             >
               Event
