@@ -12,7 +12,7 @@ const Instafeed = () => {
         className="w-100 instaframe "
         style={{
           width: "100%",
-          height: "55vh",
+          height: "50vh",
           border: "none",
           overflow: "hidden",
         }}

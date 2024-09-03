@@ -100,3 +100,36 @@ a {
     opacity: 0.9;
 }
   }
+
+  /* animated gallery */
+
+.leader_img img{
+  width:100%;
+}
+.center-vertical{
+  display: flex;           
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;      
+}
+/* Hide smallscreen by default */
+.smallscreen {
+  display: none;
+}
+
+/* Show smallscreen on small screens */
+@media (max-width: 767px) {
+  .largescreen {
+    display: none;
+  }
+  .smallscreen {
+    display: block;
+  }
+}
+
+/* Show largescreen on medium and larger screens */
+@media (min-width: 768px) {
+  .smallscreen {
+    display: none;
+  }
+}

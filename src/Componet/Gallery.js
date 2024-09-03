@@ -14,9 +14,10 @@ const Gallery = () => {
   return (
     <>
       <div className=".contactbg">
-        <div className="centerheading" >
-        <h3 className="pt-5">Gallery</h3>
-      </div>
+      <div className="centerheading pt-5 pt-sm-3">
+          <h3>Gallery</h3>
+          <div className="line mt-0 mb-3"></div>
+        </div>
         <div className="gallery-tabs container mt-5">
           <div className="gallery-tab d-flex justify-content-center">
             <button

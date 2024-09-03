@@ -15,8 +15,8 @@ function Footer() {
         <h3>Request A Free Franchise Consultation</h3>
         <div className="pb-4 pb-sm-5">
           <button type="button" class="btn">
-            <Link className="btn_text pl-1 pr-1" to="/about">
-              Apply Now
+            <Link className="btn_text pl-1 pr-1" to="/contact">
+              Contact Us
             </Link>
           </button>
         </div>

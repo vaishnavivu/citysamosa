@@ -1,12 +1,11 @@
 import React from "react";
 const Timeline = () => {
   return (
-    <div className="main container">
-      <div className="mt-5 centerheading">
-        <h3>
-          OUR <span> JOURNEY </span>
-        </h3>
-      </div>
+    <div className="main container ">
+        <div className="centerheading pt-4 pt-sm-3">
+          <h3 className="">Our Journey</h3>
+          <div className="line mt-0 mb-3"></div>
+        </div>
 
       <div className="timeline">
        
