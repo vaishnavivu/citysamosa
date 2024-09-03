@@ -21,7 +21,7 @@
   border-left-style: solid;
   border-color: #d42121;
   border-width: thick;
-  background-color: #ffcc04;
+  background-color: #EEA820;
 }
 #navbarNav {
   justify-content: center;
@@ -48,7 +48,7 @@
   color: #d42121;
 }
 .nav-link:focus {
-  color: #ffcc04;
+  color: #EEA820;
 }
 #yellowline {
   width: 100%;
@@ -68,7 +68,7 @@
 }
 .nav-item a:hover {
   font-weight: 500;
-  color: #ffcc04;
+  color: #EEA820;
 }
 .nav-item a {
   color: white;
@@ -92,16 +92,26 @@
   position: absolute;
   top: -45px;
   left: 92px;
+  animation-name:infiniteleftright;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease;
+  transition: all .3s;
 }
 .tophead_img2 {
   height: 86px;
   position: absolute;
   top: -45px;
   right: 92px;
+  animation-name:infiniteleftright;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease;
+  transition: all .3s;
 }
 @media screen and (max-width: 973px) {
   #yellowline {
-    background-color: #ffcc04;
+    background-color: #EEA820;
   }
   .textanim h2 {
     position: relative;

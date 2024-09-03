@@ -7,7 +7,7 @@ const Scrolltxt = () => {
     <div className="mt-5 mb-5 overflow-hidden"
     src="../CITY WEBSITE EDITS-02.png"
     alt="">
-      <div className="mt-5 pb-2 centerheading" >
+      <div className="mt-5  mb-4 centerheading" >
         <h3>Our Presence</h3>
       </div>
       <div className="text-center Map mt-0">

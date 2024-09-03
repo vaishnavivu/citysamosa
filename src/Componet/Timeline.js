@@ -4,7 +4,7 @@ const Timeline = () => {
     <div className="main container">
       <div className="mt-5 centerheading">
         <h3>
-          My <span> Skills </span>
+          OUR <span> JOURNEY </span>
         </h3>
       </div>
 

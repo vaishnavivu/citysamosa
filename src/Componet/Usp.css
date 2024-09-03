@@ -20,7 +20,7 @@
   padding: 20px 20px 20px 25px;
   background-color: #ffffff;
   border-radius: 49px 10px 10px 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .usp_card h4 {
@@ -36,13 +36,25 @@
   text-align:justify;
 }
 .usp_heading h4 {
-  color: #19171a;
+  color: #19171A;
   font-family: "Montserrat", Sans-serif;
   font-size: 36px;
   font-weight: 600;
   text-transform: capitalize;
   font-style: normal;
   text-decoration: none;
+}
+.usp_heading h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: -0.5px;
 }
 @media screen and (max-width: 973px) {
   .uspimg img {

@@ -3,17 +3,13 @@ import "../Componet/Comingsoon.css";
 
 const Comingsoon = () => {
   return (
-      <div className="container-fluid comingbg pb-4 mt-3 pt-3 mt-sm-5 pt-sm-5 mx-auto overflow-hidden">
-        <div className="Comingheading">
-        {/* <img
-          src="../City Samosa Vector Art-06.png"
-          className="cominsoonairoplane"
-          alt=""
-        ></img> */}
-          <h3 className="pb-3">Coming Soon</h3>
-        </div>
+    <div className="pb-4 mt-3 pt-3 mt-sm-4 pt-sm-4">
+      <div className="mt-4 pt-4  mt-sm-5 pt-sm-5  mb-4 centerheading" >
+        <h3>Coming Soon</h3>
+      </div>
+      <div className="container-fluid comingbg mx-auto overflow-hidden mt-3">
         <div
-          className="container comingsoon"
+          className="container comingsoon p-3 p-sm-5"
           data-aos="fade-right"
           data-aos-delay="50"
           data-aos-duration="1000"
@@ -31,6 +27,8 @@ const Comingsoon = () => {
           </div>
         </div>
       </div>
+    </div>
+      
   );
 };
 

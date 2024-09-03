@@ -35,6 +35,17 @@
     transform:translateY(0px);
   }
 }
+@keyframes infiniteleftright{
+  0%{
+    transform:rotate(5deg);
+  }
+  50%{
+    transform:rotate(-5deg);
+  }
+  100%{
+    transform:rotate(5deg);
+  }
+}
 .scroll div {
   display: flex;
   gap: 4em;

@@ -60,16 +60,20 @@ body::-webkit-scrollbar {
 }
 .centerheading h3{  
   color: #d42121;
-  text-align: center;
-  font-family: "Montserrat", Sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 1.2em;
-  letter-spacing: -0.5px;
+    text-align: center;
+    font-family: "Calistoga", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: underline solid #959595 50%;
+    text-decoration-thickness: 0.1px;
+    text-underline-offset: 0.2em;
+    line-height: 1.2em;
+    letter-spacing: -0.5px;
 }
+
 .subheding {
   text-align: justify;
   color: #fffffe;
@@ -94,7 +98,7 @@ body::-webkit-scrollbar {
   padding-bottom: 13px;
 }
 .swiper {
-  width: 95%;
+  width: 110%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -139,42 +143,7 @@ body::-webkit-scrollbar {
   position: relative;
   top: 49px;
 }
-@media screen and (max-width: 973px) {
-  .swiper-slide {
-    width: 64% !important;
-  }
-  .TopHeading1 {
-    font-size: 22px;
-  }
-  .TopHeading {
-    word-wrap: break-word;
-    word-break: break-all;
-    overflow: hidden;
-  }
-  .textanim img {
-    width: 12%;
-    position: relative;
-    top: -16px;
-  }
-  #textanim1 h2 {
-    position: relative;
-    top: 68px;
-    font-size: 4vw;
-  }
-  .image-container .image {
-    border: 9px solid #fff;
-  }
-  .gallery-tab .btn-warning {
-    width: 100%;
-    padding: 10px;
-  }
-  .mainheading {
-    font-size: 30px;
-  }
-  .centerheading h3{
-    font-size: 28px;
-  }
-}
+
 
 @keyframes animate {
   0% {
@@ -321,8 +290,57 @@ body::-webkit-scrollbar {
   }
 
 }
+
+@media screen and (max-width: 973px) {
+  .swiper-slide {
+    width: 64% !important;
+  }
+  .TopHeading1 {
+    font-size: 22px;
+  }
+  .TopHeading {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+  }
+  .textanim img {
+    width: 12%;
+    position: relative;
+    top: -16px;
+  }
+  #textanim1 h2 {
+    position: relative;
+    top: 68px;
+    font-size: 4vw;
+  }
+  .image-container .image {
+    border: 9px solid #fff;
+  }
+  .gallery-tab .btn-warning {
+    width: 100%;
+    padding: 10px;
+  }
+  .mainheading {
+    font-size: 30px;
+  }
+  .centerheading h3{
+    font-size: 28px;
+    
+  }
+  .usp_heading h3 {
+    font-size: 28px;
+}
+}
 /* Instafeed */
 .instaframe{
   height: auto;
     max-width: 100%;
+}
+
+.whatsapp-chat-container{
+  animation-name:infiniteupdown;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease;
+  transition: all .3s;
 }

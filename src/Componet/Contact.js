@@ -93,10 +93,10 @@ function Contact() {
       </div>
 
       {/* form */}
-      <img src="../City Samosa Vector Art-06.png"className="formimage" alt=""></img>
-       
+         
       <div className="container-fluid mb-5 mb-sm-5  contactbg">
-      
+      <img src="../City Samosa Vector Art-06.png"className="formimage" alt=""></img>
+    
         <div
           className="container zindex  text-center pt-5 col-12 col-md-6 mx-auto aos-init aos-animate"
           data-aos="zoom-in"

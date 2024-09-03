@@ -7,9 +7,7 @@ const Usp = () => {
       <div className="container usp pt-5">
         <div className="row text-center usp_heading">
           <h4>Our USP's</h4>
-          <div className="centerheading">
             <h3>Brewing Goodness</h3>
-          </div>
         </div>
         <div className="row mt-3">
           <div

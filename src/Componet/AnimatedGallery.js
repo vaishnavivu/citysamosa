@@ -73,7 +73,7 @@ export default function AnimatedGallery() {
         className="pt-5 pb-5 mt-0 row"
       >
         <div className="centerheading"><h3 className="text-center mb-4">
-      Our Founder Team
+      OUR FOUNDER TEAM
     </h3>
           </div>
         <ImageWrapper className="col-sm-6">

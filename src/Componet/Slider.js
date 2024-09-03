@@ -14,9 +14,9 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 export default function Slider() {
   return (
     <>
-      <div className="mb-5 pb-5 mt-3 pt-3 mt-sm-5 pt-sm-5">
+      <div className=" mt-3 pt-3 mt-sm-5 pt-sm-5 overflow-hidden">
         <div className="centerheading mb-4">
-          <h3>You Tube</h3>
+          <h3>YouTube</h3>
         </div>
         <Swiper
           effect={"coverflow"}
@@ -36,7 +36,7 @@ export default function Slider() {
             disableOnInteraction: false,
           }}
           modules={[EffectCoverflow, Pagination, Autoplay]}
-          className="mySwiper "
+          className="mySwiper mt-3"
         >
           <SwiperSlide>
             <div className="wrapperr">
