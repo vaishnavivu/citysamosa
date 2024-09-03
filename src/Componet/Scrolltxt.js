@@ -8,7 +8,7 @@ const Scrolltxt = () => {
     src="../CITY WEBSITE EDITS-02.png"
     alt="">
       <div className="mt-5  mb-4 centerheading" >
-        <h3>Our Presence</h3>
+        <h3>Our Presence</h3> <div className="line mt-0"></div>
       </div>
       <div className="text-center Map mt-0">
         <div  data-aos="flip-left"  data-aos-duration="3000"><img

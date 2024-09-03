@@ -99,6 +99,26 @@
     transform: translate(-1000px,400px);
   }
 }
+.comingsoonimage{
+  width: 20%;
+  position: absolute;
+  top: 2692px;
+  right: 500px;
+  animation-name: comingsoon;
+  animation-delay: 10s;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all 6s;
+}
+@keyframes comingsoon {
+  0% {
+    transform: translate(800px,-400px);
+  }
+  100% {
+    transform: translate(-1000px,200px);
+  }
+}
 .carrun img{
   width: 20%;
   position: absolute;
@@ -121,6 +141,7 @@
 }
 
 @media screen and (max-width:760px) {  
+  /* carrun */
 .carrun img{
   width: 40%;
   left:0px;
@@ -140,11 +161,12 @@
     transform: translateX(410px);
   }
 }
+/* form */
 .formimage {
   width: 60%;
   position: absolute;
-  top: 1805px;
-  right: 500px;
+  top: 1800px;
+  right: 0px;
   animation-name: airoplane;
   animation-delay: 0s;
   animation-duration: 10s;
@@ -154,10 +176,31 @@
 }
 @keyframes airoplane {
   0% {
-    transform: translate(600px,-450px);
+    transform: translate(20px,-450px);
   }
   100% {
-    transform: translate(-20px,20px);
+    transform: translate(-380px,20px);
+  }
+}
+/* comingsoon */
+.comingsoonimage{
+  width: 30%;
+  position: absolute;
+  top: 1200px;
+  right: 0px;
+  animation-name: comingsoon;
+  animation-delay: 1s;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all 6s;
+}
+@keyframes comingsoon {
+  0% {
+    transform: translate(20px,-180px);
+  }
+  100% {
+    transform: translate(-380px,20px);
   }
 }
 }

@@ -67,13 +67,17 @@ body::-webkit-scrollbar {
     font-size: 50px;
     text-transform: none;
     font-style: normal;
-    text-decoration: underline solid #959595 50%;
-    text-decoration-thickness: 0.1px;
-    text-underline-offset: 0.2em;
+    text-decoration:none;
     line-height: 1.2em;
     letter-spacing: -0.5px;
 }
-
+.line{
+  width:120px;
+  height:2px;
+  background:#EEA820;
+  margin:0px auto;
+  border-radius:5px;
+}
 .subheding {
   text-align: justify;
   color: #fffffe;

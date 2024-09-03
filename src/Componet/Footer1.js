@@ -4,7 +4,7 @@ import "./Footer1.css";
 function Footer() {
   return (
     <>
-    <div className="mt-5 mb-5">
+    <div className="mt-5 ">
       <div
         className="text-center footer-h3 overflow-hidden "
         data-aos="zoom-in"
