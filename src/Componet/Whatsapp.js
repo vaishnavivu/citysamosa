@@ -17,7 +17,7 @@ const WhatsAppChat = () => {
   };
 
   const sendMessage = () => {
-    const whatsappUrl = `https://wa.me/yourphonenumber?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/8484983418?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 

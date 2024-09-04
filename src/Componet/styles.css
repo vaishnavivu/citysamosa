@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 #app {
   height: 100%;
 }
@@ -12,17 +15,15 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
-  
 }
-.justify{
-  text-align:justify;
+.justify {
+  text-align: justify;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 body::-webkit-scrollbar {
   display: none;
@@ -49,7 +50,7 @@ body::-webkit-scrollbar {
 .mainheading {
   color: #d42121;
   text-align: center;
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Calistoga", Sans-serif;
   font-size: 30px;
   font-weight: 600;
   text-transform: none;
@@ -58,25 +59,42 @@ body::-webkit-scrollbar {
   line-height: 1.2em;
   letter-spacing: -0.5px;
 }
-.centerheading h3{  
+.centerheading h3 {
   color: #d42121;
-    text-align: center;
-    font-family: "Calistoga", serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 50px;
-    text-transform: none;
-    font-style: normal;
-    text-decoration:none;
-    line-height: 1.2em;
-    letter-spacing: -0.5px;
+  text-align: center;
+  font-family: "Calistoga", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 50px;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: -0.5px;
 }
-.line{
-  width:120px;
-  height:2px;
-  background:#EEA820;
-  margin:0px auto;
-  border-radius:5px;
+.mainheading span {
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+.line {
+  width: 120px;
+  height: 2px;
+  background: #eea820;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+.founder_txt {
+  text-align: justify;
+  color: #19171a;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.7em;
 }
 .subheding {
   text-align: justify;
@@ -148,7 +166,6 @@ body::-webkit-scrollbar {
   top: 49px;
 }
 
-
 @keyframes animate {
   0% {
     width: 0;
@@ -166,135 +183,6 @@ body::-webkit-scrollbar {
   width: 287px;
   height: 346px;
 }
-/* /////Timeline */
-
-.timeline {
-  position: relative;
-  max-width: 900px;
-  margin: 100px auto;
-}
-.timecontainer {
-  padding: 10px 50px;
-  position: relative;
-  width: 50%;
-}
-.text-box {
-  padding: 20px 30px;
-  background: #fff;
-  position: relative;
-  border-radius: 6px;
-  font-size: 15px;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-}
-.text-box h2{
-  color: #d42121;
-  text-align: left;
-  font-family: "Montserrat", Sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 1.2em;
-  letter-spacing: -0.5px;
-}
-.company {
-  color: var(--main-color);
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-}
-.left-container {
-  left: 2px;
-}
-.right-container {
-  left: 50%;
-}
-.timecontainer img {
-  position: absolute;
-  width: 25%;
-  border-radius: 50%;
-  right: -54px;
-  top: 32px;
-  z-index: 10;
-}
-.right-container img {
-  left: -57px;
-}
-.timeline::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 100%;
-  background: var(--main-color);
-  top: 0;
-  left: 50%;
-  margin-left: -3px;
-  z-index: -1;
-  animation: moveline 6s linear forwards;
-}
-.timeline::before {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 1%;
-  background: var(--main2-color);
-  top: 0;
-  left: 50%;
-  margin-left: -3px;
-  animation: moveline 10s infinite forwards;
-}
-@keyframes moveline {
-  0% {
-    height: 0;
-  }
-
-  100% {
-    height: 100%;
-  }
-}
-.text-box small {
-  display: inline-block;
-  margin-bottom: 15px;
-}
-/* Responsive Timeline */
-@media screen and (max-width: 600px) {
-  .timeline {
-    margin: 50px auto;
-  }
-
-  .timeline::after {
-    left: 31px;
-  }
-  .timeline::before {
-    left: 31px;
-  }
-
-  .timecontainer {
-    width: 100%;
-    padding-left: 80px;
-    padding-right: 25px;
-  }
-
-  .text-box {
-    font-size: 13px;
-  }
-
-  .text-box small {
-    margin-bottom: 10px;
-  }
-
-  .right-container {
-    left: 0;
-  }
-
-  .right-container img,
-  .left-container img {
-    left: -7px;
-  }
-
-}
-
 @media screen and (max-width: 973px) {
   .swiper-slide {
     width: 64% !important;
@@ -327,44 +215,43 @@ body::-webkit-scrollbar {
   .mainheading {
     font-size: 22px;
   }
-  .centerheading h3{
+  .centerheading h3 {
     font-size: 28px;
-    
   }
   .usp_heading h3 {
     font-size: 28px;
-}
+  }
 }
 /* Instafeed */
-.instaframe{
+.instaframe {
   height: auto;
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.whatsapp-chat-container{
-  animation-name:infiniteupdown;
-  animation-duration:3s;
-  animation-iteration-count:infinite;
-  animation-timing-function:ease;
-  transition: all .3s;
+.whatsapp-chat-container {
+  animation-name: infiniteupdown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all 0.3s;
 }
 /* button */
-.btn{
-  background-color:#d42121 ;
+.btn {
+  background-color: #d42121;
   border: 2px solid #d42121;
   border-radius: 15px;
   padding: 10px 20px;
-  color: #d42121;    
+  color: #d42121;
 }
-.btn_text{
-  text-decoration:none;
+.btn_text {
+  text-decoration: none;
   font-family: "Montserrat", Sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
-.btn:hover{
-  background-color:#EEA820 ;
-  border: 2px solid #EEA820 ;
-  color:  #fff ;
-  transition: 1.0s;
+.btn:hover {
+  background-color: #eea820;
+  border: 2px solid #eea820;
+  color: #fff;
+  transition: 1s;
 }

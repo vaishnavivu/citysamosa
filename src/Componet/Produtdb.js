@@ -2,31 +2,39 @@ const Productdb =[
     {
         id:1,
         image :"../city samosa only dish 2.png",
-        heading:"City Samosa",
-        greenchutany:"../green chatni.png"
+        heading:"City Samosa",        
+        chutany:"../red chatni.png",  
+        potato:"../potato.png"  ,
+      
     },
     {
         id:2,
-        image :"../vada pav 4.png",
+        image :"../pattice pakoda 1 1.png",
         heading:"Vada Pav",  
-        chutany:"../red chatni.png",  
-        potato:"../potato.png"  ,    
+        coriander:"../toppng.com-coriander-833x614.png", 
+        potato:"../potato.png"  ,
+           
     },
     {
         id:3,
-        image :"../crispy vada 1.png",
+        image :"../city samosa only dish 2.png",
         heading:"Crispy Vada",
-             
+        chutany:"../red chatni.png",
+        beans:"../pngwing.com (1).png" ,
     },
     {
         id:4,
-        image :"../pattis 1.png",
-        heading:"Pattis",        
+        image :"../ulta vada pav 1 1.png",
+        heading:"Pattis",      
+        chutany:"../red chatni.png",
+        potato:"../potato.png"  ,  
     },
     {
         id:5,
-        image :"../ulta vada 2.png",
-        heading:"Ulta Vada",        
+        image :"../vada pav 4.png",
+        heading:"Ulta Vada",   
+        chutany:"../red chatni.png",
+        potato:"../potato.png"  ,     
     },
     // {
     //     id:6,

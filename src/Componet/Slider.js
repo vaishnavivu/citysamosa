@@ -16,7 +16,7 @@ export default function Slider() {
     <>
       <div className=" mt-3 pt-3 mt-sm-5 pt-sm-5 overflow-hidden">
         <div className="centerheading mb-4">
-          <h3>YouTube</h3>
+          <h3>Our Leaders Podcast</h3>
           
         <div className="line mt-0"></div>
         </div>

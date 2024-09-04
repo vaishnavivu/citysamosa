@@ -41,7 +41,7 @@ const Gallery = () => {
           </div>
         </div>
         {/* main items section */}
-        <div className="gallery-items container-fluid mt-2">
+        <div className="gallery-items container-fluid mt-2 overflow-hidden">
           <div className="row">
             <div className="col-11 mx-auto">
               <div className="row my-5">

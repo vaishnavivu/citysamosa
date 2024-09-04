@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -158,6 +159,11 @@ a {
   flex-direction: column;   
   justify-content: center;  
   align-items: center;      
+}
+.center-vertical h2{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .founder_height{
  
