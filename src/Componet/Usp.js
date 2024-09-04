@@ -3,7 +3,7 @@ import "../Componet/Usp.css";
 
 const Usp = () => {
   return (
-    <div className="container-fluid uspbg mb-5">
+    <div className="container-fluid uspbg mt-5 mb-5">
       <div className="container usp pt-5">
         <div className="row text-center usp_heading">
           <h4>Our USP's</h4>

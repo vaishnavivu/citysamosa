@@ -13,8 +13,7 @@ const Comingsoon = () => {
         <h3>Coming Soon</h3>
         <div className="line mt-0"></div>
       </div>
-      <div className="container-fluid comingbg mx-auto overflow-hidden mt-3">        <div
-          className="container comingsoon p-3 p-sm-5"
+      <div className="container-fluid  comingsoon p-3 p-sm-5 comingbg mx-auto overflow-hidden mt-3">        <div
           data-aos="fade-right"
           data-aos-delay="50"
           data-aos-duration="1000"

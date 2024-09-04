@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [result, setResult] = React.useState("");
@@ -94,7 +95,7 @@ function Contact() {
 
       {/* form */}
          
-      <div className="container-fluid mb-5 mb-sm-5  contactbg">
+      <div className="container-fluid mb-5 mb-sm-5 pb-5 contactbg">
       <img src="../City Samosa Vector Art-06.png"className="formimage" alt=""></img>
     
         <div
@@ -163,9 +164,11 @@ function Contact() {
                 autoComplete="off"
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary mb-5">
+            <button type="submit" class="btn">
+            <Link className="btn_text pl-1 pr-1" to="">
               Submit
-            </button>
+            </Link>
+          </button>
           </form>
           
           <span>{result}</span>

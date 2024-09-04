@@ -348,3 +348,23 @@ body::-webkit-scrollbar {
   animation-timing-function:ease;
   transition: all .3s;
 }
+/* button */
+.btn{
+  background-color:#d42121 ;
+  border: 2px solid #d42121;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: #d42121;    
+}
+.btn_text{
+  text-decoration:none;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn:hover{
+  background-color:#EEA820 ;
+  border: 2px solid #EEA820 ;
+  color:  #fff ;
+  transition: 1.0s;
+}

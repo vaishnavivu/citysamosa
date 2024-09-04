@@ -6,13 +6,13 @@
     margin-left: 12px;
     margin-right: 12px;
     box-shadow: 0 3px 5px rgba(130, 126, 126, 0.3);
-    background-color: #EEA820;
+    background-color: #d42121;
     border: white 1px solid;
     border-radius: 0%;
   
 }
 .gallery-tab .btn-warning:hover{
-    background-color:  #d42121;
+    background-color: #EEA820  ;
     color: white;
     transition: 1.0s;
 }

@@ -1,9 +1,7 @@
 .comingbg{
-    background-image: url("CITY WEBSITE EDITS-01.png");
-}
+    background-image: url("CITY WEBSITE EDITS-01.png");}
 .comingsoon{
-    overflow:hidden;
-    
+    overflow:hidden;    
 }
 .comingsoon img{
     height:auto;
@@ -13,6 +11,7 @@
     border-color: #fff;
     border-radius: 10px 10px 10px 10px;
 }
+
 .Comingheading h3{
     color: #fff;
     text-align: center;
@@ -31,7 +30,6 @@
     }
     .comingsoon img{
         max-width:100%;
-        border-radius: 5px 5px 5px 5px;
-       
+        border-radius: 5px 5px 5px 5px;       
     }
 }

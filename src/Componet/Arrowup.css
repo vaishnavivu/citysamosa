@@ -23,24 +23,71 @@ a {
     text-decoration: underline;
 }
 /* WhatsAppChat.css */
+/* WhatsAppChat.css */
 .whatsapp-chat-container {
-    position: fixed;
-    bottom: 81px;
-    right: 21px;
-    z-index: 1000;
-  }
-  
-  .whatsapp-icon {
-    background-color: #25d366;
-    border: none;
-    border-radius: 50%;
-    padding: 15px;
-    cursor: pointer;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  position: fixed;
+  bottom:90px;
+  right: 28px;
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  background-color: #25d366;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  height: 50px;
+    width: 50px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-box {
+  position: absolute;
+  bottom: 70px; /* Adjust based on your preference */
+  right: 0;
+  width: 250px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Needed for the close button positioning */
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.chat-box textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  resize: none; /* Prevent resizing */
+}
+
+.send-button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end; /* Aligns button to the right */
+}
+
   
   .chat-box {
     position: absolute;
@@ -112,6 +159,9 @@ a {
   justify-content: center;  
   align-items: center;      
 }
+.founder_height{
+ 
+}
 /* Hide smallscreen by default */
 .smallscreen {
   display: none;
@@ -125,6 +175,9 @@ a {
   .smallscreen {
     display: block;
   }
+  .founder_height{
+    height:50vh;
+  }
 }
 
 /* Show largescreen on medium and larger screens */
@@ -132,4 +185,11 @@ a {
   .smallscreen {
     display: none;
   }
+  .flex_left{
+    align-items: flex-start;
+  }
+  .flex_right{
+    align-items: flex-end;
+  }
+ 
 }

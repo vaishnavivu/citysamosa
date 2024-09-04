@@ -8,13 +8,13 @@ export default function AnimatedGallery() {
       </div>
 
       {/* Leaders */}
-      <div className="container">
+      <div className="container founder pt-0 mt-0">
         {/* left */}
-        <div className="row">
-          <div className="col-sm-6 col-12 leader_img">
+        <div className="row ">
+          <div className="col-sm-6  col-12 leader_img">
             <img src="../owners website photo-01.png" alt=""></img>
           </div>
-          <div className="col-sm-6 col-12 center-vertical">
+          <div className="col-sm-6  col-12 center-vertical flex_left">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">Chandrashekhar</h2>
             <p className="subheading justify">
               hhhhhhhhhhhhhhhhhhhh hhhhh hhh hhhh
@@ -25,7 +25,7 @@ export default function AnimatedGallery() {
         {/* right */}
         <div className="row">
           {/* For large screens */}
-          <div className="col-sm-6 col-12 center-vertical largescreen">
+          <div className="col-sm-6 col-12 center-vertical flex_right largescreen">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">Chandrashekhar</h2>
             <p className="subheading justify">
               hhhhhhhhhhhhhhhhhhhh hhhhh hhh hhhh
@@ -46,9 +46,9 @@ export default function AnimatedGallery() {
         {/* left */}
         <div className="row">
           <div className="col-sm-6 col-12 leader_img">
-            <img src="../owners website photo-01.png" alt=""></img>
+            <img src="../owners website photo-02.png" alt=""></img>
           </div>
-          <div className="col-sm-6 col-12 center-vertical">
+          <div className="col-sm-6 col-12 center-vertical flex_left">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">Chandrashekhar</h2>
             <p className="subheading justify">
               hhhhhhhhhhhhhhhhhhhh hhhhh hhh hhhh
@@ -57,16 +57,16 @@ export default function AnimatedGallery() {
         </div>
 
          {/* right */}
-         <div className="row">
+         <div className="row mb-5 pb-5 ">
           {/* For large screens */}
-          <div className="col-sm-6 col-12 center-vertical largescreen">
+          <div className="col-sm-6 col-12 center-vertical largescreen flex_right">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">Chandrashekhar</h2>
             <p className="subheading justify">
               hhhhhhhhhhhhhhhhhhhh hhhhh hhh hhhh
             </p>
           </div>
           <div className="col-sm-6 col-12 leader_img">
-            <img src="../owners website photo-03.png" alt="" />
+            <img src="../owners website photo-04.png" alt="" />
           </div>
           {/* For small screens */}
           <div className="col-sm-6 col-12 smallscreen">

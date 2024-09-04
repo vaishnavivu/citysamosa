@@ -45,16 +45,6 @@
 .mb-4 .form-label {
   float: left;
 }
-.btn-primary {
-  background-color: #d42121;
-  border: #fff 2px solid;
-  transition: 1.5s ease;
-}
-.btn-primary:hover {
-  background-color: #ffcc04;
-  border: #fff 2px solid;
-}
-
 /* for contact heading */
 .TopHeading1 {
   font-weight: 800;

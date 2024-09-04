@@ -89,6 +89,9 @@ body {
   filter: drop-shadow(-6px -30px 47px rgba(0, 0, 0, 0.1));
 
 }
+.mirchi{
+  width: 15em;
+}
 .productTitle{
   width:30%;
   color:white;

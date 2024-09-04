@@ -10,6 +10,7 @@ import Imageoverlay from "./Componet/Imageoverlay";
 import Arrowup from "./Componet/Arrowup";
 import ScrollToTop from "./Componet/ScrollToTop";
 import Whatsapp from "./Componet/Whatsapp";
+import ScrollingSection from "./Componet/ScrollingSection ";
 
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
           <Route exact path="/gallery" element={<Gallery />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/product" element={<Imageoverlay />} />
-
+          <Route exact path="/scroll" element={<ScrollingSection />} />
           {/* <Route path="*" element={<ErrorPage/>} /> */}
         </Routes>     
         <Footer1 />
