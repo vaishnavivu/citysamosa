@@ -214,10 +214,16 @@ body::-webkit-scrollbar {
   }
   .mainheading {
     font-size: 22px;
+    display: contents;
+    text-align:center;
   }
+ .text-center h2{
+  display: grid;
+ }
   .centerheading h3 {
     font-size: 28px;
   }
+  
   .usp_heading h3 {
     font-size: 28px;
   }

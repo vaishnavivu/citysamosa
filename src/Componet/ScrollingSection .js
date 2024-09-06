@@ -14,7 +14,7 @@ const ScrollingSection = () => {
   return (
     <div className="scroll-container productbg">
       {items.map((elem, index) => {
-        const { image, heading, chutany, potato,beans,coriander } = elem;
+        const { image, chutany, potato,beans,coriander,onionslice,bread,greembeans } = elem;
         return (
           <section className="panel orange" key={index}>
             <div className="content">
@@ -30,9 +30,11 @@ const ScrollingSection = () => {
                <img src={beans} className="beans" alt=""></img>
               <div className="product_img center-vertical">
                 <img src={image} alt="" className="product-image" />
-                <h1>{heading}</h1>
               </div>
+              <img src={onionslice} alt="" className="onionslice"></img>
               <img src={coriander} alt="" className="coriender"></img>
+              <img src={bread} alt="" className="bread"></img>
+              <img src={greembeans} alt="" className="greembeans"></img>
              
              
             </div>  <footer/>

@@ -76,7 +76,7 @@
   right: 500px;
   animation-name: airoplane;
   animation-delay: 10s;
-  animation-duration: 6s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
   transition: all 6s;
@@ -93,7 +93,7 @@
   width: 20%;
   position: absolute;
   top: 2692px;
-  right: 500px;
+  right: 0px;
   animation-name: comingsoon;
   animation-delay: 10s;
   animation-duration: 20s;
@@ -103,10 +103,10 @@
 }
 @keyframes comingsoon {
   0% {
-    transform: translate(800px,-400px);
+    transform: translate(0px,-300px);
   }
   100% {
-    transform: translate(-1000px,200px);
+    transform: translate(-1500px,400px);
   }
 }
 .carrun img{
