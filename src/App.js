@@ -6,7 +6,6 @@ import Home from "./Componet/Home";
 import Tophead from "./Componet/Tophead";
 import Contact from "./Componet/Contact";
 import Footer1 from "./Componet/Footer1";
-import Imageoverlay from "./Componet/Imageoverlay";
 import Arrowup from "./Componet/Arrowup";
 import ScrollToTop from "./Componet/ScrollToTop";
 import Whatsapp from "./Componet/Whatsapp";
@@ -27,8 +26,7 @@ const App = () => {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/gallery" element={<Gallery />} />
           <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/product" element={<Imageoverlay />} />
-          <Route exact path="/scroll" element={<ScrollingSection />} />
+          <Route exact path="/product" element={<ScrollingSection/>} />
           {/* <Route path="*" element={<ErrorPage/>} /> */}
         </Routes>     
         <Footer1 />

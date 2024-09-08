@@ -174,16 +174,6 @@ function Tophead() {
                   </Link>
                 </li>
                 <li className="nav-item pt-1 pb-1 active">
-                  <Link
-                    className="nav-link pl-2 pr-1"
-                    to="/scroll"
-                    onClick={handleNavLinkClick}
-                  >
-                    Scroll
-                  </Link>
-                </li>
-
-                <li className="nav-item pt-1 pb-1 active">
                   <div>
                     <div id="google_translate_element"></div>
                   </div>
