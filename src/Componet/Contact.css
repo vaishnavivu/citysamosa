@@ -3,7 +3,9 @@
   flex-direction: column;
   padding: 60px 0;
 }
-
+.Address{
+  color:White;
+}
 .contactInfo .box {
   position: relative;
   padding: 20px 0;

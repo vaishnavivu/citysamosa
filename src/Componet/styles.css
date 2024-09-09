@@ -269,3 +269,23 @@ body::-webkit-scrollbar {
   color: #fff;
   transition: 1s;
 }
+//vision
+.visiondiv{
+  color: #FFCC04;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: -0.5px;
+}
+.visiondiv p{
+  
+}
+#home{
+  position: relative;
+  top: -92px;
+}

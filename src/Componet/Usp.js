@@ -17,25 +17,19 @@ const Usp = () => {
             data-aos-duration="1500"
           >
             <div className="row usp_card">
-              <h4>Great Ambience</h4>
+              <h4>Authentic Flavor</h4>
               <h5>
-                We aim to serve traditional chai in a bar-like setting without
-                serving 'Sutta’.
-              </h5>
+              Traditional recipes using the freshest ingredients for a taste that’s truly genuine.</h5>
             </div>
             <div className="row usp_card">
-              <h4>Made with love menu</h4>
+              <h4>Crispy Perfection</h4>
               <h5>
-                Our menu has varieties of most loved food items and beverages
-                that satiate both taste and appetite
-              </h5>
+              Perfectly crisp and golden on the outside, with a deliciously savory filling inside. </h5>
             </div>{" "}
             <div className="row usp_card">
-              <h4>Orphan Employment</h4>
+              <h4>Affordable Pricing</h4>
               <h5>
-                We believe in serving society by allowing bringing the potential
-                of the less fortunate in front of the world.
-              </h5>
+              High-quality samosas that won’t stretch your budget—great taste at a pocket-friendly price. </h5>
             </div>
           </div>
           <div className="col-sm-4 col-12 uspimg">
@@ -48,24 +42,21 @@ const Usp = () => {
             data-aos-duration="1500"
           >
             <div className="row usp_card">
-              <h4>Pocket-Friendly</h4>
+              <h4>Freshly Made Daily</h4>
               <h5>
-                Everyone loves chai and thus everyone should be able to afford
-                our Kulhad chai.
+              Every samosa is made fresh each day, ensuring the highest quality and taste in every bite.
               </h5>
             </div>{" "}
             <div className="row usp_card">
-              <h4>Eco-Friendly</h4>
+              <h4>Variety of Options</h4>
               <h5>
-                We serve our beverages in kulhads which are much more
-                eco-friendly than plastics or other alternatives.
+              A diverse range of fillings to satisfy all taste preferences, from classic to innovative.
               </h5>
             </div>{" "}
             <div className="row usp_card">
-              <h4>No-Smoking</h4>
+              <h4>Orphan Employment</h4>
               <h5>
-                We want people especially the youth to enjoy eco-friendly
-                ‘Kulhad Chai Breaks’ rather than ‘Sutta Breaks’.
+              Empower. Employ. Elevate. At City Samosa, we believe in second chances and brighter futures. 
               </h5>
             </div>
           </div>

@@ -4,7 +4,6 @@ const Productdb =[
         image :"../city samosa only dish 2.png",
         heading:"City Samosa",        
         chutany:"../red chatni.png",  
-        greembeans:"../greembeans.png",
         potato:"../potato.png" ,
       
     },

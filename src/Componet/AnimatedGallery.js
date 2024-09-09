@@ -11,7 +11,7 @@ export default function AnimatedGallery() {
       <div className="container founder pt-0 mt-0">
         {/* left */}
         <div className="row mt-5">
-          <div className="col-sm-6  col-12 leader_img ">
+          <div className="col-sm-6  col-12 leader_img p-sm-5 p-2">
             <img src="../owners website photo-01.png" alt=""></img>
           </div>
           <div className="col-sm-6 founder_txt pt-4  col-12 center-vertical flex_left">
@@ -31,7 +31,7 @@ export default function AnimatedGallery() {
             A company founder is an individual who establishes a business or organization, laying the groundwork for its operations, vision, and growth. Founders are often entrepreneurs driven by a passion for innovation, a strong belief in their business idea, or a desire to solve a particular problem. They typically play a pivotal role in setting the company's direction, culture, and long-term strategy, and are deeply involved in the early stages of product development, fundraising, and building a team. 
             </p>
           </div>
-          <div className="col-sm-6 col-12 leader_img">
+          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
             <img src="../owners website photo-03.png" alt="" />
           </div>
           {/* For small screens */}
@@ -45,7 +45,7 @@ export default function AnimatedGallery() {
 
         {/* left */}
         <div className="row mt-5">
-          <div className="col-sm-6 col-12 leader_img">
+          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
             <img src="../owners website photo-02.png" alt=""></img>
           </div>
           <div className="col-sm-6 col-12 center-vertical pt-4 flex_left">
@@ -65,7 +65,7 @@ export default function AnimatedGallery() {
             A company founder is an individual who establishes a business or organization, laying the groundwork for its operations, vision, and growth. Founders are often entrepreneurs driven by a passion for innovation, a strong belief in their business idea, or a desire to solve a particular problem. They typically play a pivotal role in setting the company's direction, culture, and long-term strategy, and are deeply involved in the early stages of product development, fundraising, and building a team. 
             </p>
           </div>
-          <div className="col-sm-6 col-12 leader_img">
+          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
             <img src="../owners website photo-04.png" alt="" />
           </div>
           {/* For small screens */}

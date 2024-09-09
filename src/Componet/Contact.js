@@ -34,8 +34,8 @@ function Contact() {
       <div className=" pt-5 centerheading" >
         <h3>  Get in Touch with City Samosa!</h3>
       </div>
-        <p className="justify">
-          We'd love to hear from you! Your feedback is important to us, and
+        <p className="justify pt-4 pb-4">
+          We had love to hear from you! Your feedback is important to us, and
           we're here to assist with any questions or concerns you may have.
           Whether you're interested in joining our team or exploring partnership
           opportunities, we're eager to connect. Let’s have a chat!
@@ -56,7 +56,7 @@ function Contact() {
                 </div>
                 <div className="text">
                   <h4>Address</h4>
-                  <p className="justify">
+                  <p className="justify Address">
                     Shop No 2,New Monica CHS, OPP Jai Shankar Wine Shop. Near
                     Castle Mill Naka, Uthalasar, Thane, West 400601.
                   </p>

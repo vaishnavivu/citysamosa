@@ -5,7 +5,7 @@ const Homeabouts = () => {
   return (
     <div className="container">
       <div className="row mt-5">
-        <div className="col-sm-6 col-12 pt-4 center-vertical">
+        <div className="col-sm-6 col-12 pt-4 p-5 center-vertical">
           <h2 className="text-left mainheading pb-3">
             The Untold Journey of the City Samosa
           </h2>
@@ -17,11 +17,11 @@ const Homeabouts = () => {
           </p>
           <button type="submit" class="btn">
             <Link className="btn_text pl-1 pr-1" to="/about">
-              Khnow More!
+              Know More!
             </Link>
           </button>
         </div>
-        <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
+        <div className="col-sm-6 col-12 leader_img p-sm-5 p-5">
           <img src="../12.jpg" alt="" />
         </div>
       </div>

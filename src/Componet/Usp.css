@@ -1,3 +1,4 @@
+
 .usp{
   overflow:hidden;
 }
@@ -22,7 +23,9 @@
   border-radius: 49px 10px 10px 10px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
-
+.usp_card:hover{
+  background-color: #ffffffbd;
+}
 .usp_card h4 {
   color: #d42121;
   font-size: 20px;
@@ -66,3 +69,5 @@
       margin-top: 0px;
     }
   }
+
+  
