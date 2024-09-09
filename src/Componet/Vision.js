@@ -6,7 +6,7 @@ const Vision = () => {
     <div className="container-fluid pt-5 Visioncontainer  uspbg p-3 p-sm-5">
       <div className="container mx-auto">
         <div className="row">
-          <div className=" col-sm-8 col-12  center-vertical VisionHeading d-flex">
+          <div className=" col-sm-8 col-12 pt-5  center-vertical VisionHeading d-flex">
             <h3>
               {" "}
               <span> At City Samosa , </span>

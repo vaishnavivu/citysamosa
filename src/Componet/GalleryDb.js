@@ -33,11 +33,11 @@ const GalleryDb = [
     image: "../P1810627.jpg",
     category: "Outlet",
   },
-  {
-    id: 8,
-    image: "../IMG_9431.jpg",
-    category: "Event",
-  },
+  // {
+  //   id: 8,
+  //   image: "../IMG_9431.jpg",
+  //   category: "Event",
+  // },
   {
     id: 9,
     image: "../12.jpg",
