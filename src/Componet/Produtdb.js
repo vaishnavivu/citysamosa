@@ -3,8 +3,8 @@ const Productdb =[
         id:1,
         image :"../city samosa only dish 2.png",
         heading:"City Samosa",        
-        // chutany:"../red chatni.png",  
-        // potato:"../potato.png" ,
+        chutany:"../red chatni.png",  
+        
       
     },
     {
