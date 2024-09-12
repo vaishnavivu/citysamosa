@@ -20,7 +20,7 @@
     font-family: "Calistoga", serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: none;
     font-style: normal;
     text-decoration: none;
@@ -31,6 +31,7 @@
     color:white ; 
     background-color:#d42121a3;
     padding: 0 18px 0 20px;
+    margin-right:12px;
   }
   
   .VisionHeading h3 span:nth-child(2) {
@@ -39,6 +40,7 @@
   }
   .VisionHeading h3 span:nth-child(3) {
     color:white ; 
+    margin-left:22px;
     background-color:#d42121a3;
     padding: 0 18px 0 18px;
   }

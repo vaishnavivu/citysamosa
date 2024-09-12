@@ -7,14 +7,11 @@ const Vision = () => {
       <div className="container mx-auto">
         <div className="row">
           <div className=" col-sm-8 col-12 pt-5  center-vertical VisionHeading d-flex">
-            <h3>
-              {" "}
-              <span> At City Samosa , </span>
+          <h3>              
+              <span> Empowering dreams </span>
               <span className="visionspan2">
-                {" "}
-                we serve happiness with{" "}
-              </span>{" "}
-              <span> every bite. </span>
+              with every step , fueled by passion and</span>
+              <span>  crafted with dedication. </span>
             </h3>
           </div>
           <div className="col-sm-4 col-12 center-vertical justify">

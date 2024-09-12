@@ -14,43 +14,24 @@ const ScrollingSection = () => {
   return (
     <div className="scroll-container productbg">
       {items.map((elem, index) => {
-        const {
-          image,
-          heading,
-          chutany,
-          potato,
-          beans,
-          coriander,
-          onionslice,
-          bread,
-          greembeans,
-        } = elem;
+        const { image, heading, chutany, greenchutany ,productheading} = elem;
         return (
           <section className="panel orange" key={index}>
             <div className="content">
+              <div className="Scrollinghead">
+                <h4 className="pr-5">{productheading}</h4>
+              </div>
               <div className="product_img center-vertical central-justify">
                 <img src={image} alt="" className="product-image" />
-                <div className="VisionHeading productname" >
-                  <h3><span className=" spanheading"> {heading} </span>
-                </h3>
-                  </div>
+                <div className="VisionHeading productname">
+                  <h3>
+                    <span className=" spanheading"> {heading} </span>
+                  </h3>
+                </div>
               </div>
-
               <img src={chutany} alt="" className="chutani" />
-              <div
-                className="potatoimg"
-                data-aos="fade-right"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-              >
-                <img src={potato} alt=""></img>
-              </div>
-              <img src={beans} className="beans" alt=""></img>
-              <img src={onionslice} alt="" className="onionslice"></img>
-              <img src={coriander} alt="" className="coriender"></img>
-              <img src={bread} alt="" className="bread"></img>
-              <img src={greembeans} alt="" className="greembeans"></img>
-            </div>{" "}
+              <img src={greenchutany} alt="" className="greenchutany"></img>
+            </div>
             <footer />
           </section>
         );
