@@ -36,10 +36,16 @@
   flex-direction: column;
   font-weight: 300;
 }
-
-.contactInfo .box .text h3 {
-  font-weight: 500;
+.contactInfo .box .text a{
+  text-decoration: none;
+  text-wrap: wrap;
   color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: none;
+  font-style: normal;
+  line-height: 1.7em;
 }
 .contact-form {
   width: 70%;

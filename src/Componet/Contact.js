@@ -10,7 +10,7 @@ function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "7a82f31f-f1c2-44b6-b25b-8d58f38990f1");/// access key
+    formData.append("access_key", "dccbfd3b-78eb-4ecd-93a8-2cf56d26db5f");/// access key
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -66,14 +66,14 @@ function Contact() {
                 <div className="icon col-1 mx-auto mb-3"><i class="fa-solid fa-envelopes-bulk fa-beat-fade"></i>
                 </div>
                 
-                  <h4 className="text">citysamosafranchise@gmail.com</h4>
+                  <h4 className="text justify"> <Link to="mailto:citysamosafranchise@gmail.com" target="_blank"> citysamosafranchise@gmail.com</Link></h4>
                
               </div>
               <div className="box">
                 <div className="icon col-1 mx-auto mb-3">
                   <i class="fa-brands fa-instagram fa-beat-fade"></i>
                 </div>
-                  <h4 className="text">@citysamosaofficial</h4> 
+                  <h4 className="text"><Link to="https://www.instagram.com/citysamosaofficial/?hl=en" target="_blank">@citysamosaofficial</Link> </h4> 
               </div>
             </div>
           </div>

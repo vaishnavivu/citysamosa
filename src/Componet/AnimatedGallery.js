@@ -15,7 +15,7 @@ export default function AnimatedGallery() {
             <img src="../owners website photo-01.png" alt=""></img>
           </div>
           <div className="col-sm-6 founder_txt pt-4  col-12 center-vertical flex_left">
-            <h2 className="text-center mt-5 mt-sm-3 mainheading">Chandrashekhar Wagdare <span className="pt-2"> ( Co-Founder ) </span></h2>
+            <h2 className="text-center mt-5 mt-sm-3 mainheading">Chandrashekhar Wagadare<span className="pt-2"> ( Co-Founder ) </span></h2>
             <p className="subheading justify mt-2">
             A company founder is an individual who establishes a business or organization, laying the groundwork for its operations, vision, and growth. Founders are often entrepreneurs driven by a passion for innovation, a strong belief in their business idea, or a desire to solve a particular problem. They typically play a pivotal role in setting the company's direction, culture, and long-term strategy, and are deeply involved in the early stages of product development, fundraising, and building a team. 
             </p>
