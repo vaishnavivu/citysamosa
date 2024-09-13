@@ -82,7 +82,7 @@ function Footer() {
                 <h2 className="mb-2 mt-3 heading">Social Media</h2>
 
                 <div className="row mb-2 d-inline social-icon">
-                  <Link to="https://wa.me/+917304454574" target="_blank">
+                  <Link to="https://wa.me/+917304454573" target="_blank">
                     <i className="fa-3x fa-brands fa-whatsapp p-0 icon social-icon"></i>
                   </Link>
                   <Link to="https://www.instagram.com/citysamosaofficial/?hl=en" target="_blank">

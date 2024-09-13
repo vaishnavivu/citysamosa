@@ -10,7 +10,7 @@ function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "7a82f31f-f1c2-44b6-b25b-8d58f38990f1");
+    formData.append("access_key", "7a82f31f-f1c2-44b6-b25b-8d58f38990f1");/// access key
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -66,7 +66,7 @@ function Contact() {
                 <div className="icon col-1 mx-auto mb-3"><i class="fa-solid fa-envelopes-bulk fa-beat-fade"></i>
                 </div>
                 
-                  <h4 className="text">citysamosa@gmail.com</h4>
+                  <h4 className="text">citysamosafranchise@gmail.com</h4>
                
               </div>
               <div className="box">
