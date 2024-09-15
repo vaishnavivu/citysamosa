@@ -22,7 +22,7 @@ const Homeabouts = () => {
           </button>
         </div>
         <div className="col-sm-6 col-12 leader_img p-sm-5 p-5">
-          <img src="../12.jpg" alt="" />
+          <img src="../12.jpeg" alt="" />
         </div>
       </div>
     </div>

@@ -15,11 +15,9 @@ import ScrollingSection from "./Componet/ScrollingSection ";
 const App = () => {
 
   return (
-      <Main>
-       
+      <Main>       
         <ScrollToTop></ScrollToTop>
         <Tophead />
-
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
@@ -27,14 +25,11 @@ const App = () => {
           <Route exact path="/gallery" element={<Gallery />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/product" element={<ScrollingSection/>} />
-          {/* <Route path="*" element={<ErrorPage/>} /> */}
+          <Route exact path="*" element={<Home />} />
         </Routes>     
         <Footer1 />
         <Arrowup />
-        <Whatsapp/>
-        
-
-       
+        <Whatsapp/>       
       </Main>
     
     

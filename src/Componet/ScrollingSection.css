@@ -164,7 +164,7 @@
   .Scrollinghead h4 {
     position: absolute;
     top: 181px;
-    left: 13px;
+    left: 25px;
     font-size: 22px;
     text-align:center;
 }
@@ -205,7 +205,7 @@
   }
   .productname {
     position: absolute;
-    bottom: 56px;
+    bottom: 77px;
   }
   .greembeans {
     position: absolute;

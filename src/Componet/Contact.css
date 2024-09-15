@@ -10,7 +10,6 @@
   position: relative;
   padding: 20px 0;
 }
-
 .contactInfo .box .icon {
   min-width: 10px;
   height: 30px;
@@ -147,7 +146,7 @@
   animation-delay: 0s;
   animation-duration: 24s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation-timing-function: ease-in-out;
   transition: left 0.3s, bottom 0.3s;
 
 }
@@ -156,7 +155,7 @@
     transform: translateX(-70px);
   }
   100% {
-    transform: translateX(410px);
+    transform: translateX(350px);
   }
 }
 /* form */

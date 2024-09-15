@@ -282,10 +282,10 @@ body::-webkit-scrollbar {
   line-height: 1.2em;
   letter-spacing: -0.5px;
 }
-.visiondiv p{
-  
-}
 #home{
   position: relative;
   top: -92px;
+}
+.taggbox_main a{
+  display:none !important;
 }
