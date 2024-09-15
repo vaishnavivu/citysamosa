@@ -35,7 +35,7 @@ function Footer() {
             <div className="row footer-h2 mb-5 ">
               {/* logo */}
               <div className="col-12 col-sm-3 m-sm-0">
-                <img src="./whlogo.png" alt="" className="f-logo"></img>
+                <img src="./City Samosa GOLDEN LOGO-08-08.png" alt="" className="f-logo"></img>
                 <h6>
                   City Samosa is a food company offering freshly made,
                   innovative Indian samosas with diverse fillings, delivering

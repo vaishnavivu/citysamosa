@@ -5,6 +5,7 @@ import Scrolltxt from "./Scrolltxt";
 import Instafeed from "./Instafeed";
 import Comingsoon from "./Comingsoon";
 import Homeabouts from "./Homeabouts";
+import HomeGallery from "./HomeGallery";
 function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ function Home() {
     <Comingsoon/>
     <Homeabouts/>
       <Instafeed/>
+      <HomeGallery/>
       
     </div>
   );

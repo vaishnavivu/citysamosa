@@ -35,8 +35,8 @@ const GalleryDb = [
   },
   // {
   //   id: 8,
-  //   image: "../IMG_9431.jpg",
-  //   category: "Event",
+  //   image: "../PNX01016jpg",
+  //   category: "Outlet",
   // },
   {
     id: 9,

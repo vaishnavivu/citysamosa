@@ -4,9 +4,9 @@ import "../Componet/Vision.css";
 const Vision = () => {
   return (
     <div className="container-fluid pt-5 Visioncontainer  uspbg p-3 p-sm-5">
-      <div className="container mx-auto">
+      <div className="container-fluid mx-auto">
         <div className="row">
-          <div className=" col-sm-8 col-12 pt-5  center-vertical VisionHeading d-flex">
+          <div className=" col-sm-7 col-12 pt-5  center-vertical VisionHeading d-flex">
           <h3 className="pt-5">              
               <span> Empowering dreams </span>
               <span className="visionspan2">
@@ -14,11 +14,11 @@ const Vision = () => {
               <span>  crafted with dedication. </span>
             </h3>
           </div>
-          <div className="col-sm-4 col-12 center-vertical justify">
+          <div className="col-sm-5 col-12 center-vertical justify">
             <img
-              src="../City Samosa Vector Art-04.png"
+              src="../0551664396.png"
               alt=""
-              className="img-fluid image"
+              className="img-fluid image visionhandimg"
             ></img>
           </div>
         </div>
@@ -27,18 +27,18 @@ const Vision = () => {
       <div className="row">
         <div className="col-sm-4 col-12 center-vertical justify ">
           <img
-            src="../CITY-SAMOSA-BINACULOUS-unscreen.gif"
+            src="../MISSION-F-unscreen.gif"
             alt=""
             className="visionimg"
           ></img>
-
-          <div className="visiondiv">
+<div className="vision"><div className="visiondiv">
             <h4>Mission</h4>
             <p>
               To spread the love for Indian street food globally, delivering
               authentic flavors and memorable moments with each serving.{" "}
             </p>
-          </div>
+          </div></div>
+          
         </div>
         <div className="col-sm-4 col-12 center-vertical justify ">
           <img
@@ -52,13 +52,13 @@ const Vision = () => {
             <p>
               To bring the taste of India to every corner of the world,
               delivering warmth, tradition, and quality through our handcrafted
-              samosas and culinary delights.
+              samosas and culinary.
             </p>
           </div>
         </div>
         <div className="col-sm-4 col-12 center-vertical justify">
           <img
-            src="../CITY-SAMOSA-BINACULOUS-unscreen.gif"
+            src="../EXPANSION-2-unscreen.gif"
             alt=""
             className="visionimg"
           ></img>

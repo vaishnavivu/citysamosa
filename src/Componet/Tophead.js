@@ -133,15 +133,7 @@ function Tophead() {
                   </Link>
                 </li>
 
-                <li className="nav-item pt-1 pb-1 active">
-                  <Link
-                    className="nav-link pl-1 pr-1"
-                    to="/product"
-                    onClick={handleNavLinkClick}
-                  >
-                    Product
-                  </Link>
-                </li>
+                
 
                 <li
                   className="nav-item pt-1 pb-1 mbhidden ml-5 mr-4 d-sm-none d-md-none d-none
@@ -156,12 +148,22 @@ function Tophead() {
                     <img src="../whlogo.png" className="pl-5 pr-5" alt="" />
                   </Link>
                 </li>
+
                 <li className="nav-item pt-1 pb-1 active">
                   <Link
                     className="nav-link mbhidden pl-1 pr-1"
                     to=""
                     onClick={handleNavLinkClick}
                   ></Link>
+                </li>
+                <li className="nav-item pt-1 pb-1 active">
+                  <Link
+                    className="nav-link pl-1 pr-1"
+                    to="/product"
+                    onClick={handleNavLinkClick}
+                  >
+                    Product
+                  </Link>
                 </li>
 
                 <li className="nav-item pt-1 pb-1 active">

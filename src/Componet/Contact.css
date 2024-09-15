@@ -3,8 +3,8 @@
   flex-direction: column;
   padding: 60px 0;
 }
-.Address{
-  color:White;
+.Address {
+  color: White;
 }
 .contactInfo .box {
   position: relative;
@@ -35,7 +35,7 @@
   flex-direction: column;
   font-weight: 300;
 }
-.contactInfo .box .text a{
+.contactInfo .box .text a {
   text-decoration: none;
   text-wrap: wrap;
   color: #ffffff;
@@ -90,13 +90,13 @@
 }
 @keyframes airoplane {
   0% {
-    transform: translate(800px,-400px);
+    transform: translate(800px, -400px);
   }
   100% {
-    transform: translate(-1000px,400px);
+    transform: translate(-1000px, 400px);
   }
 }
-.comingsoonimage{
+.comingsoonimage {
   width: 20%;
   position: absolute;
   top: 2692px;
@@ -110,17 +110,17 @@
 }
 @keyframes comingsoon {
   0% {
-    transform: translate(0px,-300px);
+    transform: translate(0px, -300px);
   }
   100% {
-    transform: translate(-1500px,400px);
+    transform: translate(-1500px, 400px);
   }
 }
-.carrun img{
+.carrun img {
   width: 20%;
   position: absolute;
-  left:0px;
-  bottom:-18px;  
+  left: 0px;
+  bottom: -18px;
   animation-name: carrun;
   animation-delay: 0s;
   animation-duration: 24s;
@@ -128,7 +128,7 @@
   animation-timing-function: ease;
   transition: left 0.3s, bottom 0.3s;
 }
-@keyframes carrun{
+@keyframes carrun {
   0% {
     transform: translateX(-100px);
   }
@@ -137,67 +137,88 @@
   }
 }
 
-@media screen and (max-width:760px) {  
+@media screen and (max-width: 760px) {
   /* carrun */
-.carrun img{
-  width: 40%;
-  left:0px;
-  bottom:-9px;  
-  animation-delay: 0s;
-  animation-duration: 24s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  transition: left 0.3s, bottom 0.3s;
-
-}
-@keyframes carrun{
-  0% {
-    transform: translateX(-70px);
+  .carrun img {
+    width: 40%;
+    left: 0px;
+    bottom: -9px;
+    animation-delay: 0s;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: left 0.3s, bottom 0.3s;
   }
-  100% {
-    transform: translateX(350px);
+  @keyframes carrun {
+    0% {
+      transform: translateX(-70px);
+    }
+    100% {
+      transform: translateX(350px);
+    }
+  }
+  /* form */
+  .formimage {
+    width: 60%;
+    position: absolute;
+    top: 1800px;
+    right: 0px;
+    animation-name: airoplane;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all 6s;
+  }
+  @keyframes airoplane {
+    0% {
+      transform: translate(20px, -450px);
+    }
+    100% {
+      transform: translate(-380px, 20px);
+    }
+  }
+  /* comingsoon */
+  .comingsoonimage {
+    width: 30%;
+    position: absolute;
+    top: 1200px;
+    right: 0px;
+    animation-name: comingsoon;
+    animation-delay: 1s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all 6s;
+  }
+  @keyframes comingsoon {
+    0% {
+      transform: translate(20px, -180px);
+    }
+    100% {
+      transform: translate(-380px, 20px);
+    }
   }
 }
-/* form */
-.formimage {
-  width: 60%;
-  position: absolute;
-  top: 1800px;
-  right: 0px;
-  animation-name: airoplane;
-  animation-delay: 0s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  transition: all 6s;
-}
-@keyframes airoplane {
-  0% {
-    transform: translate(20px,-450px);
+@media screen and (max-width: 760px){
+  .comingsoonimage {
+    width: 30%;
+    position: absolute;
+    top: 1200px;
+    right: 0px;
+    animation-name: comingsoon;
+    animation-delay: 1s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: all 6s;
   }
-  100% {
-    transform: translate(-380px,20px);
+  @keyframes comingsoon {
+    0% {
+      transform: translate(5px, -300px);
+    }
+    100% {
+      transform: translate(-500px, 0px);
+    }
   }
-}
-/* comingsoon */
-.comingsoonimage{
-  width: 30%;
-  position: absolute;
-  top: 1200px;
-  right: 0px;
-  animation-name: comingsoon;
-  animation-delay: 1s;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  transition: all 6s;
-}
-@keyframes comingsoon {
-  0% {
-    transform: translate(20px,-180px);
-  }
-  100% {
-    transform: translate(-380px,20px);
-  }
-}
 }

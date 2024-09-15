@@ -18,7 +18,7 @@ body {
 }
 .justify {
   text-align: justify;
-  color: #19171A;
+  color: #19171a;
   font-family: "Montserrat", Sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -94,7 +94,7 @@ body::-webkit-scrollbar {
   border-radius: 5px;
 }
 .founder_txt {
-  text-align: justify;
+  text-align: center;
   color: #19171a;
   font-family: "Montserrat", Sans-serif;
   font-size: 14px;
@@ -223,17 +223,20 @@ body::-webkit-scrollbar {
   .mainheading {
     font-size: 22px;
     display: contents;
-    text-align:center;
+    text-align: center;
   }
- .text-center h2{
-  display: grid;
- }
+  .text-center h2 {
+    display: grid;
+  }
   .centerheading h3 {
     font-size: 28px;
   }
-  
+
   .usp_heading h3 {
     font-size: 28px;
+  }
+  .justify {
+    font-size: 12px;
   }
 }
 /* Instafeed */
@@ -254,8 +257,10 @@ body::-webkit-scrollbar {
   background-color: #d42121;
   border: 2px solid #d42121;
   border-radius: 15px;
-  padding: 10px 20px;
-  color: #d42121;
+  padding: 55px;
+  padding: 9px;
+  font-size: 11px;
+  color: #fff;
 }
 .btn_text {
   text-decoration: none;
@@ -270,8 +275,8 @@ body::-webkit-scrollbar {
   transition: 1s;
 }
 //vision
-.visiondiv{
-  color: #FFCC04;
+.visiondiv {
+  color: #ffcc04;
   text-align: center;
   font-family: "Montserrat", Sans-serif;
   font-size: 30px;
@@ -282,10 +287,10 @@ body::-webkit-scrollbar {
   line-height: 1.2em;
   letter-spacing: -0.5px;
 }
-#home{
+#home {
   position: relative;
   top: -92px;
 }
-.taggbox_main a{
-  display:none !important;
+.taggbox_main a {
+  display: none !important;
 }
