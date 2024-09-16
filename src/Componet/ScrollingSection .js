@@ -80,12 +80,12 @@ const ScrollingSection = () => {
       {/* Scroll down and up indicators */}
       {currentPanel !== Productdb.length - 1 && (
         <div className="scroll-indicator" onClick={handleScrollToNextPanel}>
-          <i className="fas fa-chevron-down"></i>
+          <i className="fa-solid fa-circle-chevron-down"></i>
         </div>
       )}
       {currentPanel === Productdb.length - 1 && (
         <div className="scroll-up-indicator" onClick={handleScrollToTop}>
-          <i className="fas fa-chevron-up"></i>
+          <i className="fa-solid fa-circle-chevron-up"></i>
         </div>
       )}
 

@@ -33,7 +33,7 @@ const Usp = () => {
             </div>
           </div>
           <div className="col-sm-4 col-12 uspimg">
-            <img src="../City_Samosa_Vector_Art-04.jpg" alt="" loading="lazy"></img>
+            <img src="../City_Samosa_Vector_Art-04.png" alt="" loading="lazy"></img>
           </div>
           <div
             className="col-sm-4 col-12"
