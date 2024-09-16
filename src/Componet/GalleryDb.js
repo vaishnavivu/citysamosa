@@ -1,9 +1,9 @@
 const GalleryDb = [
-  // {
-  //   id: 1,
-  //   image: " ../PNX01004.jpeg",
-  //   category: "Outlet",
-  // },
+  {
+    id: 1,
+    image: " ../P1810832.jpeg",
+    category: "Outlet",
+  },
   {
     id: 2,
     image: "../PNX01005.jpeg",
