@@ -115,7 +115,20 @@ function Contact() {
                 className="form-control"
                 name="username"
                 id="exampleFormControlInput1"
-                placeholder="USERNAME"
+                placeholder="Your Name"
+                required
+                autoComplete="off"
+              />
+            </div>
+           
+           
+            <div className="mb-4">
+              <input
+                type="callnumber"
+                name="callnumber"
+                className="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Contact Number"
                 required
                 autoComplete="off"
               />
@@ -137,18 +150,7 @@ function Contact() {
                 name="address"
                 className="form-control"
                 id="exampleFormControlInput1"
-                placeholder="In area which you want to open CITY SAMOSA outlet?"
-                required
-                autoComplete="off"
-              />
-            </div>
-            <div className="mb-4">
-              <input
-                type="callnumber"
-                name="callnumber"
-                className="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Contact Number"
+                placeholder="Which city you looking for?"
                 required
                 autoComplete="off"
               />

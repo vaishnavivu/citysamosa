@@ -55,16 +55,49 @@
   .visionhandimg{
     position: absolute;
     max-width: 45%;
-    top: 50px;
+    top: 80px;
+    right: -22px;
+  }
+  .missioncontainer{
+    margin-top: 124px;
   }
   @media screen and (max-width: 973px){
-    .VisionHeading h3{
+     .VisionHeading h3{
         font-size: 18px;
         
+      }  .visionhandimg{
+        position: absolute;
+        max-width: 45%;
+        top: 118px;
+        right: 0px;
+      } .missioncontainer{
+        margin-top: 100px;
       }
+  }
+  @media screen and (max-width: 475px){
+   
       .visionhandimg{
         position: relative;
-        max-width: 118%;
+        max-width: 112%;
         top:0px;
+        right: -42px;
       }
+      .missioncontainer{
+        margin-top: 29px;
+      }
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0; 
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+  
+
+  .animate-slide-in {
+    animation: slideInFromRight 2s ease-out; 
   }

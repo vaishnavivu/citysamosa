@@ -117,44 +117,42 @@
   }
 }
 .carrun img {
-  width: 20%;
   position: absolute;
   left: 0px;
-  bottom: -18px;
+  bottom: 355px;
+  width: 20%;
   animation-name: carrun;
   animation-delay: 0s;
   animation-duration: 24s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation-timing-function: ease-in-out;
   transition: left 0.3s, bottom 0.3s;
 }
 @keyframes carrun {
   0% {
-    transform: translateX(-100px);
+    transform: translateX(-200px);
   }
   100% {
-    transform: translateX(1480px);
+    transform: translateX(1450px);
   }
 }
-
 @media screen and (max-width: 760px) {
   /* carrun */
   .carrun img {
     width: 40%;
     left: 0px;
-    bottom: -9px;
+    bottom: 919px;
     animation-delay: 0s;
     animation-duration: 24s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
     transition: left 0.3s, bottom 0.3s;
   }
   @keyframes carrun {
     0% {
-      transform: translateX(-70px);
+      transform: translateX(-80px);
     }
     100% {
-      transform: translateX(350px);
+      transform: translateX(300px);
     }
   }
   /* form */
@@ -200,25 +198,43 @@
     }
   }
 }
-@media screen and (max-width: 760px){
-  .comingsoonimage {
-    width: 30%;
-    position: absolute;
-    top: 1200px;
-    right: 0px;
-    animation-name: comingsoon;
-    animation-delay: 1s;
-    animation-duration: 20s;
+@media screen and (max-width: 475px){
+  .carrun img {
+    width: 40%;
+    left: 0px;
+    bottom: 877px;
+    animation-delay: 0s;
+    animation-duration: 24s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    transition: all 6s;
+    transition: left 0.3s, bottom 0.3s;
   }
-  @keyframes comingsoon {
+  @keyframes carrun {
     0% {
-      transform: translate(5px, -300px);
+      transform: translateX(-80px);
     }
     100% {
-      transform: translate(-500px, 0px);
+      transform: translateX(300px);
     }
   }
 }
+@media screen and (max-width: 380px){
+  .carrun img {
+    width: 40%;
+    left: 0px;
+    bottom: 930px;
+    animation-delay: 0s;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    transition: left 0.3s, bottom 0.3s;
+  }
+  @keyframes carrun {
+    0% {
+      transform: translateX(-80px);
+    }
+    100% {
+      transform: translateX(300px);
+    }
+  }
+}
+
+

@@ -6,18 +6,18 @@ import Instafeed from "./Instafeed";
 import Comingsoon from "./Comingsoon";
 import Homeabouts from "./Homeabouts";
 import HomeGallery from "./HomeGallery";
+import HomeProduct from "./HomeProduct";
 function Home() {
   return (
     <div>
-     
       <ControlledCarousel />
-      <Scrolltxt/>     
-      <Slider />  
-    <Comingsoon/>
-    <Homeabouts/>
-      <Instafeed/>
-      <HomeGallery/>
-      
+      <Scrolltxt />
+      <Homeabouts />
+      <Comingsoon />
+      <Slider />
+      <HomeProduct />
+      <Instafeed />
+      <HomeGallery />
     </div>
   );
 }

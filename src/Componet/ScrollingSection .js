@@ -1,36 +1,42 @@
-import React, { useState, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+
 import Productdb from "./Produtdb";
 import "../Componet/ScrollingSection.css";
 
 const ScrollingSection = () => {
-  const [items] = useState(Productdb);
-
-  useEffect(() => {
-    AOS.init({ duration: 1000000 });
-  }, []);
-
   return (
     <div className="scroll-container productbg">
-      {items.map((elem, index) => {
-        const { image, heading, chutany, greenchutany ,productheading} = elem;
+      {Productdb.map((elem, index) => {
+        const { image } = elem;
         return (
-          <section className="panel orange" key={index}>
+          <section className="panel" key={index}>
             <div className="content">
-              <div className="Scrollinghead">
-                <h4 className="pr-5">{productheading}</h4>
-              </div>
-              <div className="product_img center-vertical central-justify">
-                <img src={image} alt="" className="product-image" />
-                <div className="VisionHeading productname">
-                  <h3>
-                    <span className=" spanheading"> {heading} </span>
+              <div className="row">
+                {/* VisionHeading animating from the left */}
+                <div
+                  className="col-sm-7 col-12 pt-5 center-vertical VisionHeading d-flex"
+                >
+                  <h3 className="pt-5 mt-1 mt-sm-5">
+                    <span>Empowering dreams</span>
+                    <span className="visionspan2">
+                      with every step, fueled by passion and
+                    </span>
+                    <span>crafted with dedication.</span>
                   </h3>
                 </div>
+
+                {/* Image animating from the right */}
+                <div
+                  className="col-sm-5 col-12 center-vertical justify"
+                
+                >
+                  <img
+                    src={image}
+                    alt=""
+                    className="img-fluid image scrollingimg"
+                  />
+                </div>
               </div>
-              <img src={chutany} alt="" className="chutani" />
-              <img src={greenchutany} alt="" className="greenchutany"></img>
             </div>
             <footer />
           </section>

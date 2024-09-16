@@ -6,7 +6,7 @@ const GalleryDb = [
   },
   {
     id: 2,
-    image: "../PNX01004.jpeg",
+    image: "../PNX01005.jpg",
     category: "Outlet",
   },
   {
@@ -26,18 +26,18 @@ const GalleryDb = [
   },
   {
     id: 6,
-    image: "../PNX01003.jpeg",
+    image: "../IMG_9433.jpeg",
     category: "Outlet",
   },{
     id: 7,
     image: "../P1810627.jpeg",
     category: "Outlet",
   },
-  // {
-  //   id: 8,
-  //   image: "../PNX01016jpg",
-  //   category: "Outlet",
-  // },
+  {
+    id: 8,
+    image: "../IMG_9429.jpeg",
+    category: "Outlet",
+  },
   {
     id: 9,
     image: "../12.jpeg",

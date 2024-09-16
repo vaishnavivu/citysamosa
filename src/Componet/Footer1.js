@@ -4,13 +4,9 @@ import "./Footer1.css";
 function Footer() {
   return (
     <>
-    <div className="mt-5 ">
+    <div className="mt-5 overflow-hidden position-absolute">
       <div
-        className="text-center footer-h3 overflow-hidden "
-        data-aos="zoom-in"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-      >
+        className="text-center footer-h3 overflow-hidden " >
         <h5>Want To Franchise With Us?</h5>
         <h3>Request A Free Franchise Consultation</h3>
         <div className="pb-4 pb-sm-5">
