@@ -4,7 +4,7 @@ import "../Componet/Comingsoon.css";
 const Comingsoon = () => {
   return (
     <div className="pb-4 mt-3 pt-3 mt-sm-4 pt-sm-4">
-      <div className="mt-4 pt-4  mt-sm-5 pt-sm-5  mb-4 centerheading">
+      <div className=" centerheading">
       <img
           src="../City Samosa Vector Art-06.png"
           className="comingsoonimage"

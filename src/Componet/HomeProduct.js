@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HomeProduct = () => {
   return (
-    <section className="mb-5 mb-sm-6 mt-5 ">
+    <section className="pb-4 mt-3 pt-3 mt-sm-4 pt-sm-4">
          <Link className="btn_text pl-1 pr-1" to="/product">
       <div className="container-fluid productvideo text-center pt-2 pt-sm-5">
         <h3>Are you eager to see our delicious menu products?</h3>

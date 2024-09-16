@@ -1,78 +1,78 @@
 .footer-h2 h2{
-    color: white;
+  color: white;
 }
 .icon, .fa{
-   color: white;
-   font-size: 1.5rem;
+ color: white;
+ font-size: 1.5rem;
 }
 .social-icon {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .f-logo{
-    height: 100px;
-  }
-  h6{
-    color: white;
-    margin-top: 15px;
-    line-height: 26px;
-    text-align: justify;
+  height: 90px;
+}
+h6{
+  color: white;
+  margin-top: 15px;
+  line-height: 26px;
+  text-align: justify;
 
-  }
-  .Add{
-    line-height: 26px;
-    text-align: justify;
-  }
-  .footer-h2 h2{
-    color: #FFCC04;
-    text-align: center;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    text-transform: none;
-    font-style: normal;
-    text-decoration: none;
-    line-height: 1.2em;
-    letter-spacing: -0.5px;
+}
+.Add{
+  line-height: 26px;
+  text-align: justify;
+}
+.footer-h2 h2{
+  color: #FFCC04;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: -0.5px;
+}
+.footer-h3 h3{
+  color: #d42121;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: -0.5px;
+}
+.footer-h3 h5{
+  color: #928781;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: -0.5px;
+}
+
+.Q-link{
+  line-height: 40px;
+}
+@media screen and (max-width: 973px){
+  .footer-h3 button{
+    padding: 10px 20px;
+  } 
+  .btn_text{
+    font-size: 15px;
   }
   .footer-h3 h3{
-    color: #d42121;
-    text-align: center;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
-    text-transform: none;
-    font-style: normal;
-    text-decoration: none;
-    line-height: 1.2em;
-    letter-spacing: -0.5px;
   }
   .footer-h3 h5{
-    color: #928781;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: none;
-    font-style: normal;
-    text-decoration: none;
-    line-height: 1.2em;
-    letter-spacing: -0.5px;
+    font-size: 16px;
   }
-
-  .Q-link{
-    line-height: 40px;
-  }
-  @media screen and (max-width: 973px){
-    .footer-h3 button{
-      padding: 10px 20px;
-    } 
-    .btn_text{
-      font-size: 15px;
-    }
-    .footer-h3 h3{
-      font-size: 22px;
-      font-weight: 600;
-    }
-    .footer-h3 h5{
-      font-size: 16px;
-    }
-  }
+}

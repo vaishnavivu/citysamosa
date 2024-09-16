@@ -28,8 +28,9 @@ const App = () => {
           <Route exact path="*" element={<Home />} />
         </Routes>     
         <Footer1 />
-        <Arrowup />
-        <Whatsapp/>       
+        
+        <Whatsapp/>   
+        <Arrowup />    
       </Main>
     
     

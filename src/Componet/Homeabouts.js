@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Homeabouts = () => {
   return (
-    <div className="container">
+    <div className="container pb-4 mt-3 pt-3 mt-sm-4 pt-sm-4">
       <div className="row mt-5">
         <div className="col-sm-6 col-12 pt-4 p-5 center-vertical">
           <h2 className="text-left mainheading pb-3">
