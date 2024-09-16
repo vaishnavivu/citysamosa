@@ -14,7 +14,7 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 export default function Slider() {
   return (
     <>
-      <div className=" pb-4 mt-3 pt-3 mt-sm-4 pt-sm-4 overflow-hidden">
+      <div className="  pb-5 mt-5 pt-3 mt-sm-4 pt-sm-4 overflow-hidden">
         <div className="centerheading mb-4">
           <h3>Our Leaders Podcast</h3>
           

@@ -179,12 +179,12 @@
   }
   /* comingsoon */
   .comingsoonimage {
-    width: 30%;
+    width: 40%;
     position: absolute;
-    top: 1200px;
+    top: 1370px;
     right: 0px;
     animation-name: comingsoon;
-    animation-delay: 1s;
+    animation-delay: 0s;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
@@ -192,10 +192,10 @@
   }
   @keyframes comingsoon {
     0% {
-      transform: translate(20px, -180px);
+      transform: translate(10px, -180px);
     }
     100% {
-      transform: translate(-380px, 20px);
+      transform: translate(-320px, 20px);
     }
   }
 }

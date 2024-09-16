@@ -5,7 +5,7 @@ const Homeabouts = () => {
   return (
     <div className="container pb-4 mt-3 pt-3 mt-sm-4 pt-sm-4">
       <div className="row mt-5">
-        <div className="col-sm-6 col-12 pt-4 p-5 center-vertical">
+        <div className="col-sm-6 col-12 pt-4 p-4 center-vertical">
           <h2 className="text-left mainheading pb-3">
             The Untold Journey of the City Samosa
           </h2>
@@ -21,7 +21,7 @@ const Homeabouts = () => {
             </Link>
           </button>
         </div>
-        <div className="col-sm-6 col-12 leader_img p-sm-5 p-5">
+        <div className="col-sm-6 col-12 leader_img p-sm-5 p-4">
           <img src="../WhatsApp Image 2024-09-16 at 12.16.58 PM.jpeg" alt="" loading="lazy"/>
         </div>
       </div>
