@@ -19,7 +19,7 @@ export default function AnimatedGallery() {
         {/* left */}
         <div className="row mt-5">
           <div className="col-sm-6  col-12 leader_img p-sm-5 p-2">
-            <img src="../owners website photo-01.png" alt=""></img>
+            <img src="../owners website photo-01.png" alt="" loading="lazy"></img>
           </div>
           <div className="col-sm-6 founder_txt pt-4  col-12 center-vertical flex_left largescreen">
             <h2 className="text-center mt-5 mt-sm-3 mainheading">
@@ -93,7 +93,7 @@ export default function AnimatedGallery() {
             </p>
           </div>
           <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
-            <img src="../owners website photo-03.png" alt="" />
+            <img src="../owners website photo-03.png" alt="" loading="lazy"/>
           </div>
           {/* For small screens */}
           <div className="col-sm-6 col-12 pt-4 smallscreen center-vertical text-center">
@@ -125,7 +125,7 @@ export default function AnimatedGallery() {
         {/* left */}
         <div className="row mt-5">
           <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
-            <img src="../owners website photo-02.png" alt=""></img>
+            <img src="../owners website photo-02.png" alt="" loading="lazy"></img>
           </div>
           <div className="col-sm-6 col-12 center-vertical founder_txt pt-4 flex_left largescreen ">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">
@@ -187,7 +187,7 @@ export default function AnimatedGallery() {
             </p>
           </div>
           <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
-            <img src="../owners website photo-04.png" alt="" />
+            <img src="../owners website photo-04.png" alt="" loading="lazy" />
           </div>
           {/* For small screens */}
           <div className="col-sm-6 col-12 smallscreen pt-4 center-vertical text-center">

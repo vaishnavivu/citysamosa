@@ -5,7 +5,8 @@ import Vision from './Vision'
 
 const About = () => {
   return (
-    <div ><Vision/>
+    <div >
+      <Vision/>
       <AnimatedGallery/>
       
       <Usp/>

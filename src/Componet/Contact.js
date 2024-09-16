@@ -71,9 +71,9 @@ function Contact() {
               </div>
               <div className="box">
                 <div className="icon col-1 mx-auto mb-3">
-                  <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                  <i class="fa-solid fa-phone-volume fa-beat-fade"></i>
                 </div>
-                  <h4 className="text"><Link to="https://www.instagram.com/citysamosaofficial/?hl=en" target="_blank">@citysamosaofficial</Link> </h4> 
+                  <h4 className="text"><Link to="tel:+917304454574" className="callnu" target="_blank"> +91 7304454574</Link> </h4> 
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ function Contact() {
       {/* form */}
          
       <div className="container-fluid mb-5 mb-sm-5 pb-5 contactbg">
-      <img src="../City Samosa Vector Art-06.png"className="formimage" alt=""></img>
+      <img src="../City Samosa Vector Art-06.png"className="formimage" alt="" loading="lazy"></img>
     
         <div
           className="container zindex  text-center pt-5 col-12 col-md-6 mx-auto aos-init aos-animate"

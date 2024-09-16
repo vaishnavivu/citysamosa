@@ -8,7 +8,7 @@ const Comingsoon = () => {
       <img
           src="../City Samosa Vector Art-06.png"
           className="comingsoonimage"
-          alt=""
+          alt="" loading="lazy"
         ></img>
         <h3>Coming Soon</h3>
         <div className="line mt-0"></div>
@@ -20,13 +20,13 @@ const Comingsoon = () => {
         >
           <div className="row">
             <div className="col-4">
-              <img src="../sangamner coming soon 2-01.png" alt=""></img>
+              <img src="../sambhajinagar.jpeg" alt="" loading="lazy"></img>
             </div>
             <div className="col-4">
-              <img src="../shahpuri-02.png" alt=""></img>
+              <img src="../gandhinagar.jpeg" alt="" loading="lazy" ></img>
             </div>
             <div className="col-4">
-              <img src="../vadodara-02-02.png" alt=""></img>
+              <img src="../bansilalnagar.jpeg" alt="" loading="lazy"></img>
             </div>
           </div>
         </div>

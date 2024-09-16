@@ -2,44 +2,40 @@ const Productdb =[
     {
         id:1,
         image :"../city samosa only dish 2.png",
-        heading:"City Samosa",        
-        chutany:"../red chatni.png",
-        greenchutany:"../green chatni.png"  ,
-        productheading:"Bite into joy with City Samosa!",
+        span1:"Bite",
+        span2:"into joy with",
+        span3:"City Samosa!",
         
       
     },
     {
         id:2,
         image :"../vada pav 1 1.png",
-        heading:"Vada Pav",  
-        productheading:"Feel the spice in every Vada Pav bite!",
-
+        span1:"Feel",
+        span2:"the spice in every",
+        span3:"Vada Pav bite!",
            
     },
     {
         id:3,
         image :"../pattice pakoda 1 1.png",
-        heading:"Bread Pattis",
-        chutany:"../red chatni.png",
-        greenchutany:"../green chatni.png"  ,
-        productheading:"Crisp outside, spicy inside – Bread Pattis!",
+       span1:"Crisp",
+       span2:"outside, spicy inside",
+       span3:"– Bread Pattis!",
     },
     {
         id:4,
         image :"../ulta vada pav 1 1.png",
-        heading:"Ulta Vada Pav",  
-        chutany:"../red chatni.png",
-        greenchutany:"../green chatni.png"  ,
-        productheading:"Ulta Vada Pav – a twist of flavors!"
+        span1:"Ulta Vada Pav",
+        span2:"a twist of ",
+        span3:"flavors!",
     },
     {
         id:5,
         image :"../crispy vada pav 3 3.png",
-        heading:"Crispy Vada Pav",  
-        chutany:"../red chatni.png",
-        greenchutany:"../green chatni.png"  ,
-        productheading:"Crispy Vada Pav – crunch into happiness!"
+         span1:"Crispy Vada Pav",
+         span2:"– crunch into ",
+         span3:"happiness!",
     },
   
     

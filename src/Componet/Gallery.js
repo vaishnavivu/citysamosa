@@ -60,7 +60,7 @@ const Gallery = () => {
                           <img
                             src={image}
                             alt="gallerypic"
-                            className="img-fluid image"
+                            className="img-fluid image" loading="lazy"
                           />
                         </div>
                       </div>

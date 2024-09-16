@@ -79,7 +79,7 @@ function Tophead() {
                 src="../logo512.png"
                 alt=""
                 id="logo"
-                className="smallscreenlogo"
+                className="smallscreenlogo" loading="lazy"
               />
             </div>
             <button
@@ -99,7 +99,7 @@ function Tophead() {
               <img
                 className="tophead_img1 mbhidden"
                 alt=""
-                src="../City Samosa1.png"
+                src="../City Samosa1.png" loading="lazy"
               ></img>
 
               <ul className="navbar-nav">
@@ -145,7 +145,7 @@ function Tophead() {
                     to="/"
                     onClick={handleNavLinkClick}
                   >
-                    <img src="../whlogo.png" className="pl-5 pr-5" alt="" />
+                    <img src="../whlogo.png" className="pl-5 pr-5" alt="" loading="lazy"/>
                   </Link>
                 </li>
 
@@ -185,7 +185,7 @@ function Tophead() {
               <img
                 className="tophead_img2 mbhidden"
                 alt=""
-                src="../City Samosa1.png"
+                src="../City Samosa1.png" loading="lazy"
               ></img>
             </div>
           </div>

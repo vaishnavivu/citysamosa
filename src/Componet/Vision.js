@@ -4,10 +4,10 @@ import "../Componet/Vision.css";
 const Vision = () => {
   return (
     <div className="container-fluid pt-5 Visioncontainer overflow-hidden uspbg p-3 p-sm-5">
-      <div className="container-fluid mx-auto">
-        <div className="row">
+      <div className="container-fluid mx-auto">         
+        <div className="row">          
           <div className=" col-sm-7 col-12 pt-5  center-vertical VisionHeading d-flex">
-          <h3 className="pt-5 mt-1 mt-sm-5" >              
+         <h3 className="pt-5 mt-1 mt-sm-5" >              
               <span> Empowering dreams </span>
               <span className="visionspan2">
               with every step , fueled by passion and</span>
@@ -18,12 +18,11 @@ const Vision = () => {
             <img
               src="../0551664396.png"
               alt=""
-              className="img-fluid image visionhandimg animate-slide-in "
+              className="img-fluid image visionhandimg animate-slide-in " loading="lazy"
             ></img>
           </div>
         </div>
       </div>
-
       <div className="row missioncontainer">
         <div className="col-sm-4 col-12 center-vertical justify ">
           <img

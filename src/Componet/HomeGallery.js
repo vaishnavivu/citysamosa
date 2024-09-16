@@ -22,18 +22,18 @@ const HomeGallery = () => {
         <div className="col-sm-6 col-12 leader_img p-sm-5 p-3">
           <div className="row">
             <div className="col-6">
-              <img src="../IMG_8050.jpeg" alt="" />
+              <img src="../IMG_8050.jpeg" alt="" loading="lazy"/>
             </div>
             <div className="col-6">            
-              <img src="../IMG_8019.jpeg" alt="" />
+              <img src="../IMG_8019.jpeg" alt="" loading="lazy"/>
             </div>
           </div>
           <div className="row pt-3">
             <div className="col-6">
-              <img src="../12.jpeg" alt="" />
+              <img src="../12.jpeg" alt="" loading="lazy"/>
             </div>
             <div className="col-6">
-              <img src="../14.jpeg" alt="" />
+              <img src="../14.jpeg" alt="" loading="lazy"/>
             </div>
           </div>
         </div>
