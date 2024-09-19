@@ -26,7 +26,6 @@
 .pt-5 {
   padding-top: 5rem !important;
 }
-
 .contactInfo .box .text {
   display: flex;
   margin-left: 20px;
@@ -52,6 +51,21 @@
 .mb-4 .form-label {
   float: left;
 }
+.sending {
+  color: #000; 
+    font-family: "Calistoga", serif;
+    font-weight: 200;
+}
+.success {
+  color: green; 
+  font-family: "Calistoga", serif;
+  font-weight: 200;
+}
+.error {
+  color: #dc3545; 
+  font-family: "Calistoga", serif;
+  font-weight: 200;
+}
 /* for contact heading */
 .TopHeading1 {
   font-weight: 800;
@@ -72,10 +86,10 @@
 }
 .contactbg h2 {
   color: #ffffff;
+  font-family: "Calistoga", serif;
   line-height: 1.7em;
-  font-weight: 600;
+  font-weight: 300;
 }
-
 .formimage {
   width: 20%;
   position: absolute;

@@ -257,10 +257,12 @@ body::-webkit-scrollbar {
   background-color: #d42121;
   border: 2px solid #d42121;
   border-radius: 15px;
-  padding: 55px;
-  padding: 9px;
-  font-size: 11px;
+  padding: 10px 24px 10px 24px;
+  font-size: 18px;
   color: #fff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 .btn_text {
   text-decoration: none;
@@ -272,7 +274,9 @@ body::-webkit-scrollbar {
   background-color: #eea820;
   border: 2px solid #eea820;
   color: #fff;
-  transition: 1s;
+  transition: 0.5s;
+  padding: 10px 16px 10px 16px;
+  font-size: 18px;
 }
 //vision
 .visiondiv {

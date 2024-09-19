@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import { Link } from "react-router-dom";
 
 function Contact() {
   const [result, setResult] = React.useState("");
@@ -10,70 +9,96 @@ function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "dccbfd3b-78eb-4ecd-93a8-2cf56d26db5f");/// access key
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbxf43RjagSG65tC4dP6xeN8jR99Abq5hnb-HOT9XBpxeyndSa1bRigFlELaed_BHC9MUg/exec",
+        {
+          method: "POST",
+          body: new URLSearchParams(formData),
+        }
+      );
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
+      const data = await response.json();
 
-    const data = await response.json();
+      console.log("Response data:", data); // Log the response
 
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
+      // Check if the response contains 'result: "success"' or modify as needed
+      if (data.success || data.result === "success") {
+        setResult("Form Submitted Successfully");
+        event.target.reset();
+      } else {
+        console.error("Error:", data);
+        setResult("Failed to submit form");
+      }
+    } catch (error) {
+      console.error("Submission error:", error);
+      setResult("Error submitting form");
     }
   };
+
   return (
     <>
-      {/* TopHeading1 */}
+      {/* Top Heading */}
       <div className="Contact_top container overflow-hidden ">
-      <div className=" pt-5 centerheading" >
-        <h3>  Get in Touch with City Samosa!</h3>
-      </div>
+        <div className="pt-5 centerheading">
+          <h3>Get in Touch with City Samosa!</h3>
+        </div>
         <p className="justify pt-4 pb-4">
-          We had love to hear from you! Your feedback is important to us, and
+          We would love to hear from you! Your feedback is important to us, and
           we're here to assist with any questions or concerns you may have.
           Whether you're interested in joining our team or exploring partnership
           opportunities, we're eager to connect. Let’s have a chat!
         </p>
       </div>
 
-      {/* maplocation */}
+      {/* Map Location */}
       <div
         className="container-fluid mt-0"
         style={{ background: "#d42121", textAlign: "center" }}
       >
         <div className="row">
-          <div className=" order-1 col-md-3 text-wrap">
+          <div className="order-1 col-md-3 text-wrap">
             <div className="contactInfo ">
               <div className="box">
                 <div className="icon col-1 mx-auto mb-3 ">
-                  <i class="fa-solid fa-location-dot fa-bounce"></i>
+                  <i className="fa-solid fa-location-dot fa-bounce"></i>
                 </div>
                 <div className="text">
                   <h4>Address</h4>
                   <p className="justify Address">
-                    Shop No 2,New Monica CHS, OPP Jai Shankar Wine Shop. Near
+                    Shop No 2, New Monica CHS, OPP Jai Shankar Wine Shop. Near
                     Castle Mill Naka, Uthalasar, Thane, West 400601.
                   </p>
                 </div>
               </div>
               <div className="box">
-                <div className="icon col-1 mx-auto mb-3"><i class="fa-solid fa-envelopes-bulk fa-beat-fade"></i>
+                <div className="icon col-1 mx-auto mb-3">
+                  <i className="fa-solid fa-envelopes-bulk fa-beat-fade"></i>
                 </div>
-                
-                  <h4 className="text justify"> <Link to="mailto:citysamosafranchise@gmail.com" target="_blank"> citysamosafranchise@gmail.com</Link></h4>
-               
+                <h4 className="text justify">
+                  <a
+                    href="mailto:citysamosafranchise@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    citysamosafranchise@gmail.com
+                  </a>
+                </h4>
               </div>
               <div className="box">
                 <div className="icon col-1 mx-auto mb-3">
-                  <i class="fa-solid fa-phone-volume fa-beat-fade"></i>
+                  <i className="fa-solid fa-phone-volume fa-beat-fade"></i>
                 </div>
-                  <h4 className="text"><Link to="tel:+917304454574" className="callnu" target="_blank"> +91 7304454574</Link> </h4> 
+                <h4 className="text">
+                  <a
+                    href="tel:+917304454574"
+                    className="callnu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    +91 7304454574
+                  </a>
+                </h4>
               </div>
             </div>
           </div>
@@ -84,50 +109,48 @@ function Contact() {
               width="100%"
               height="600"
               style={{ border: 0 }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
               title="maplocation"
             ></iframe>
           </div>
         </div>
       </div>
 
-      {/* form */}
-         
+      {/* Form */}
       <div className="container-fluid mb-5 mb-sm-5 pb-5 contactbg">
-      <img src="../City Samosa Vector Art-06.png"className="formimage" alt="" loading="lazy"></img>
-    
+        <img
+          src="../City Samosa Vector Art-06.png"
+          className="formimage"
+          alt=""
+          loading="lazy"
+        />
         <div
-          className="container zindex  text-center pt-5 col-12 col-md-6 mx-auto aos-init aos-animate"
+          className="container zindex text-center pt-5 col-12 col-md-6 mx-auto"
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="5000"
-          loading="lazy"
-          alt=""
         >
-          <form onSubmit={onSubmit} action="" method="POST">
-            <h2>Submit following details for franchisee enquiry!</h2>
+          <form onSubmit={onSubmit} method="POST">
+            <h2>Submit the following details for franchisee enquiry!</h2>
 
             <div className="mb-4 mt-5">
               <input
                 type="text"
                 className="form-control"
                 name="username"
-                id="exampleFormControlInput1"
                 placeholder="Your Name"
                 required
                 autoComplete="off"
               />
             </div>
-           
-           
+
             <div className="mb-4">
               <input
-                type="callnumber"
+                type="text"
                 name="callnumber"
                 className="form-control"
-                id="exampleFormControlInput1"
                 placeholder="Contact Number"
                 required
                 autoComplete="off"
@@ -138,7 +161,6 @@ function Contact() {
                 type="email"
                 name="Email"
                 className="form-control"
-                id="exampleFormControlInput1"
                 placeholder="Email Id"
                 required
                 autoComplete="off"
@@ -146,11 +168,10 @@ function Contact() {
             </div>
             <div className="mb-4">
               <input
-                type="address"
+                type="text"
                 name="address"
                 className="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Which city you looking for?"
+                placeholder="Which city are you looking for?"
                 required
                 autoComplete="off"
               />
@@ -158,7 +179,6 @@ function Contact() {
             <div className="mb-4">
               <textarea
                 className="form-control"
-                id="exampleFormControlTextarea1"
                 rows="8"
                 name="Message"
                 placeholder="Enter Your Message"
@@ -166,15 +186,18 @@ function Contact() {
                 autoComplete="off"
               ></textarea>
             </div>
-            <button type="submit" class="btn">
-            <Link className="btn_text pl-1 pr-1" to="">
+            <button type="submit" className="btn mb-3">
               Submit
-            </Link>
-          </button>
+            </button>
           </form>
-          
-          <span>{result}</span>
-          
+          <span
+          className={`result-message 
+            ${result === "Sending...." ? "sending" : ""}
+            ${result === "Form Submitted Successfully" ? "success" : ""}
+            ${result.includes("Error") || result.includes("Failed") ? "error" : ""}`}
+        >
+          {result}
+        </span>
         </div>
       </div>
     </>
