@@ -11,7 +11,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxf43RjagSG65tC4dP6xeN8jR99Abq5hnb-HOT9XBpxeyndSa1bRigFlELaed_BHC9MUg/exec",
+        "https://script.google.com/macros/s/AKfycbxosKz5G29eixC7RX4APmf33q2KUqy1HLZutgmOy4tn1qiH0HiJZcAyxwXGTmUkhp46Fg/exec",
         {
           method: "POST",
           body: new URLSearchParams(formData),
