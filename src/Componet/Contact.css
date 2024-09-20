@@ -28,7 +28,6 @@
 }
 .contactInfo .box .text {
   display: flex;
-  margin-left: 20px;
   font-size: 16px;
   color: #fff;
   flex-direction: column;
@@ -41,6 +40,7 @@
   font-family: "Montserrat", Sans-serif;
   font-size: 16px;
   font-weight: 500;
+  text-align:center;
   text-transform: none;
   font-style: normal;
   line-height: 1.7em;

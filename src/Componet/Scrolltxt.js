@@ -11,7 +11,7 @@ const Scrolltxt = () => {
         <h3>Our Presence</h3> <div className="line mt-0"></div>
       </div>
       <div className="text-center Map mt-0">
-        <div  data-aos="flip-left"  data-aos-duration="3000"><img
+        <div><img
           className="csMap pt-4 pb-4" 
                 
           src="../CITY WEBSITE EDITS-02.png"

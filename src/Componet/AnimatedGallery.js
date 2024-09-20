@@ -61,10 +61,11 @@ export default function AnimatedGallery() {
               came to a halt. Later, he and his three friends decided to start
               the City Samosa brand. They opened the first City Samosa branch at
               Uthalsar Naka, Thane, on 22 March 2021.</>)}
-            </p>
-            <button onClick={handleReadMoreClick} className="btn">
-        {isReadMore ? 'Read Less' : 'Read More'}
+              <button onClick={handleReadMoreClick} className="readbtn">
+        {isReadMore ? 'Read Less' : 'Read More...'}
       </button>
+            </p>
+            
           </div>
         </div>
 
@@ -115,10 +116,11 @@ export default function AnimatedGallery() {
               gained valuable business experience by selling products on trains
               and running a tea shop, which provided him with a solid foundation
               in sales, customer service, and financial management.</> )}
-            </p>
-            <button onClick={handleReadMoreClick} className="btn">
-        {isReadMore ? 'Read Less' : 'Read More'}
+              <button onClick={handleReadMoreClick} className="readbtn">
+        {isReadMore ? 'Read Less' : 'Read More...'}
       </button>
+            </p>
+            
           </div>
         </div>
 
@@ -159,9 +161,10 @@ export default function AnimatedGallery() {
               His role involves coordinating with suppliers, managing
               maintenance schedules, and ensuring that each outlet operates
               smoothly, contributing to the franchise’s success.</>)}
-            </p><button onClick={handleReadMoreClick} className="btn">
-        {isReadMore ? 'Read Less' : 'Read More'}
+              <button onClick={handleReadMoreClick} className="readbtn">
+        {isReadMore ? 'Read Less' : 'Read More...'}
       </button>
+            </p>
           </div>
         </div>
 
@@ -205,10 +208,10 @@ export default function AnimatedGallery() {
               the City Samosa brand. In addition to creating the samosa recipes,
               Raja Sir plays a key role in managing the operational aspects of
               the franchise, overseeing staffing to ensure each outlet maintains
-              the high standards of quality and service the brand is known for.</> )}
-            </p> <button onClick={handleReadMoreClick} className="btn">
-        {isReadMore ? 'Read Less' : 'Read More'}
+              the high standards of quality and service the brand is known for.</> )}<button onClick={handleReadMoreClick} className="readbtn">
+        {isReadMore ? 'Read Less' : 'Read More...'}
       </button>
+            </p> 
           </div>
         </div>
       </div>
