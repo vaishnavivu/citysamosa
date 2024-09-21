@@ -9,11 +9,8 @@ import Footer1 from "./Componet/Footer1";
 import Arrowup from "./Componet/Arrowup";
 import ScrollToTop from "./Componet/ScrollToTop";
 import Whatsapp from "./Componet/Whatsapp";
-import ScrollingSection from "./Componet/ScrollingSection ";
-
-
+import Product from "./Componet/Product";
 const App = () => {
-
   return (
       <Main>       
         <ScrollToTop></ScrollToTop>
@@ -24,17 +21,13 @@ const App = () => {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/gallery" element={<Gallery />} />
           <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/product" element={<ScrollingSection/>} />
+          <Route exact path="/product" element={<Product/>} />
           <Route exact path="*" element={<Home />} />
         </Routes>     
-        <Footer1 />
-        
+        <Footer1 />        
         <Whatsapp/>   
         <Arrowup />    
-      </Main>
-    
-    
+      </Main>    
   );
 };
-
 export default App;

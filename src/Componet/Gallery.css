@@ -8,26 +8,21 @@
     box-shadow: 0 3px 5px rgba(130, 126, 126, 0.3);
     background-color: #d42121;
     border: white 1px solid;
-    border-radius: 0%;
-  
+    border-radius: 0%;  
 }
 .gallery-tab .btn-warning:hover{
     background-color: #EEA820  ;
     color: white;
     transition: 1.0s;
 }
-
 .active:focus{
     background-color: #d42121;
     color: white;
 }
 .image-container .image{
-    
     border: 15px solid #fff;
     overflow: hidden;
     box-shadow: 0 3px 5px rgba(0,0,0,0.3);
-  
-
 }
 .image-container .image img{
     transition: transform 2.5s ease;

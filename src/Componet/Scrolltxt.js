@@ -1,9 +1,7 @@
 import "./Scrolltxt.css";
 import React from "react";
-
 const Scrolltxt = () => {
-  return (
-    
+  return (    
     <div className="mt-5 mb-5 overflow-hidden"
     src="../CITY WEBSITE EDITS-02.png"
     alt="">
@@ -11,16 +9,13 @@ const Scrolltxt = () => {
         <h3>Our Presence</h3> <div className="line mt-0"></div>
       </div>
       <div className="text-center Map mt-0">
-        <div><img
-          className="csMap pt-4 pb-4" 
-                
+        <div ><img
+          className="csMap pt-4 pb-4"                 
           src="../CITY WEBSITE EDITS-02.png"
           loading="lazy"
           alt=""
-        ></img></div>
-        
-      </div>
-      
+        ></img></div>        
+      </div>      
       <div class="container-fluid scroll_hidden">
         <div class="scroll">
           <div class="RightToLeft">
@@ -37,5 +32,4 @@ const Scrolltxt = () => {
     </div>
   );
 };
-
 export default Scrolltxt;

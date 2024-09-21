@@ -1,9 +1,8 @@
 import React from "react";
 import "../Componet/Comingsoon.css";
-
 const Comingsoon = () => {
   return (
-    <div className="pb-4 mt-3 pt-3 mt-sm-4 pt-sm-4">
+    <div className="pb-4 mt-5 mb-5 pt-3 mt-sm-4 pt-sm-4">
       <div className=" centerheading">
       <img
           src="../City Samosa Vector Art-06.png"

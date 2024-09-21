@@ -14,5 +14,4 @@ const Highlights = () => {
     </div>
   );
 };
-
 export default Highlights;

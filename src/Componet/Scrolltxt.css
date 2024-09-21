@@ -12,7 +12,6 @@
   width:100%;
   position: relative;
 }
-
 .Map img {
   width: 40%;
   position: relative;
@@ -50,7 +49,6 @@
   display: flex;
   gap: 4em;
 }
-
 .txtmap {
   color: white;
   font-weight: bold;
@@ -58,11 +56,9 @@
   padding: 6px;
   word-spacing: 4rem;
 }
-
 .RightToLeft {
   animation: RightToLeft 20s infinite linear;
 }
-
 @keyframes RightToLeft {
   from {
     transform: translateX(-100%);

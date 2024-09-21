@@ -1,6 +1,5 @@
 import React from "react";
 import "../Componet/Vision.css";
-
 const Vision = () => {
   return (
     <div className="container-fluid pt-5 Visioncontainer overflow-hidden uspbg p-3 p-sm-5">
@@ -36,8 +35,7 @@ const Vision = () => {
               To spread the love for Indian street food globally, delivering
               authentic flavors and memorable moments with each serving.{" "}
             </p>
-          </div></div>
-          
+          </div></div>          
         </div>
         <div className="col-sm-4 col-12 center-vertical justify ">
           <img
@@ -73,5 +71,4 @@ const Vision = () => {
     </div>
   );
 };
-
 export default Vision;

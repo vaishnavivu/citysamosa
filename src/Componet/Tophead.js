@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Tophead.css";
 import { Link } from "react-router-dom";
-
 function Tophead() {
-  // State to track the collapse of the navbar
   const [navbarCollapsed, setNavbarCollapsed] = useState(false);
-
   useEffect(() => {
     const addGoogleTranslateScript = () => {
       const script = document.createElement("script");
@@ -15,25 +12,21 @@ function Tophead() {
         "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
       document.body.appendChild(script);
     };
-
     window.googleTranslateElementInit = () => {
       new window.google.translate.TranslateElement(
         { pageLanguage: "en" },
         "google_translate_element"
       );
-
       const comboBox = document.querySelector(".goog-te-combo");
       if (comboBox) {
         const parentElement = document.getElementById(
           "google_translate_element"
         );
-        parentElement.innerHTML = ""; // Clear all content
-        parentElement.appendChild(comboBox); // Append only the select element
+        parentElement.innerHTML = "";
+        parentElement.appendChild(comboBox); 
       }
     };
-
     addGoogleTranslateScript();
-
     return () => {
       const googleTranslateScript = document.querySelector(
         'script[src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"]'
@@ -43,10 +36,8 @@ function Tophead() {
       }
     };
   }, []);
-
-  // Function to handle link clicks and collapse the navbar
   const handleNavLinkClick = () => {
-    setNavbarCollapsed(false); // Set collapse state to false to hide the navbar
+    setNavbarCollapsed(false);
     const navbarCollapse = document.getElementById("navbarNav");
     if (navbarCollapse) {
       new window.bootstrap.Collapse(navbarCollapse, {
@@ -54,7 +45,6 @@ function Tophead() {
       });
     }
   };
-
   return (
     <>
       <div className="sticky-top bg-body-transperant mt-0">
@@ -67,8 +57,6 @@ function Tophead() {
             style={{ height: 42 }}
           ></div>
         </nav>
-
-        {/* Second navbar */}
         <nav className="navbar navbar-expand-lg pb-0 pt-0">
           <div className="container border-none p-0" id="yellowline">
             <div
@@ -94,14 +82,12 @@ function Tophead() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-
             <div className="collapse navbar-collapse" id="navbarNav">
               <img
                 className="tophead_img1 mbhidden"
                 alt=""
                 src="../City Samosa1.png" loading="lazy"
               ></img>
-
               <ul className="navbar-nav">
                 <li className="nav-item pt-1 pb-1">
                   <Link
@@ -122,8 +108,7 @@ function Tophead() {
                     About us
                   </Link>
                 </li>
-
-                <li className="nav-item pt-1 pb-1 active">
+                 <li className="nav-item pt-1 pb-1 active">
                   <Link
                     className="nav-link pl-1 pr-1"
                     to="/gallery"
@@ -132,9 +117,6 @@ function Tophead() {
                     Gallery
                   </Link>
                 </li>
-
-                
-
                 <li
                   className="nav-item pt-1 pb-1 mbhidden ml-5 mr-4 d-sm-none d-md-none d-none
                   d-md-none d-lg-block"
@@ -148,7 +130,6 @@ function Tophead() {
                     <img src="../whlogo.png" className="pl-5 pr-5" alt="" loading="lazy"/>
                   </Link>
                 </li>
-
                 <li className="nav-item pt-1 pb-1 active">
                   <Link
                     className="nav-link mbhidden pl-1 pr-1"
@@ -165,7 +146,6 @@ function Tophead() {
                     Product
                   </Link>
                 </li>
-
                 <li className="nav-item pt-1 pb-1 active">
                   <Link
                     className="nav-link pl-2 pr-1"
@@ -181,7 +161,6 @@ function Tophead() {
                   </div>
                 </li>
               </ul>
-
               <img
                 className="tophead_img2 mbhidden"
                 alt=""
@@ -194,5 +173,4 @@ function Tophead() {
     </>
   );
 }
-
 export default Tophead;

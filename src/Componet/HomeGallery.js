@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 const HomeGallery = () => {
   return (
-    <div className="container">
+    <div className="container mt-5 mb-5">
       <div className="row mt-5">
         <div className="col-sm-6 col-12 pt-4 p-5 center-vertical">
           <h2 className="text-left mainheading pb-3">Award Function 2023</h2>
@@ -41,5 +40,4 @@ const HomeGallery = () => {
     </div>
   );
 };
-
 export default HomeGallery;

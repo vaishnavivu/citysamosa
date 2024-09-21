@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import GalleryDb from "./GalleryDb";
 import "./Gallery.css";
-
 const Gallery = () => {
   const [items, setItems] = useState(GalleryDb);
   const filterItem = (categItem) => {
     const updatedItems = GalleryDb.filter((curElem) => {
       return curElem.category === categItem;
     });
-
     setItems(updatedItems);
   };
   return (
@@ -40,14 +38,12 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        {/* main items section */}
         <div className="gallery-items container-fluid mt-2 overflow-hidden">
           <div className="row">
             <div className="col-11 mx-auto">
               <div className="row my-5">
                 {items.map((elem) => {
                   const { image } = elem;
-
                   return (
                     <>
                       <div
@@ -75,5 +71,4 @@ const Gallery = () => {
     </>
   );
 };
-
 export default Gallery;

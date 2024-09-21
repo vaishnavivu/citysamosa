@@ -20,7 +20,6 @@ function Footer() {
               </Link>
             </button>
           </div>
-
           <div className="carrun ">
             <img
               src="../City Samosa Vector Art-08.png"
@@ -29,7 +28,6 @@ function Footer() {
             ></img>
           </div>
         </div>
-
         <div
           className="container-fluid pt-5 navbar-fixed-bottom "
           style={{ backgroundColor: "#d42121" }}
@@ -74,8 +72,6 @@ function Footer() {
                     </Link>
                   </div>
                 </div>
-
-                {/* get in touch */}
                 <div className="col-12 justify-content-center  col-sm-3">
                   <h2 className="mb-2 mt-3  justify-content-center">
                     Get in touch
@@ -92,11 +88,8 @@ function Footer() {
                     Castle Mill Naka, Uthalasar, Thane, West 400601.
                   </div>
                 </div>
-
-                {/* Social media  */}
                 <div className="col-12 col-sm-3  m-sm-0 mt-4  justify-content-center">
                   <h2 className="mb-2 mt-3 heading">Social Media</h2>
-
                   <div className="row mb-2 d-inline social-icon">
                     <Link to="https://wa.me/+917304454574" target="_blank">
                       <i className="fa-3x fa-brands fa-whatsapp p-0 icon social-icon"></i>

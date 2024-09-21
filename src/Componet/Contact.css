@@ -66,7 +66,6 @@
   font-family: "Calistoga", serif;
   font-weight: 200;
 }
-/* for contact heading */
 .TopHeading1 {
   font-weight: 800;
   text-transform: uppercase;
@@ -151,7 +150,6 @@
   }
 }
 @media screen and (max-width: 760px) {
-  /* carrun */
   .carrun img {
     width: 40%;
     left: 0px;
@@ -170,7 +168,6 @@
       transform: translateX(350px);
     }
   }
-  /* form */
   .formimage {
     width: 60%;
     position: absolute;
@@ -191,7 +188,6 @@
       transform: translate(-380px, 20px);
     }
   }
-  /* comingsoon */
   .comingsoonimage {
     width: 40%;
     position: absolute;

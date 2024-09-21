@@ -1,6 +1,5 @@
 import React from "react";
 import "./Arrowup.css";
-
 function Arrowup() {
   const top = () => {
     window.scrollTo(0, 0);

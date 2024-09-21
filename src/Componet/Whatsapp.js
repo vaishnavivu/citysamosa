@@ -1,26 +1,19 @@
-// WhatsAppChat.js
 import React, { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaTimes } from "react-icons/fa"; // Import close (cross) icon
- // Custom CSS file for styling
-
+import { FaTimes } from "react-icons/fa"; 
 const WhatsAppChat = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState("I want to get a franchisee");
-
   const toggleChat = () => {
     setIsOpen(!isOpen);
   };
-
   const closeChat = () => {
     setIsOpen(false);
   };
-
   const sendMessage = () => {
     const whatsappUrl = `https://wa.me/7304454574?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
-
   return (
     <div className="whatsapp-chat-container">
       <button className="whatsapp-icon" onClick={toggleChat}>
@@ -44,5 +37,4 @@ const WhatsAppChat = () => {
     </div>
   );
 };
-
 export default WhatsAppChat;

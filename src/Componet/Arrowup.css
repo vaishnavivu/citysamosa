@@ -1,54 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-html{
-    scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+html {
+  scroll-behavior: smooth;
 }
-.topbtn{
-    position: absolute;
-    right: 28px;
-    margin-top: -5rem;
-    padding: 1rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #FFCC04;
-    cursor: pointer;
-    z-index: 9999;
-    opacity: 0.9;
-    
+.topbtn {
+  position: absolute;
+  right: 28px;
+  margin-top: -5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc04;
+  cursor: pointer;
+  z-index: 9999;
+  opacity: 0.9;
 }
-i{
-    color: #ffffff;
-    font-size :larger;
+i {
+  color: #ffffff;
+  font-size: larger;
 }
 a {
-    color: rgb(255 255 255);
-    text-decoration: underline;
+  color: rgb(255 255 255);
+  text-decoration: underline;
 }
-/* WhatsAppChat.css */
-/* WhatsAppChat.css */
 .whatsapp-chat-container {
   position: fixed;
-  bottom:90px;
+  bottom: 90px;
   right: 28px;
   z-index: 1000;
 }
-
 .whatsapp-icon {
   background-color: #25d366;
   border: none;
   border-radius: 50%;
   padding: 5px;
   height: 50px;
-    width: 50px;
+  width: 50px;
   cursor: pointer;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .chat-box {
   position: absolute;
-  bottom: 70px; /* Adjust based on your preference */
+  bottom: 70px;
   right: 0;
   width: 250px;
   background-color: white;
@@ -57,9 +52,8 @@ a {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  position: relative; /* Needed for the close button positioning */
+  position: relative;
 }
-
 .close-button {
   position: absolute;
   top: 5px;
@@ -69,7 +63,6 @@ a {
   cursor: pointer;
   color: #333;
 }
-
 .chat-box textarea {
   width: 100%;
   padding: 5px;
@@ -78,7 +71,6 @@ a {
   margin-bottom: 10px;
   resize: none; /* Prevent resizing */
 }
-
 .send-button {
   background-color: #25d366;
   color: white;
@@ -88,53 +80,49 @@ a {
   cursor: pointer;
   align-self: flex-end; /* Aligns button to the right */
 }
-
-  
-  .chat-box {
-    position: absolute;
-    bottom: 70px; /* Adjust based on your preference */
-    right: 0;
-    width: 250px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 10px;
-  }
-  
-  .chat-box textarea {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  .send-button {
+.chat-box {
+  position: absolute;
+  bottom: 70px; /* Adjust based on your preference */
+  right: 0;
+  width: 250px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+}
+.chat-box textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.send-button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media screen and (max-width: 973px) {
+  .whatsapp-icon {
     background-color: #25d366;
-    color: white;
     border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
+    border-radius: 50%;
+    padding: 7px;
     cursor: pointer;
-  }
-  @media screen and (max-width: 973px){
-    .whatsapp-icon {
-      background-color: #25d366;
-      border: none;
-      border-radius: 50%;
-      padding: 7px;
-      cursor: pointer;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .whatsapp-chat-container {
     position: fixed;
     bottom: 81px;
     right: 6px;
     z-index: 1000;
-}
+  }
   .topbtn {
     position: absolute;
     right: 7px;
@@ -142,36 +130,29 @@ a {
     padding: 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #FFCC04;
+    background-color: #ffcc04;
     cursor: pointer;
     z-index: 9999;
     opacity: 0.9;
-}
   }
-
-  /* animated gallery */
-
-.leader_img img{
-  width:100%;
 }
-.center-vertical{
-  display: flex;           
-  flex-direction: column;   
-  justify-content: center;  
-  align-items: center;      
+.leader_img img {
+  width: 100%;
 }
-.center-vertical h2{
+.center-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center-vertical h2 {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
-/* Hide smallscreen by default */
 .smallscreen {
   display: none;
 }
-
-/* Show smallscreen on small screens */
 @media (max-width: 767px) {
   .largescreen {
     display: none;
@@ -179,21 +160,18 @@ a {
   .smallscreen {
     display: block;
   }
-  .founder_height{
-    height:50vh;
+  .founder_height {
+    height: 50vh;
   }
 }
-
-/* Show largescreen on medium and larger screens */
 @media (min-width: 768px) {
   .smallscreen {
     display: none;
   }
-  .flex_left{
+  .flex_left {
     align-items: flex-start;
   }
-  .flex_right{
+  .flex_right {
     align-items: flex-end;
   }
- 
 }

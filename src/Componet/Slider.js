@@ -1,23 +1,15 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/swiper.min.css";
 import "swiper/swiper-bundle.min.css";
-
 import "./styles.css";
-
-// Import required modules
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
-
 export default function Slider() {
   return (
     <>
-      <div className="  pb-5 mt-5 pt-3 mt-sm-4 pt-sm-4 overflow-hidden">
+      <div className="pb-5 mt-5 mb-5 pt-3 mt-sm-4 pt-sm-4 overflow-hidden">
         <div className="centerheading mb-4">
-          <h3>Our Leaders Podcast</h3>
-          
+          <h3>Our Leaders Podcast</h3>          
         <div className="line mt-0"></div>
         </div>
         <Swiper

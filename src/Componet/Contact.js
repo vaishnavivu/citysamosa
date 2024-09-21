@@ -1,14 +1,11 @@
 import React from "react";
 import "./Contact.css";
-
 function Contact() {
   const [result, setResult] = React.useState("");
-
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
-
     try {
       const response = await fetch(
         "https://script.google.com/macros/s/AKfycbxosKz5G29eixC7RX4APmf33q2KUqy1HLZutgmOy4tn1qiH0HiJZcAyxwXGTmUkhp46Fg/exec",
@@ -17,12 +14,8 @@ function Contact() {
           body: new URLSearchParams(formData),
         }
       );
-
       const data = await response.json();
-
-      console.log("Response data:", data); // Log the response
-
-      // Check if the response contains 'result: "success"' or modify as needed
+      console.log("Response data:", data); 
       if (data.success || data.result === "success") {
         setResult("Form Submitted Successfully");
         event.target.reset();
@@ -35,10 +28,8 @@ function Contact() {
       setResult("Error submitting form");
     }
   };
-
   return (
     <>
-      {/* Top Heading */}
       <div className="Contact_top container overflow-hidden ">
         <div className="pt-5 centerheading">
           <h3>Get in Touch with City Samosa!</h3>
@@ -50,8 +41,6 @@ function Contact() {
           opportunities, we're eager to connect. Let’s have a chat!
         </p>
       </div>
-
-      {/* Map Location */}
       <div
         className="container-fluid mt-0"
         style={{ background: "#d42121", textAlign: "center" }}
@@ -102,7 +91,6 @@ function Contact() {
               </div>
             </div>
           </div>
-
           <div className="order-2 col-md-9 m-0 p-0">
             <iframe
               src="https://www.google.com/maps/d/embed?mid=1BXvpnyB4dnUlaUHqAdWG4bDYR4ueGAE&ehbc=2E312F"
@@ -117,8 +105,6 @@ function Contact() {
           </div>
         </div>
       </div>
-
-      {/* Form */}
       <div className="container-fluid mb-5 mb-sm-5 pb-5 contactbg">
         <img
           src="../City Samosa Vector Art-06.png"
@@ -145,7 +131,6 @@ function Contact() {
                 autoComplete="off"
               />
             </div>
-
             <div className="mb-4">
               <input
                 type="text"
@@ -203,5 +188,4 @@ function Contact() {
     </>
   );
 }
-
 export default Contact;

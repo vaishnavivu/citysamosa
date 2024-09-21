@@ -1,15 +1,12 @@
 .goog-te-combo {
   display: none !important;
 }
-
-/* Show only the first instance */
 #google_translate_element .goog-te-combo {
   display: inline-block !important;
 }
 .navbar-toggler {
   border: none;
 }
-
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
@@ -42,7 +39,6 @@
 .nav-item .navbar-brand img {
   background-color: white;
 }
-
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler-icon {
   color: #d42121;
@@ -148,4 +144,3 @@
     right: -5px;
   }
 }
-

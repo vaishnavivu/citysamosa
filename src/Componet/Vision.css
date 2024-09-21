@@ -11,6 +11,17 @@
     border-radius: 10px 10px 10px 10px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   }
+  .visiondiv p {
+    text-align: justify;
+    color: #19171a;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.7em;
+  }
   .visiondiv:hover{
     background-color: #ffffffbd;
   }
@@ -32,8 +43,7 @@
     background-color:#d42121a3;
     padding: 0 18px 0 20px;
     margin-right:12px;
-  }
-  
+  }  
   .VisionHeading h3 span:nth-child(2) {
     color:black;
     padding: 0 0 0 18px;
@@ -78,8 +88,7 @@
         background-color:#d42121a3;
         padding: 0 18px 0 20px;
         margin-right:8px;
-      }
-      
+      }      
       .VisionHeading h3 span:nth-child(2) {
         color:black;
         padding: 0 0 0 0px;
@@ -91,8 +100,7 @@
         padding: 0 18px 0 18px;
       }
   }
-  @media screen and (max-width: 475px){
-   
+  @media screen and (max-width: 475px){   
       .visionhandimg{
         position: relative;
         max-width: 112%;
@@ -113,8 +121,6 @@
       opacity: 1;
     }
   }
-  
-
   .animate-slide-in {
     animation: slideInFromRight 2s ease-out; 
   }

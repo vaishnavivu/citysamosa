@@ -1,6 +1,5 @@
 import React from "react";
 import "../Componet/Usp.css";
-
 const Usp = () => {
   return (
     <div className="container-fluid uspbg mt-5 mb-5">
@@ -65,5 +64,4 @@ const Usp = () => {
     </div>
   );
 };
-
 export default Usp;
