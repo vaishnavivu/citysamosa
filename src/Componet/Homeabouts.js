@@ -14,14 +14,14 @@ const Homeabouts = () => {
             customer’s smile. Infusing tradition with a touch of love, Join us
             and savor moments that bring the world closer!"{" "}
           </p>
-          <button type="submit" class="btn">
+          <button type="submit" class="btn" title="Click to know more about us">
             <Link className="btn_text pl-1 pr-1" to="/about">
               Know More!
             </Link>
           </button>
         </div>
         <div className="col-sm-6 col-12 leader_img p-sm-5 p-4">
-          <img src="../WhatsApp Image 2024-09-16 at 12.16.58 PM.jpeg" alt="" loading="lazy"/>
+          <img src="../WhatsApp Image 2024-09-16 at 12.16.58 PM.jpeg" alt="city samosa owner" loading="lazy"/>
         </div>
       </div>
     </div>

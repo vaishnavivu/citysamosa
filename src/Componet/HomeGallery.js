@@ -12,7 +12,7 @@ const HomeGallery = () => {
             franchise owners on the basis of their last year business
             performance..
           </p>
-          <button type="submit" class="btn">
+          <button type="submit" class="btn" title="Click to see more pictures">
             <Link className="btn_text pl-1 pr-1" to="/gallery">
               Know More!
             </Link>

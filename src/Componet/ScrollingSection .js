@@ -88,7 +88,7 @@ const ScrollingSection = () => {
                   <div className="col-sm-5 col-12 center-vertical justify animate-slide-in">
                     <img
                       src={image}
-                      alt=""
+                      alt="city samosa product"
                       className="img-fluid image scrollingimg"
                       loading="lazy"
                     />

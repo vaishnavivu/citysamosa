@@ -13,7 +13,7 @@ export default function AnimatedGallery() {
       <div className="container founder pt-0 mt-0">
         <div className="row mt-5">
           <div className="col-sm-6  col-12 leader_img p-sm-5 p-2">
-            <img src="../owners website photo-01.png" alt="" loading="lazy"></img>
+            <img src="../owners website photo-01.png" alt="city samosa owner" loading="lazy"></img>
           </div>
           <div className="col-sm-6 founder_txt pt-4  col-12 center-vertical flex_left largescreen">
             <h2 className="text-center mt-5 mt-sm-3 mainheading">
@@ -84,7 +84,7 @@ export default function AnimatedGallery() {
             </p>
           </div>
           <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
-            <img src="../owners website photo-03.png" alt="" loading="lazy"/>
+            <img src="../owners website photo-03.png" alt="city samosa owner" loading="lazy"/>
           </div>
           <div className="col-sm-6 col-12 pt-4 smallscreen center-vertical text-center">
             <h2 className="text-center mt-2 mainheading">
@@ -113,7 +113,7 @@ export default function AnimatedGallery() {
         </div>
         <div className="row mt-5">
           <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
-            <img src="../owners website photo-02.png" alt="" loading="lazy"></img>
+            <img src="../owners website photo-02.png" alt="city samosa owner" loading="lazy"></img>
           </div>
           <div className="col-sm-6 col-12 center-vertical founder_txt pt-4 flex_left largescreen ">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">
@@ -173,7 +173,7 @@ export default function AnimatedGallery() {
             </p>
           </div>
           <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
-            <img src="../owners website photo-04.png" alt="" loading="lazy" />
+            <img src="../owners website photo-04.png" alt="city samosa owner" loading="lazy" />
           </div>
           <div className="col-sm-6 col-12 smallscreen pt-4 center-vertical text-center">
             <h2 className="text-center mt-2 mainheading">
