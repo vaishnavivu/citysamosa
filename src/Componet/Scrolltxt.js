@@ -11,7 +11,7 @@ const Scrolltxt = () => {
       <div className="text-center Map mt-0">
         <div ><img
           className="csMap pt-4 pb-4"                 
-          src="../CITY WEBSITE EDITS-02.png"
+          src="../CITY WEBSITE EDITS-02.webp"
           loading="lazy"
           alt=""
         ></img></div>        

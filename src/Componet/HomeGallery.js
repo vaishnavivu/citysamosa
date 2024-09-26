@@ -13,7 +13,7 @@ const HomeGallery = () => {
             performance..
           </p>
           <button type="submit" class="btn" title="Click to see more pictures">
-            <Link className="btn_text pl-1 pr-1" to="/gallery">
+            <Link className="btn_text pl-1 pr-1" to="/gallery" aria-label="Click to see more pictures">
               Know More!
             </Link>
           </button>
@@ -21,18 +21,18 @@ const HomeGallery = () => {
         <div className="col-sm-6 col-12 leader_img p-sm-5 p-3">
           <div className="row">
             <div className="col-6">
-              <img src="../IMG_8050.jpeg" alt="" loading="lazy"/>
+              <img src="../IMG_8050.webp" alt="" loading="lazy"/>
             </div>
             <div className="col-6">            
-              <img src="../IMG_8019.jpeg" alt="" loading="lazy"/>
+              <img src="../IMG_8019.webp" alt="" loading="lazy"/>
             </div>
           </div>
           <div className="row pt-3">
             <div className="col-6">
-              <img src="../12.jpeg" alt="" loading="lazy"/>
+              <img src="../12.webp" alt="" loading="lazy"/>
             </div>
             <div className="col-6">
-              <img src="../14.jpeg" alt="" loading="lazy"/>
+              <img src="../14.webp" alt="" loading="lazy"/>
             </div>
           </div>
         </div>

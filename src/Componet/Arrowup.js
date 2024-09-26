@@ -6,7 +6,7 @@ function Arrowup() {
   };
   return (
     <div>
-      <button onClick={top} className="topbtn">
+      <button onClick={top} className="topbtn" aria-label="Scroll to top">
         <i class="fa-solid fa-angles-up"></i>
       </button>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "../Componet/Vision.css";
 const Vision = () => {
   return (
-    <div className="container-fluid pt-5 Visioncontainer overflow-hidden uspbg p-3 p-sm-5">
+    <div className="container-fluid pt-5 Visioncontainer overflow-hidden contactbg p-3 p-sm-5">
       <div className="container-fluid mx-auto">         
         <div className="row">          
           <div className=" col-sm-7 col-12 pt-5  center-vertical VisionHeading d-flex">
@@ -15,7 +15,7 @@ const Vision = () => {
           </div>
           <div className="col-sm-5 col-12 center-vertical  justify">
             <img
-              src="../0551664396.png"
+              src="../0551664396.webp"
               alt=""
               className="img-fluid image visionhandimg animate-slide-in " loading="lazy"
             ></img>

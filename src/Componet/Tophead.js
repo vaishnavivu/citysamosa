@@ -86,7 +86,7 @@ function Tophead() {
               <img
                 className="tophead_img1 mbhidden"
                 alt=""
-                src="../City Samosa1.png" loading="lazy"
+                src="../City Samosa1.webp" loading="lazy"
               ></img>
               <ul className="navbar-nav">
                 <li className="nav-item pt-1 pb-1">
@@ -164,7 +164,7 @@ function Tophead() {
               <img
                 className="tophead_img2 mbhidden"
                 alt=""
-                src="../City Samosa1.png" loading="lazy"
+                src="../City Samosa1.webp" loading="lazy"
               ></img>
             </div>
           </div>

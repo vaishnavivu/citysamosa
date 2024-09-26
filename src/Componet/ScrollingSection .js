@@ -65,7 +65,7 @@ const ScrollingSection = () => {
   return (
     <div>
       <div
-        className="scroll-container productbg"
+        className="scroll-container contactbg"
         ref={scrollContainerRef}
         style={{ height: "100vh", overflowY: "scroll" }}
       >

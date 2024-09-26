@@ -22,7 +22,7 @@ function Footer() {
           </div>
           <div className="carrun ">
             <img
-              src="../City Samosa Vector Art-08.png"
+              src="../City Samosa Vector Art-08.webp"
               alt=""
               loading="lazy"
             ></img>
@@ -38,7 +38,7 @@ function Footer() {
                 {/* logo */}
                 <div className="col-12 col-sm-3 m-sm-0">
                   <img
-                    src="./City Samosa GOLDEN LOGO-08-08.png"
+                    src="./City Samosa GOLDEN LOGO-08-08.webp"
                     alt=""
                     className="f-logo"
                     loading="lazy"
@@ -63,22 +63,21 @@ function Footer() {
                     </Link>
                     <Link to="/gallery" className="text-decoration-none">
                       Gallery
+                    </Link>                    
+                    <Link to="/product" className="text-decoration-none">
+                      Product
                     </Link>
                     <Link to="/contact" className="text-decoration-none">
                       Contact Us
-                    </Link>
-                    <Link to="/product" className="text-decoration-none">
-                      Product
                     </Link>
                   </div>
                 </div>
                 <div className="col-12 justify-content-center  col-sm-3">
                   <h2 className="mb-2 mt-3  justify-content-center">
                     Get in touch
-                  </h2>{" "}
+                  </h2>
                   <div className="callnumber mt-3">
-                    <Link to="tel:+917304454574" className="callnu">
-                      {" "}
+                    <Link to="tel:+917304454574" className="callnu" aria-label="Contact City Samosa via WhatsApp">                      
                       <i className=" mr-3 pr-5 fa-solid fa-phone-volume p-0 icon social-icon"></i>
                       +91 7304454574
                     </Link>
@@ -91,24 +90,26 @@ function Footer() {
                 <div className="col-12 col-sm-3  m-sm-0 mt-4  justify-content-center">
                   <h2 className="mb-2 mt-3 heading">Social Media</h2>
                   <div className="row mb-2 d-inline social-icon">
-                    <Link to="https://wa.me/+917304454574" target="_blank">
+                    <Link to="https://wa.me/+917304454574" target="_blank" aria-label="Contact City Samosa via WhatsApp">
                       <i className="fa-3x fa-brands fa-whatsapp p-0 icon social-icon"></i>
                     </Link>
                     <Link
                       to="https://www.instagram.com/citysamosaofficial/?hl=en"
-                      target="_blank"
+                      target="_blank" aria-label="Visit City Samosa on Instagram"
                     >
                       <i className="fa-3x fa-brands fa-instagram icon social-icon"></i>
                     </Link>
                     <Link
                       to="https://www.facebook.com/citysamosa/"
                       target="_blank"
+                      aria-label="Visit City Samosa on Facebook"
                     >
                       <i className="fa-3x fa-brands fa-facebook-f icon social-icon"></i>
                     </Link>
                     <Link
                       to="https://www.youtube.com/channel/UCJiRF0KFu_wtHhiGV6wcLWw"
                       target="_blank"
+                      aria-label="Watch City Samosa on YouTube"
                     >
                       <i className="fa-3x fa-brands fa-youtube icon social-icon"></i>
                     </Link>

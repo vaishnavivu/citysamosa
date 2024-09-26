@@ -15,13 +15,13 @@ const Homeabouts = () => {
             and savor moments that bring the world closer!"{" "}
           </p>
           <button type="submit" class="btn" title="Click to know more about us">
-            <Link className="btn_text pl-1 pr-1" to="/about">
+            <Link className="btn_text pl-1 pr-1" to="/about" aria-label="Learn more about us">
               Know More!
             </Link>
           </button>
         </div>
         <div className="col-sm-6 col-12 leader_img p-sm-5 p-4">
-          <img src="../WhatsApp Image 2024-09-16 at 12.16.58 PM.jpeg" alt="city samosa owner" loading="lazy"/>
+          <img src="../WhatsApp Image 2024-09-16 at 12.16.58 PM.webp" alt="city samosa owner" loading="lazy"/>
         </div>
       </div>
     </div>

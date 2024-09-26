@@ -107,7 +107,7 @@ function Contact() {
       </div>
       <div className="container-fluid mb-5 mb-sm-5 pb-5 contactbg">
         <img
-          src="../City Samosa Vector Art-06.png"
+          src="../City Samosa Vector Art-06.webp"
           className="formimage"
           alt=""
           loading="lazy"
@@ -171,7 +171,7 @@ function Contact() {
                 autoComplete="off"
               ></textarea>
             </div>
-            <button type="submit" className="btn mb-3">
+            <button type="submit" className="btn mb-3" aria-label="Submit the button">
               Submit
             </button>
           </form>

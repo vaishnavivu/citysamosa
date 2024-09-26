@@ -2,7 +2,7 @@ import React from "react";
 import "../Componet/Usp.css";
 const Usp = () => {
   return (
-    <div className="container-fluid uspbg mt-5 mb-5">
+    <div className="container-fluid contactbg mt-5 mb-5">
       <div className="container usp pt-5">
         <div className="row text-center usp_heading">
           <h4>Our USP's</h4>
@@ -32,7 +32,7 @@ const Usp = () => {
             </div>
           </div>
           <div className="col-sm-4 col-12 uspimg">
-            <img src="../City_Samosa_Vector_Art-04.png" alt="" loading="lazy"></img>
+            <img src="../City_Samosa_Vector_Art-04.webp" alt="" loading="lazy"></img>
           </div>
           <div
             className="col-sm-4 col-12"
