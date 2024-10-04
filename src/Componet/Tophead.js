@@ -23,7 +23,7 @@ function Tophead() {
           "google_translate_element"
         );
         parentElement.innerHTML = "";
-        parentElement.appendChild(comboBox); 
+        parentElement.appendChild(comboBox);
       }
     };
     addGoogleTranslateScript();
@@ -67,7 +67,8 @@ function Tophead() {
                 src="../logo512.png"
                 alt=""
                 id="logo"
-                className="smallscreenlogo" loading="lazy"
+                className="smallscreenlogo"
+                loading="lazy"
               />
             </div>
             <button
@@ -86,7 +87,8 @@ function Tophead() {
               <img
                 className="tophead_img1 mbhidden"
                 alt=""
-                src="../City Samosa1.webp" loading="lazy"
+                src="../City Samosa1.webp"
+                loading="lazy"
               ></img>
               <ul className="navbar-nav">
                 <li className="nav-item pt-1 pb-1">
@@ -108,7 +110,7 @@ function Tophead() {
                     About us
                   </Link>
                 </li>
-                 <li className="nav-item pt-1 pb-1 active">
+                <li className="nav-item pt-1 pb-1 active">
                   <Link
                     className="nav-link pl-1 pr-1"
                     to="/gallery"
@@ -127,7 +129,12 @@ function Tophead() {
                     to="/"
                     onClick={handleNavLinkClick}
                   >
-                    <img src="../whlogo.png" className="pl-5 pr-5" alt="" loading="lazy"/>
+                    <img
+                      src="../whlogo.png"
+                      className="pl-5 pr-5"
+                      alt=""
+                      loading="lazy"
+                    />
                   </Link>
                 </li>
                 <li className="nav-item pt-1 pb-1 active">
@@ -156,6 +163,15 @@ function Tophead() {
                   </Link>
                 </li>
                 <li className="nav-item pt-1 pb-1 active">
+                  <Link
+                    className="nav-link pl-2 pr-1"
+                    to="/franchise"
+                    onClick={handleNavLinkClick}
+                  >
+                    Franchise
+                  </Link>
+                </li>
+                <li className="nav-item pt-1 pb-1 active">
                   <div>
                     <div id="google_translate_element"></div>
                   </div>
@@ -164,7 +180,8 @@ function Tophead() {
               <img
                 className="tophead_img2 mbhidden"
                 alt=""
-                src="../City Samosa1.webp" loading="lazy"
+                src="../City Samosa1.webp"
+                loading="lazy"
               ></img>
             </div>
           </div>

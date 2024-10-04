@@ -26,8 +26,7 @@ const Scrolltxt = () => {
               Gujarat, Karnataka, Madhya_Pradesh, Rajasthan, Telangana,
               Andhra_Pradesh
             </div>
-          </div>
-        </div>
+          </div>        </div>
       </div>
     </div>
   );
