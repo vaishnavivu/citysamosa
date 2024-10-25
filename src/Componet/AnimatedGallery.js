@@ -51,7 +51,7 @@ export default function AnimatedGallery() {
               company. {isReadMore && ( <>Before joining City Samosa, he worked as a night driver
               for IT companies in Mumbai. After that, he ventured into the
               gardening business, road contracting, and also took a franchise of
-              Premacha Chaha. However, during the COVID-19 pandemic, everything
+              chai. However, during the COVID-19 pandemic, everything
               came to a halt. Later, he and his three friends decided to start
               the City Samosa brand. They opened the first City Samosa branch at
               Uthalsar Naka, Thane, on 22 March 2021.</>)}

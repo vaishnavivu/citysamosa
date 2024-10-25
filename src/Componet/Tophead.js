@@ -156,15 +156,6 @@ function Tophead() {
                 <li className="nav-item pt-1 pb-1 active">
                   <Link
                     className="nav-link pl-2 pr-1"
-                    to="/contact"
-                    onClick={handleNavLinkClick}
-                  >
-                    Contact
-                  </Link>
-                </li>
-                <li className="nav-item pt-1 pb-1 active">
-                  <Link
-                    className="nav-link pl-2 pr-1"
                     to="/franchise"
                     onClick={handleNavLinkClick}
                   >

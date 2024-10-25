@@ -1,7 +1,7 @@
 .scroll_hidden {
   overflow: hidden;
   position: absolute;
-  margin-top: -42px;
+  margin-top: -28px;
 }
 .scroll {
   white-space: nowrap;
@@ -15,6 +15,12 @@
 .Map img {
   width: 40%;
   position: relative;
+}
+.image-right{
+  text-align:right;
+}
+.image-right img{
+  float:right;
 }
 .csMap{
   animation-name:infiniteupdown;
@@ -54,7 +60,6 @@
   font-weight: bold;
   line-height: 10px;
   padding: 6px;
-  word-spacing: 4rem;
 }
 .RightToLeft {
   animation: RightToLeft 20s infinite linear;

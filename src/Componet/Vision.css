@@ -36,7 +36,9 @@
     font-style: normal;
     text-decoration: none;
     line-height: 1.5em;
-    letter-spacing: -0.5px;
+    word-spacing: 2px;
+    letter-spacing: 0.2px;
+
   }
   .VisionHeading h3 span:nth-child(1) {
     color:white ; 
@@ -53,6 +55,12 @@
     margin-left:22px;
     background-color:#d42121a3;
     padding: 0 18px 0 18px;
+  }
+  .VisionHeading h3 span:nth-child(4){
+    color:white ; 
+    background-color:#d42121a3;
+    padding: 0 18px 0 20px;
+    margin-right:12px;
   }
   .visionimg{
     max-width:50%;

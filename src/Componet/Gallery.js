@@ -60,6 +60,7 @@ const Gallery = () => {
                           />
                         </div>
                       </div>
+                    
                     </>
                   );
                 })}

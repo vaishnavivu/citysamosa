@@ -35,25 +35,6 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
-:root {
-  --main-color: #d42121;
-
-  --main2-color: #ffcc04;
-
-  --htm-color: #f06529;
-
-  --javascript-color: #fdd634;
-
-  --reactjs-color: #00d8ff;
-
-  --nodejs-color: #6caa48;
-
-  --expressjs-color: #01041d;
-
-  --mongodb-color: #599636;
-
-  --php-color: #484c89;
-}
 .mainheading {
   color: #d42121;
   text-align: center;

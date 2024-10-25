@@ -39,11 +39,6 @@ const GalleryDb = [
     category: "Outlet",
   },
   {
-    id: 9,
-    image: "../12.webp",
-    category: "Event",
-  },
-  {
     id: 10,
     image: "../IMG_8050.webp",
     category: "Event",

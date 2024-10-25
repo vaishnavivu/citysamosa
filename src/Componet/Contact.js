@@ -8,14 +8,14 @@ function Contact() {
     const formData = new FormData(event.target);
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxosKz5G29eixC7RX4APmf33q2KUqy1HLZutgmOy4tn1qiH0HiJZcAyxwXGTmUkhp46Fg/exec",
+        "https://script.google.com/macros/s/AKfycbzypxpF8Hria6IlTryHW1LbrUgsvHlRiXNVoStxmeUfzWlVp4lKCFfOUgCqoRLcndhbkg/exec",
         {
           method: "POST",
           body: new URLSearchParams(formData),
         }
       );
       const data = await response.json();
-      console.log("Response data:", data); 
+      console.log("Response data:", data);
       if (data.success || data.result === "success") {
         setResult("Form Submitted Successfully");
         event.target.reset();
@@ -129,6 +129,8 @@ function Contact() {
                 placeholder="Your Name"
                 required
                 autoComplete="off"
+                pattern="[A-Za-z\s]+"
+                title="Please enter letters only"
               />
             </div>
             <div className="mb-4">
@@ -139,6 +141,8 @@ function Contact() {
                 placeholder="Contact Number"
                 required
                 autoComplete="off"
+                pattern="[0-9]{10}"
+                title="Please enter a valid 10-digit phone number"
               />
             </div>
             <div className="mb-4">
@@ -171,18 +175,26 @@ function Contact() {
                 autoComplete="off"
               ></textarea>
             </div>
-            <button type="submit" className="btn mb-3" aria-label="Submit the button">
+            <button
+              type="submit"
+              className="btn mb-3"
+              aria-label="Submit the button"
+            >
               Submit
             </button>
           </form>
           <span
-          className={`result-message 
+            className={`result-message 
             ${result === "Sending...." ? "sending" : ""}
             ${result === "Form Submitted Successfully" ? "success" : ""}
-            ${result.includes("Error") || result.includes("Failed") ? "error" : ""}`}
-        >
-          {result}
-        </span>
+            ${
+              result.includes("Error") || result.includes("Failed")
+                ? "error"
+                : ""
+            }`}
+          >
+            {result}
+          </span>
         </div>
       </div>
     </>

@@ -15,7 +15,7 @@ function Footer() {
           <h3>Request A Free Franchise Consultation</h3>
           <div className="pb-4 pb-sm-5">
             <button type="button" class="btn">
-              <Link className="btn_text pl-1 pr-1" to="/contact">
+              <Link className="btn_text pl-1 pr-1" to="/franchise">
                 Contact Us
               </Link>
             </button>
@@ -67,7 +67,7 @@ function Footer() {
                     <Link to="/product" className="text-decoration-none">
                       Product
                     </Link>
-                    <Link to="/contact" className="text-decoration-none">
+                    <Link to="/franchise" className="text-decoration-none">
                       Contact Us
                     </Link>
                   </div>
@@ -123,5 +123,4 @@ function Footer() {
     </>
   );
 }
-
 export default Footer;

@@ -10,7 +10,6 @@ import Arrowup from "./Componet/Arrowup";
 import ScrollToTop from "./Componet/ScrollToTop";
 import Whatsapp from "./Componet/Whatsapp";
 import Product from "./Componet/Product";
-import Franchise from "./Componet/Franchise";
 const App = () => {
   return (
       <Main>       
@@ -21,9 +20,8 @@ const App = () => {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/gallery" element={<Gallery />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/franchise" element={<Contact />} />
           <Route exact path="/product" element={<Product/>} />
-          <Route exact path="/franchise" element={<Franchise/>} />
           <Route exact path="*" element={<Home />} />
         </Routes>     
         <Footer1 />        
