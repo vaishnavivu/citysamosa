@@ -1,26 +1,61 @@
 import React from "react";
 import "./Contact.css";
+
 function Contact() {
   const [result, setResult] = React.useState("");
+
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
+  
     try {
+      // First API call to Google Apps Script
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbzypxpF8Hria6IlTryHW1LbrUgsvHlRiXNVoStxmeUfzWlVp4lKCFfOUgCqoRLcndhbkg/exec",
+        "https://script.google.com/macros/s/AKfycbz1Nx-UwLrGgd8FYqBTMKuTi5QZpv1Q5YfED0Gu-tYnrMlQaL0vF-7xEjt-T3-fJf3_0A/exec",
         {
           method: "POST",
           body: new URLSearchParams(formData),
         }
       );
+  
       const data = await response.json();
-      console.log("Response data:", data);
+      console.log("Google Apps Script response:", data);
+  
       if (data.success || data.result === "success") {
-        setResult("Form Submitted Successfully");
-        event.target.reset();
+        // If successful, make the second API call
+        const secondaryResponse = await fetch(
+          "https://projects.erpthemes.com/api/dynamic/addRecordsDynamic?tempID=12&tempName=franchisee_enquiry",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "authorization": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzE3ODI1NDJmMDU0YzIwODg1ZDdhNWEiLCJzZXNzaW9uIjoiNjcxNzgyNTQyZjA1NGMyMDg4NWQ3YTVjIiwibmFtZSI6IkNpdHkgU2Ftb3NhIiwiZW1haWwiOiJjaXR5c2Ftb3NhZnJhbmNoaXNlQGdtYWlsLmNvbSIsInVzZXJUeXBlIjoidXNlciIsInVzZXJJZCI6NCwiaWF0IjoxNzI5NTkzOTQwLCJleHAiOjE4ODczODE5NDB9.T34UkNWSSMX2YmO2dsIz7IVc5JIT8aRfqPcoSwZEBOq1yOcYYgNo37pFa37Lj62pwFlQI6uPbl3BZH-fB4vy8prGAunGL-U79jR8NzruCr-79ZfaMAacCqIOEkO2aIVXO8IivJn4tRKc4xCtdIJMvM6a7Q1zl5tUY35Wqa30SiISszfDJ86Q3fOzUOPAXTODS1oVP2oGH4yoLB1TeeQWakA45822DmFz0T82I3PWdPDe_B36GOUs41KstVqmNr0oDfjlyPCJ172ZXkYE32zu5tEe-dnSsShUGAjDpUik6x-GddBAhRqwvVcsdIo3fXOKTgsa5nekEwuX0VNGuaFPLg", // Replace with your token
+              "Accept": "application/json",
+              "Accept-Language": "en",
+            },
+            body: JSON.stringify({
+              name: formData.get("name"),
+              mobile: Number(formData.get("mobile")),
+              email: formData.get("email"),
+              lookingfor: formData.get("lookingfor"),
+              query: formData.get("query"),
+              domain: "https://citysamosa.com",
+            }),
+          }
+        );
+  
+        const secondaryData = await secondaryResponse.json();
+        console.log("ERP Themes API response:", secondaryData);
+  
+        // Check the nested resp object for status
+        if (secondaryData.resp && secondaryData.resp.status) {
+          setResult("Form Submitted Successfully");
+          event.target.reset();
+        } else {
+          setResult("Error with secondary submission");
+        }
       } else {
-        console.error("Error:", data);
         setResult("Failed to submit form");
       }
     } catch (error) {
@@ -28,6 +63,9 @@ function Contact() {
       setResult("Error submitting form");
     }
   };
+  
+  
+
   return (
     <>
       <div className="Contact_top container overflow-hidden ">
@@ -125,7 +163,7 @@ function Contact() {
               <input
                 type="text"
                 className="form-control"
-                name="username"
+                name="name"
                 placeholder="Your Name"
                 required
                 autoComplete="off"
@@ -136,7 +174,7 @@ function Contact() {
             <div className="mb-4">
               <input
                 type="text"
-                name="callnumber"
+                name="mobile"
                 className="form-control"
                 placeholder="Contact Number"
                 required
@@ -148,7 +186,7 @@ function Contact() {
             <div className="mb-4">
               <input
                 type="email"
-                name="Email"
+                name="email"
                 className="form-control"
                 placeholder="Email Id"
                 required
@@ -158,7 +196,7 @@ function Contact() {
             <div className="mb-4">
               <input
                 type="text"
-                name="address"
+                name="lookingfor"
                 className="form-control"
                 placeholder="Which city are you looking for?"
                 required
@@ -169,35 +207,23 @@ function Contact() {
               <textarea
                 className="form-control"
                 rows="8"
-                name="Message"
+                name="query"
                 placeholder="Enter Your Message"
                 required
                 autoComplete="off"
               ></textarea>
             </div>
-            <button
-              type="submit"
-              className="btn mb-3"
-              aria-label="Submit the button"
-            >
+            <button type="submit" className="btn col-12 col-md-3">
               Submit
             </button>
+            <div className="mt-3">
+              <span>{result}</span>
+            </div>
           </form>
-          <span
-            className={`result-message 
-            ${result === "Sending...." ? "sending" : ""}
-            ${result === "Form Submitted Successfully" ? "success" : ""}
-            ${
-              result.includes("Error") || result.includes("Failed")
-                ? "error"
-                : ""
-            }`}
-          >
-            {result}
-          </span>
         </div>
       </div>
     </>
   );
 }
+
 export default Contact;
