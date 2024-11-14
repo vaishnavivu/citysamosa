@@ -119,9 +119,10 @@
   font-size: 14px;
 }
 .allproduct li {
+  text-align:left;
   color: white;
   font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.4em;
   margin:10px 0px 10px 15px;
@@ -153,7 +154,7 @@
   height: 100%;
   background: linear-gradient(
     to bottom,
-    rgb(212 33 33 / 100%),
+    rgb(212 33 33 / 68%),
     rgb(238 168 32 / 70%)
   );
   z-index: 1;
@@ -220,7 +221,7 @@
   margin-right: 40px;
 }
 .allproduct_h3 span:nth-of-type(1){
-  color:#654311 !important;
+  color:#ffa622 !important;
   background-color:#ffffffde !important;
 }
 .allproduct_h3 span:nth-of-type(2){
@@ -276,6 +277,7 @@
   }
   .allproduct li {
     font-size: 10px;
+    margin: 9px 0px 0px -1px;
   }
   .overlay-text {
     font-size: 12px;
@@ -285,7 +287,7 @@
     content: url('/public/product all website.webp');
   }
   .allproduct_h3 h3{
-    font-size:16px;
+    font-size:18px;
     padding:0;
   }
   .overlay-ul ul{

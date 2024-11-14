@@ -5,17 +5,19 @@ export default function AnimatedGallery() {
     setIsReadMore(!isReadMore);
   };
   return (
-    <div className="container-fluid">
+    <div className="container-fluid overflow-hidden">
       <div className="centerheading pt-5 pt-sm-3">
         <h3>Our Leaders</h3>
         <div className="line mt-0 mb-3"></div>
       </div>
       <div className="container founder pt-0 mt-0">
         <div className="row mt-5">
-          <div className="col-sm-6  col-12 leader_img p-sm-5 p-2">
+          <div className="col-sm-6  col-12 leader_img p-sm-5 p-2" data-aos="fade-right" data-aos-easing="linear"
+     data-aos-duration="1500">
             <img src="../owners website photo-01.webp" alt="city samosa owner" loading="lazy"></img>
           </div>
-          <div className="col-sm-6 founder_txt pt-4  col-12 center-vertical flex_left largescreen">
+          <div className="col-sm-6 founder_txt pt-4  col-12 center-vertical flex_left largescreen" data-aos="fade-left" data-aos-easing="linear"
+     data-aos-duration="1500">
             <h2 className="text-center mt-5 mt-sm-3 mainheading">
               Chandrashekhar Wagadare
               <span className="pt-2"> ( Co-Founder ) </span>
@@ -36,7 +38,7 @@ export default function AnimatedGallery() {
               Uthalsar Naka, Thane, on 22 March 2021.
             </p>
           </div>
-          <div className="col-sm-6 founder_txt pt-4  col-12 center-vertical flex_left smallscreen">
+          <div className="col-sm-6 founder_txt pt-4  col-12 center-vertical flex_left smallscreen" data-aos="fade-left" data-aos-easing="linear"data-aos-duration="1500">
             <h2 className="text-center mt-5 mt-sm-3 mainheading">
               Chandrashekhar Wagadare
               <span className="pt-2"> ( Co-Founder ) </span>
@@ -62,7 +64,7 @@ export default function AnimatedGallery() {
           </div>
         </div> 
         <div className="row mt-5">
-            <div className="col-sm-6 col-12 pt-4 center-vertical flex_right largescreen">
+            <div className="col-sm-6 col-12 pt-4 center-vertical flex_right largescreen"  data-aos="fade-right" data-aos-easing="linear"data-aos-duration="1500">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">
               Pradeep Patel <span> ( Co-Founder ) </span>
             </h2>
@@ -83,10 +85,10 @@ export default function AnimatedGallery() {
               in sales, customer service, and financial management.
             </p>
           </div>
-          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
+          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2"  data-aos="fade-left" data-aos-easing="linear"data-aos-duration="1500">
             <img src="../owners website photo-03.webp" alt="city samosa owner" loading="lazy"/>
           </div>
-          <div className="col-sm-6 col-12 pt-4 smallscreen center-vertical text-center">
+          <div className="col-sm-6 col-12 pt-4 smallscreen center-vertical text-center"  data-aos="fade-right" data-aos-easing="linear"data-aos-duration="1500">
             <h2 className="text-center mt-2 mainheading">
               Pradeep Patel<span className="pt-2"> ( Co-Founder ) </span>
             </h2>
@@ -112,10 +114,10 @@ export default function AnimatedGallery() {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
+          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
             <img src="../owners website photo-02.webp" alt="city samosa owner" loading="lazy"></img>
           </div>
-          <div className="col-sm-6 col-12 center-vertical founder_txt pt-4 flex_left largescreen ">
+          <div className="col-sm-6 col-12 center-vertical founder_txt pt-4 flex_left largescreen "  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">
               Santosh Wagdare <span className="pt-2"> ( Co-Founder ) </span>
             </h2>
@@ -132,7 +134,7 @@ export default function AnimatedGallery() {
               smoothly, contributing to the franchise’s success.
             </p>
           </div>
-          <div className="col-sm-6 col-12 center-vertical pt-4 flex_left smallscreen founder_txt">
+          <div className="col-sm-6 col-12 center-vertical pt-4 flex_left smallscreen founder_txt"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">
               Santosh Wagdare <span className="pt-2"> ( Co-Founder ) </span>
             </h2>
@@ -154,7 +156,7 @@ export default function AnimatedGallery() {
           </div>
         </div>
         <div className="row mb-5 pb-5 mt-5">
-          <div className="col-sm-6 col-12 center-vertical pt-4 largescreen flex_right">
+          <div className="col-sm-6 col-12 center-vertical pt-4 largescreen flex_right"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
             <h2 className="text-center mt-4 mt-sm-3 mainheading">
               Raja Nadar <span> ( Co-Founder ) </span>
             </h2>
@@ -172,10 +174,10 @@ export default function AnimatedGallery() {
               the high standards of quality and service the brand is known for.
             </p>
           </div>
-          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2">
+          <div className="col-sm-6 col-12 leader_img p-sm-5 p-2"  data-aos="fade-left" data-aos-easing="linear"data-aos-duration="1500">
             <img src="../owners website photo-04.webp" alt="city samosa owner" loading="lazy" />
           </div>
-          <div className="col-sm-6 col-12 smallscreen pt-4 center-vertical text-center">
+          <div className="col-sm-6 col-12 smallscreen pt-4 center-vertical text-center"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
             <h2 className="text-center mt-2 mainheading">
               Raja Nadar <span className="pt-2"> ( Co-Founder ) </span>
             </h2>

@@ -94,8 +94,8 @@
       .VisionHeading h3 span:nth-child(1) {
         color:white ; 
         background-color:#d42121a3;
-        padding: 0 18px 0 20px;
-        margin-right:8px;
+        padding: 0 6px 0 6px;
+        margin-right:4px;
       }      
       .VisionHeading h3 span:nth-child(2) {
         color:black;
@@ -103,9 +103,13 @@
       }
       .VisionHeading h3 span:nth-child(3) {
         color:white ; 
-        margin-left:8px;
+        margin:0px;
         background-color:#d42121a3;
-        padding: 0 18px 0 18px;
+        padding: 0 6px 0 6px;
+      }
+      .VisionHeading h3 span:nth-child(4){
+        padding: 0 6px 0 6px;
+        margin:0px;
       }
   }
   @media screen and (max-width: 475px){   

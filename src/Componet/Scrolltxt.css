@@ -1,3 +1,12 @@
+.people img {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.people img.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+}
 .scroll_hidden {
   overflow: hidden;
   position: absolute;
@@ -8,12 +17,21 @@
   margin: 0 2em;
 }
 .Map {
-  background-image: url("CITY WEBSITE EDITS-01.webp");
-  width:100%;
   position: relative;
 }
+.overlay-heading {
+  position: absolute;
+  top: 12%;
+  left: 46%;
+  width:50%;
+  transform: translate(-50%, -50%);
+  color: black !important;
+  z-index: 1;
+  text-align: center;
+  padding: 0 10px;
+}
 .Map img {
-  width: 40%;
+  width: 100%;
   position: relative;
 }
 .image-right{
@@ -61,16 +79,10 @@
   line-height: 10px;
   padding: 6px;
 }
-.RightToLeft {
-  animation: RightToLeft 20s infinite linear;
-}
-@keyframes RightToLeft {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(100%);
-  }
+.scrollheading h3 span:nth-child(3){
+  font-size: 40px !important;
+  line-height: 70px !important;
+  background: green !important;
 }
 @media screen and (max-width: 973px) {
   .logoanimation {
@@ -78,8 +90,14 @@
     position: relative;
     left: 50px;
   }
-  .Map img {
-    width: 52%;
-    position: relative;
+}
+@media screen and (max-width:758px){
+  .overlay-heading {
+    font-size:9px !important;
+  }
+  .scrollheading h3 span:nth-child(3){
+    font-size: 14px !important;
+    line-height: 24px !important;
+    background: green !important;
   }
 }

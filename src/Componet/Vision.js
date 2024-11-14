@@ -8,9 +8,8 @@ const Vision = () => {
           <div className=" col-sm-7 col-12 pt-5  center-vertical VisionHeading d-flex">
          <h3 className="pt-5 mt-1 mt-sm-5" >              
               <span> Empowering dreams </span>
-              <span className="visionspan2">
-              with every step , fueled by passion and</span>
-              <span>  crafted with dedication. </span>
+              <span className="visionspan2">with every step, fueled by passion and</span><br></br>
+              <span>crafted with dedication. </span>
             </h3>
           </div>
           <div className="col-sm-5 col-12 center-vertical  justify">

@@ -1,14 +1,11 @@
 import React from "react";
 import "./Contact.css";
-
 function Contact() {
   const [result, setResult] = React.useState("");
-
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
-    const formData = new FormData(event.target);
-  
+    const formData = new FormData(event.target);  
     try {
       // First API call to Google Apps Script
       const response = await fetch(
@@ -17,8 +14,7 @@ function Contact() {
           method: "POST",
           body: new URLSearchParams(formData),
         }
-      );
-  
+      );  
       const data = await response.json();
       console.log("Google Apps Script response:", data);
   
@@ -30,7 +26,7 @@ function Contact() {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
-              "authorization": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzE3ODI1NDJmMDU0YzIwODg1ZDdhNWEiLCJzZXNzaW9uIjoiNjcxNzgyNTQyZjA1NGMyMDg4NWQ3YTVjIiwibmFtZSI6IkNpdHkgU2Ftb3NhIiwiZW1haWwiOiJjaXR5c2Ftb3NhZnJhbmNoaXNlQGdtYWlsLmNvbSIsInVzZXJUeXBlIjoidXNlciIsInVzZXJJZCI6NCwiaWF0IjoxNzI5NTkzOTQwLCJleHAiOjE4ODczODE5NDB9.T34UkNWSSMX2YmO2dsIz7IVc5JIT8aRfqPcoSwZEBOq1yOcYYgNo37pFa37Lj62pwFlQI6uPbl3BZH-fB4vy8prGAunGL-U79jR8NzruCr-79ZfaMAacCqIOEkO2aIVXO8IivJn4tRKc4xCtdIJMvM6a7Q1zl5tUY35Wqa30SiISszfDJ86Q3fOzUOPAXTODS1oVP2oGH4yoLB1TeeQWakA45822DmFz0T82I3PWdPDe_B36GOUs41KstVqmNr0oDfjlyPCJ172ZXkYE32zu5tEe-dnSsShUGAjDpUik6x-GddBAhRqwvVcsdIo3fXOKTgsa5nekEwuX0VNGuaFPLg", // Replace with your token
+              "authorization": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzE3ODI1NDJmMDU0YzIwODg1ZDdhNWEiLCJzZXNzaW9uIjoiNjcxYTVkZWM5MTNkOTBmZjk0NmZkY2NkIiwibmFtZSI6IkNpdHkgU2Ftb3NhIiwiZW1haWwiOiJjaXR5c2Ftb3NhZnJhbmNoaXNlQGdtYWlsLmNvbSIsInVzZXJUeXBlIjoidXNlciIsInVzZXJJZCI6IjY3MTc4MjU0MmYwNTRjMjA4ODVkN2E1YSIsImlhdCI6MTcyOTc4MTIyOCwiZXhwIjoxODg3NTY5MjI4fQ.NvlMadzK14sJ70f_jZXgodEglaHfwJB25QonLu0SB5xGBT-M-l5xrdWz_N9d4HKdA7ebMm1XAsQI_Y7FH_fyd-BGnyfu3RB9Ysbwd6LTzcf5ZHb7yc9ApLL5vkFQ6Yv7qM39_T_PsQSFkcfYPr0fMT_np5Wst0EyrvWp8U4WPiVLTjO37VpzkVmOM60KbruO7ztw6avi4A-h-yzWpk11SZgcJgcxCEsgd9yfJrMA1WYwavv0H1KFtIIzM2_AYOvK3z9BiQne6XaltXZdYB8ZTaj5WctFfan-HGAIrwDsHhBV5sqfW4AlW3WPcb4wsPtE04ET-sOaXTF8Iu_XUHdYbw",
               "Accept": "application/json",
               "Accept-Language": "en",
             },
@@ -43,8 +39,7 @@ function Contact() {
               domain: "https://citysamosa.com",
             }),
           }
-        );
-  
+        );  
         const secondaryData = await secondaryResponse.json();
         console.log("ERP Themes API response:", secondaryData);
   
@@ -63,9 +58,6 @@ function Contact() {
       setResult("Error submitting form");
     }
   };
-  
-  
-
   return (
     <>
       <div className="Contact_top container overflow-hidden ">
@@ -225,5 +217,4 @@ function Contact() {
     </>
   );
 }
-
 export default Contact;

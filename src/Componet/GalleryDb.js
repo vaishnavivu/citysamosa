@@ -28,11 +28,12 @@ const GalleryDb = [
     id: 6,
     image: "../IMG_9433.webp",
     category: "Outlet",
-  },{
-    id: 7,
-    image: "../P1810627.webp",
-    category: "Outlet",
   },
+  // {
+  //   id: 7,
+  //   image: "",
+  //   category: "Outlet",
+  // },
   {
     id: 8,
     image: "../IMG_9429.webp",
@@ -43,11 +44,11 @@ const GalleryDb = [
     image: "../IMG_8050.webp",
     category: "Event",
   },
-  {
-    id: 11,
-    image: "../IMG_8063.webp",
-    category: "Event",
-  },
+  // {
+  //   id: 11,
+  //   image: "",
+  //   category: "Event",
+  // },
 
   {
     id: 12,
@@ -64,11 +65,11 @@ const GalleryDb = [
     image: "../7.webp",
     category: "Event",
   },
-  {
-    id: 15,
-    image: "../IMG_8499.webp",
-    category: "Event",
-  },
+  // {
+  //   id: 15,
+  //   image: "",
+  //   category: "Event",
+  // },
   {
     id: 16,
     image: "../14.webp",
